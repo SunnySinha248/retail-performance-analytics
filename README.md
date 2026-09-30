@@ -2,7 +2,7 @@
 
 Interactive **Tableau and Power BI** dashboards tracking **revenue, profitability and regional performance** for a multi-region Indian retailer (FY22-23 to FY25-26), backed by Python-based **customer segmentation, statistical testing and revenue forecasting**.
 
-🔗 **Tableau (live):** `<YOUR_TABLEAU_PUBLIC_LINK>`  
+🔗 **[View the live Tableau dashboards →](https://public.tableau.com/app/profile/sunny.sinha3477/viz/RetailPerformanceAnalytics-India/ExecutiveOverview)**  
 📊 **Power BI:** [`powerbi/Retail_Performance_Analytics.pbix`](powerbi/) · PDF export in the same folder
 
 ---

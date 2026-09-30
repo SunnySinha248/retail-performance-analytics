@@ -185,4 +185,4 @@ Design rules:
 2. It opens in the browser. Copy the URL.
 3. Take screenshots of each dashboard → save as `images/dashboard_overview.png`, `images/dashboard_profitability.png`, `images/dashboard_customers.png`.
 4. Also **File → Save As** a local copy as `tableau/Retail_Performance_Analytics.twbx` (Tableau Public allows "Save to Tableau Public" only; download the `.twbx` from your profile page via the download icon if you need the file for GitHub).
-5. Paste the Tableau Public link into the README (placeholder is marked `<YOUR_TABLEAU_PUBLIC_LINK>`).
+5. Paste the Tableau Public link into the README.
