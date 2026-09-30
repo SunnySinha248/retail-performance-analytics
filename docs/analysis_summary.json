@@ -1,0 +1,206 @@
+{
+  "segmentation": {
+    "silhouette_by_k": {
+      "3": 0.358,
+      "4": 0.302,
+      "5": 0.324,
+      "6": 0.31
+    },
+    "chosen_k": 4,
+    "profile": [
+      {
+        "Customer Segment (Cluster)": "At Risk / Lapsing",
+        "Customers": 139,
+        "Avg_Recency_Days": 577.5,
+        "Avg_Orders": 1.8,
+        "Avg_Revenue": 27382.9,
+        "Total_Revenue": 3806226.0,
+        "Total_Profit": 300776.1,
+        "Revenue Share": 0.005,
+        "Customer Share": 0.104
+      },
+      {
+        "Customer Segment (Cluster)": "Champions",
+        "Customers": 346,
+        "Avg_Recency_Days": 18.1,
+        "Avg_Orders": 23.4,
+        "Avg_Revenue": 1119813.0,
+        "Total_Revenue": 387455311.5,
+        "Total_Profit": 25702302.2,
+        "Revenue Share": 0.521,
+        "Customer Share": 0.258
+      },
+      {
+        "Customer Segment (Cluster)": "Loyal Regulars",
+        "Customers": 462,
+        "Avg_Recency_Days": 91.1,
+        "Avg_Orders": 12.9,
+        "Avg_Revenue": 602901.8,
+        "Total_Revenue": 278540617.5,
+        "Total_Profit": 20453022.4,
+        "Revenue Share": 0.375,
+        "Customer Share": 0.345
+      },
+      {
+        "Customer Segment (Cluster)": "Occasional Buyers",
+        "Customers": 392,
+        "Avg_Recency_Days": 221.8,
+        "Avg_Orders": 4.8,
+        "Avg_Revenue": 187751.1,
+        "Total_Revenue": 73598426.0,
+        "Total_Profit": 4955166.1,
+        "Revenue Share": 0.099,
+        "Customer Share": 0.293
+      }
+    ]
+  },
+  "anova_margin_by_region": {
+    "F": 103.76,
+    "p_value": 2.09e-87,
+    "kruskal_H": 464.14,
+    "kruskal_p": 3.81e-99,
+    "region_margin": {
+      "East": 0.0162,
+      "Central": 0.0588,
+      "North": 0.0669,
+      "West": 0.0836,
+      "South": 0.0837
+    }
+  },
+  "chi_square_loss_vs_discount": {
+    "chi2": 16030.8,
+    "dof": 3,
+    "p_value": 0.0,
+    "loss_rate_by_band": {
+      "No Discount": 0.0127,
+      "1-10%": 0.1711,
+      "11-20%": 0.5605,
+      ">20%": 0.9549
+    }
+  },
+  "ols_margin_drivers": {
+    "r_squared": 0.83,
+    "n": 32172,
+    "coefficients": {
+      "Intercept": {
+        "coef": 0.4466,
+        "p": 0.0
+      },
+      "C(Region, Treatment('North'))[T.Central]": {
+        "coef": -0.0101,
+        "p": 3.78e-10
+      },
+      "C(Region, Treatment('North'))[T.East]": {
+        "coef": -0.0335,
+        "p": 1.31e-150
+      },
+      "C(Region, Treatment('North'))[T.South]": {
+        "coef": 0.016,
+        "p": 5.4e-55
+      },
+      "C(Region, Treatment('North'))[T.West]": {
+        "coef": 0.0204,
+        "p": 9.11e-89
+      },
+      "C(Category)[T.Office Supplies]": {
+        "coef": 0.0795,
+        "p": 0.0
+      },
+      "C(Category)[T.Technology]": {
+        "coef": 0.0849,
+        "p": 0.0
+      },
+      "C(Segment)[T.Corporate]": {
+        "coef": 0.0005,
+        "p": 0.53
+      },
+      "C(Segment)[T.Small Business]": {
+        "coef": -0.0009,
+        "p": 0.428
+      },
+      "C(Channel)[T.Online]": {
+        "coef": 0.0093,
+        "p": 1.47e-35
+      },
+      "Discount": {
+        "coef": -1.2929,
+        "p": 0.0
+      },
+      "np.log(Sales)": {
+        "coef": -0.0362,
+        "p": 0.0
+      }
+    }
+  },
+  "discount_breakeven": 0.103,
+  "forecast": {
+    "model": "Holt-Winters (additive trend, multiplicative seasonality, m=12)",
+    "backtest_mape_6m": 0.0927,
+    "seasonal_naive_mape_6m": 0.1289,
+    "next_12m_revenue_cr": 24.2,
+    "last_12m_revenue_cr": 22.48,
+    "implied_growth": 0.0763
+  },
+  "kpis_by_fy": [
+    {
+      "Fiscal Year": "FY22-23",
+      "Sales": 147509229.0,
+      "Profit": 10246857.84,
+      "Orders": 3275,
+      "Margin": 0.0695,
+      "YoY Growth": NaN,
+      "AOV": 45040.986
+    },
+    {
+      "Fiscal Year": "FY23-24",
+      "Sales": 168137430.0,
+      "Profit": 12364208.18,
+      "Orders": 3657,
+      "Margin": 0.0735,
+      "YoY Growth": 0.1398,
+      "AOV": 45976.8745
+    },
+    {
+      "Fiscal Year": "FY24-25",
+      "Sales": 202919874.0,
+      "Profit": 13224618.5,
+      "Orders": 4288,
+      "Margin": 0.0652,
+      "YoY Growth": 0.2069,
+      "AOV": 47322.7318
+    },
+    {
+      "Fiscal Year": "FY25-26",
+      "Sales": 224834048.0,
+      "Profit": 15575582.31,
+      "Orders": 4949,
+      "Margin": 0.0693,
+      "YoY Growth": 0.108,
+      "AOV": 45430.1976
+    }
+  ],
+  "loss_making_subcategories": [
+    {
+      "Sub-Category": "Tables",
+      "Sales": 66775526.0,
+      "Profit": -1661427.0
+    }
+  ],
+  "top_profit_subcategories": [
+    {
+      "Sub-Category": "Printers",
+      "Sales": 76778322.0,
+      "Profit": 8146834.0
+    },
+    {
+      "Sub-Category": "Phones",
+      "Sales": 106440936.0,
+      "Profit": 9502394.0
+    },
+    {
+      "Sub-Category": "Laptops",
+      "Sales": 338856053.0,
+      "Profit": 20285519.0
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 margin   R-squared:                       0.830
+Model:                            OLS   Adj. R-squared:                  0.830
+Method:                 Least Squares   F-statistic:                 1.509e+04
+Date:                Wed, 30 Sep 2026   Prob (F-statistic):               0.00
+Time:                        19:03:47   Log-Likelihood:                 41509.
+No. Observations:               32172   AIC:                        -8.299e+04
+Df Residuals:                   32160   BIC:                        -8.289e+04
+Df Model:                          11                                         
+Covariance Type:                  HC3                                         
+============================================================================================================
+                                               coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------
+Intercept                                    0.4466      0.002    186.504      0.000       0.442       0.451
+C(Region, Treatment('North'))[T.Central]    -0.0101      0.002     -6.263      0.000      -0.013      -0.007
+C(Region, Treatment('North'))[T.East]       -0.0335      0.001    -26.139      0.000      -0.036      -0.031
+C(Region, Treatment('North'))[T.South]       0.0160      0.001     15.619      0.000       0.014       0.018
+C(Region, Treatment('North'))[T.West]        0.0204      0.001     19.975      0.000       0.018       0.022
+C(Category)[T.Office Supplies]               0.0795      0.001     72.801      0.000       0.077       0.082
+C(Category)[T.Technology]                    0.0849      0.001     84.485      0.000       0.083       0.087
+C(Segment)[T.Corporate]                      0.0005      0.001      0.628      0.530      -0.001       0.002
+C(Segment)[T.Small Business]                -0.0009      0.001     -0.792      0.428      -0.003       0.001
+C(Channel)[T.Online]                         0.0093      0.001     12.446      0.000       0.008       0.011
+Discount                                    -1.2929      0.004   -328.547      0.000      -1.301      -1.285
+np.log(Sales)                               -0.0362      0.000   -162.874      0.000      -0.037      -0.036
+==============================================================================
+Omnibus:                        3.432   Durbin-Watson:                   1.979
+Prob(Omnibus):                  0.180   Jarque-Bera (JB):                3.411
+Skew:                          -0.023   Prob(JB):                        0.182
+Kurtosis:                       3.020   Cond. No.                         95.3
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)

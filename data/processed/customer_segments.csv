@@ -1,0 +1,1340 @@
+Customer ID,Recency,Frequency,Monetary,Profit,R_Score,F_Score,M_Score,RFM Score,Cluster,Customer Segment (Cluster),Customer Name,Segment,Region,State,City
+CUST-10001,76,18,1481751.5,188837.68,3,4,5,12,0,Loyal Regulars,Saanvi Singh,Small Business,South,Telangana,Hyderabad
+CUST-10002,24,15,465472.5,1834.240000000001,4,4,3,11,3,Champions,Meera Gupta,Corporate,South,Kerala,Kochi
+CUST-10003,103,5,161170.5,15391.919999999998,3,2,2,7,2,Occasional Buyers,Priya Verma,Small Business,East,Bihar,Patna
+CUST-10004,264,5,252000.0,35732.54,1,2,2,5,2,Occasional Buyers,Pooja Verma,Corporate,North,Punjab,Amritsar
+CUST-10005,58,6,590695.0,-4988.490000000002,3,2,4,9,0,Loyal Regulars,Arjun Sharma,Corporate,East,Bihar,Patna
+CUST-10006,130,10,537177.5,-3608.559999999997,2,3,4,9,0,Loyal Regulars,Sneha Gupta,Corporate,North,Punjab,Amritsar
+CUST-10007,196,3,48282.0,2970.4,2,1,1,4,2,Occasional Buyers,Ananya Mehta,Consumer,West,Rajasthan,Jaipur
+CUST-10008,668,1,1220.0,127.17,1,1,1,3,1,At Risk / Lapsing,Vikram Banerjee,Small Business,West,Rajasthan,Jaipur
+CUST-10009,63,26,869257.0,102215.48,3,5,4,12,0,Loyal Regulars,Rohan Banerjee,Consumer,South,Kerala,Kochi
+CUST-10010,21,20,1830868.0,32418.240000000005,4,5,5,14,3,Champions,Ishaan Kulkarni,Corporate,North,Delhi,New Delhi
+CUST-10011,101,21,778653.0,72770.59,3,5,4,12,0,Loyal Regulars,Rahul Das,Consumer,West,Gujarat,Surat
+CUST-10012,12,9,433619.0,41746.19,5,3,3,11,3,Champions,Vikram Patel,Corporate,South,Karnataka,Mysuru
+CUST-10013,120,5,208227.0,14430.65,2,2,2,6,2,Occasional Buyers,Aarav Reddy,Consumer,North,Haryana,Gurugram
+CUST-10014,172,11,421555.5,47399.54,2,3,3,8,0,Loyal Regulars,Meera Kulkarni,Consumer,North,Uttar Pradesh,Lucknow
+CUST-10015,143,5,68976.0,4148.05,2,2,1,5,2,Occasional Buyers,Aditya Verma,Corporate,South,Tamil Nadu,Chennai
+CUST-10016,25,11,268593.5,33099.62,4,3,2,9,0,Loyal Regulars,Arjun Das,Consumer,South,Telangana,Hyderabad
+CUST-10017,62,5,363181.0,16069.5,3,2,3,8,2,Occasional Buyers,Priya Gupta,Consumer,West,Rajasthan,Jaipur
+CUST-10018,2,8,162977.5,-1304.9100000000003,5,3,2,10,3,Champions,Arjun Patel,Small Business,North,Haryana,Gurugram
+CUST-10020,6,18,1082371.0,-11549.389999999998,5,4,5,14,3,Champions,Arjun Singh,Consumer,East,West Bengal,Kolkata
+CUST-10021,13,4,273904.0,14948.750000000002,5,1,2,8,0,Loyal Regulars,Kavya Rao,Corporate,East,West Bengal,Kolkata
+CUST-10022,180,5,96956.5,12555.56,2,2,1,5,2,Occasional Buyers,Ananya Das,Consumer,South,Karnataka,Mysuru
+CUST-10023,9,3,56112.0,7399.460000000001,5,1,1,7,2,Occasional Buyers,Ishaan Mishra,Consumer,West,Gujarat,Ahmedabad
+CUST-10024,233,8,544409.0,30703.6,1,3,4,8,0,Loyal Regulars,Saanvi Das,Corporate,South,Tamil Nadu,Chennai
+CUST-10025,1242,3,211296.0,-10960.44,1,1,2,4,2,Occasional Buyers,Pooja Patel,Consumer,South,Karnataka,Bengaluru
+CUST-10026,827,4,51817.5,9116.73,1,1,1,3,1,At Risk / Lapsing,Aarav Mishra,Consumer,West,Gujarat,Surat
+CUST-10027,505,4,51921.0,6051.63,1,1,1,3,2,Occasional Buyers,Diya Rao,Consumer,North,Haryana,Faridabad
+CUST-10028,288,6,133157.0,18471.92,1,2,2,5,2,Occasional Buyers,Vikram Reddy,Consumer,South,Kerala,Kochi
+CUST-10029,66,17,717520.0,69372.72,3,4,4,11,0,Loyal Regulars,Rohan Reddy,Small Business,West,Maharashtra,Pune
+CUST-10030,74,7,507235.0,46012.53999999999,3,2,3,8,0,Loyal Regulars,Ananya Iyer,Corporate,West,Rajasthan,Jaipur
+CUST-10031,74,6,72079.0,1467.1799999999998,3,2,1,6,2,Occasional Buyers,Pooja Mishra,Small Business,North,Haryana,Gurugram
+CUST-10032,101,10,578645.0,-14900.309999999998,3,3,4,10,0,Loyal Regulars,Meera Nair,Consumer,East,West Bengal,Kolkata
+CUST-10034,534,5,200706.0,16625.780000000002,1,2,2,5,2,Occasional Buyers,Neha Banerjee,Consumer,East,West Bengal,Kolkata
+CUST-10035,605,3,168460.0,15347.900000000001,1,1,2,4,2,Occasional Buyers,Saanvi Iyer,Corporate,North,Haryana,Gurugram
+CUST-10036,73,22,806251.0,90817.55,3,5,4,12,0,Loyal Regulars,Diya Patel,Consumer,North,Delhi,New Delhi
+CUST-10037,189,3,87084.0,11025.67,2,1,1,4,2,Occasional Buyers,Aarav Joshi,Corporate,South,Telangana,Hyderabad
+CUST-10038,18,14,1316315.5,118862.68000000001,5,4,5,14,3,Champions,Aditya Chopra,Consumer,South,Kerala,Kochi
+CUST-10039,28,8,87526.0,6000.59,4,3,1,8,2,Occasional Buyers,Rahul Das,Small Business,West,Maharashtra,Pune
+CUST-10040,42,8,552585.0,20455.399999999998,4,3,4,11,0,Loyal Regulars,Priya Sharma,Consumer,West,Maharashtra,Mumbai
+CUST-10041,126,4,75806.0,-8328.93,2,1,1,4,2,Occasional Buyers,Priya Kulkarni,Small Business,South,Kerala,Kochi
+CUST-10042,93,6,481272.0,35477.37,3,2,3,8,0,Loyal Regulars,Kavya Singh,Small Business,North,Punjab,Ludhiana
+CUST-10043,77,3,37089.0,8444.81,3,1,1,5,2,Occasional Buyers,Karan Mishra,Corporate,South,Kerala,Kochi
+CUST-10044,4,34,1926242.0,147371.63,5,5,5,15,3,Champions,Karan Chopra,Consumer,South,Tamil Nadu,Coimbatore
+CUST-10045,816,1,58226.0,-14778.95,1,1,1,3,1,At Risk / Lapsing,Rohan Iyer,Consumer,South,Telangana,Hyderabad
+CUST-10046,25,21,823247.0,38578.54,4,5,4,13,3,Champions,Kavya Iyer,Consumer,East,West Bengal,Kolkata
+CUST-10047,23,4,94597.0,2706.56,4,1,1,6,2,Occasional Buyers,Aditya Banerjee,Consumer,North,Haryana,Gurugram
+CUST-10048,106,16,451716.5,8273.349999999997,3,4,3,10,0,Loyal Regulars,Rahul Joshi,Consumer,South,Karnataka,Mysuru
+CUST-10049,44,10,301559.5,-6744.21,4,3,3,10,0,Loyal Regulars,Priya Mehta,Consumer,East,Bihar,Patna
+CUST-10050,127,11,282650.5,24956.99,2,3,2,7,0,Loyal Regulars,Vivaan Banerjee,Consumer,West,Maharashtra,Mumbai
+CUST-10051,17,19,1546724.0,53740.31,5,4,5,14,3,Champions,Diya Chopra,Consumer,North,Haryana,Faridabad
+CUST-10052,442,5,331636.0,45165.61,1,2,3,6,2,Occasional Buyers,Vikram Banerjee,Corporate,South,Telangana,Hyderabad
+CUST-10053,121,8,243953.5,21500.21,2,3,2,7,2,Occasional Buyers,Karan Reddy,Consumer,West,Gujarat,Surat
+CUST-10054,38,22,729737.0,54398.36,4,5,4,13,3,Champions,Arjun Singh,Consumer,North,Haryana,Gurugram
+CUST-10055,168,5,98328.0,9989.63,2,2,1,5,2,Occasional Buyers,Rohan Rao,Corporate,West,Gujarat,Ahmedabad
+CUST-10056,172,19,468896.0,46045.3,2,4,3,9,0,Loyal Regulars,Arjun Rao,Consumer,West,Rajasthan,Jaipur
+CUST-10057,458,1,1836.0,45.34,1,1,1,3,1,At Risk / Lapsing,Meera Sharma,Corporate,South,Telangana,Hyderabad
+CUST-10058,50,15,744821.5,86556.12,4,4,4,12,0,Loyal Regulars,Karan Mehta,Consumer,South,Karnataka,Mysuru
+CUST-10059,113,1,16277.0,1628.6799999999998,2,1,1,4,1,At Risk / Lapsing,Sneha Nair,Consumer,North,Punjab,Amritsar
+CUST-10060,16,9,138811.0,-1399.6599999999999,5,3,2,10,0,Loyal Regulars,Neha Mehta,Corporate,South,Telangana,Hyderabad
+CUST-10061,11,28,1276367.5,89633.38,5,5,5,15,3,Champions,Arjun Das,Consumer,North,Punjab,Amritsar
+CUST-10062,60,32,2113287.5,247526.25,3,5,5,13,3,Champions,Vikram Iyer,Corporate,West,Rajasthan,Jaipur
+CUST-10063,96,12,450315.0,69462.75,3,4,3,10,0,Loyal Regulars,Aditya Mishra,Consumer,North,Uttar Pradesh,Kanpur
+CUST-10064,31,8,234449.5,18988.59,4,3,2,9,0,Loyal Regulars,Priya Patel,Consumer,South,Kerala,Kochi
+CUST-10065,41,15,495350.0,69324.0,4,4,3,11,0,Loyal Regulars,Kabir Das,Consumer,West,Gujarat,Ahmedabad
+CUST-10066,369,4,88583.0,12292.800000000001,1,1,1,3,2,Occasional Buyers,Priya Das,Corporate,West,Maharashtra,Nagpur
+CUST-10067,89,23,518547.0,55331.24,3,5,3,11,0,Loyal Regulars,Ishaan Banerjee,Corporate,West,Gujarat,Surat
+CUST-10068,76,7,662262.0,54778.85,3,2,4,9,0,Loyal Regulars,Vivaan Das,Corporate,South,Karnataka,Bengaluru
+CUST-10069,82,3,273169.0,12679.5,3,1,2,6,2,Occasional Buyers,Meera Mishra,Consumer,East,Odisha,Bhubaneswar
+CUST-10070,270,12,1302155.0,132208.54,1,4,5,10,0,Loyal Regulars,Aditya Kulkarni,Small Business,South,Telangana,Hyderabad
+CUST-10071,840,6,302472.0,39194.9,1,2,3,6,2,Occasional Buyers,Amit Rao,Corporate,North,Uttar Pradesh,Noida
+CUST-10072,8,13,218145.0,-3098.72,5,4,2,11,3,Champions,Diya Sharma,Consumer,North,Uttar Pradesh,Lucknow
+CUST-10073,303,4,303810.0,-11272.580000000005,1,1,3,5,2,Occasional Buyers,Pooja Mehta,Consumer,South,Kerala,Kochi
+CUST-10074,3,5,677808.0,112532.88,5,2,4,11,3,Champions,Diya Chopra,Small Business,South,Kerala,Kochi
+CUST-10075,22,25,1554084.5,15253.659999999996,4,5,5,14,3,Champions,Arjun Reddy,Corporate,South,Kerala,Kochi
+CUST-10076,56,5,500552.0,54973.17,3,2,3,8,0,Loyal Regulars,Saanvi Iyer,Corporate,North,Punjab,Amritsar
+CUST-10077,77,11,370236.5,56318.770000000004,3,3,3,9,0,Loyal Regulars,Neha Mehta,Consumer,South,Karnataka,Bengaluru
+CUST-10078,51,9,605578.5,25454.25,4,3,4,11,0,Loyal Regulars,Priya Nair,Consumer,North,Delhi,New Delhi
+CUST-10079,952,2,199510.0,22788.54,1,1,2,4,2,Occasional Buyers,Meera Kulkarni,Consumer,North,Delhi,New Delhi
+CUST-10080,35,23,882668.5,84039.27,4,5,4,13,3,Champions,Kabir Nair,Consumer,South,Kerala,Kochi
+CUST-10081,36,25,1599596.0,91216.23,4,5,5,14,3,Champions,Arjun Singh,Corporate,South,Telangana,Hyderabad
+CUST-10082,16,10,1098575.0,80722.13,5,3,5,13,3,Champions,Arjun Verma,Consumer,West,Rajasthan,Jaipur
+CUST-10083,95,23,1075895.0,103192.36,3,5,5,13,0,Loyal Regulars,Priya Banerjee,Corporate,West,Maharashtra,Nagpur
+CUST-10084,351,4,113500.0,16250.71,1,1,1,3,2,Occasional Buyers,Kavya Iyer,Consumer,South,Karnataka,Mysuru
+CUST-10085,974,3,147127.5,8778.039999999999,1,1,2,4,2,Occasional Buyers,Kabir Mehta,Corporate,South,Karnataka,Bengaluru
+CUST-10086,9,14,635981.0,91374.18000000001,5,4,4,13,3,Champions,Meera Chopra,Consumer,South,Tamil Nadu,Chennai
+CUST-10087,27,15,673905.0,52600.07,4,4,4,12,3,Champions,Neha Singh,Small Business,South,Telangana,Hyderabad
+CUST-10088,108,10,853971.0,-34423.56999999999,3,3,4,10,0,Loyal Regulars,Pooja Sharma,Small Business,South,Karnataka,Bengaluru
+CUST-10089,107,12,354913.5,46924.25,3,4,3,10,0,Loyal Regulars,Sneha Sharma,Consumer,West,Gujarat,Ahmedabad
+CUST-10090,41,17,243987.0,4403.120000000001,4,4,2,10,0,Loyal Regulars,Karan Rao,Consumer,East,Bihar,Patna
+CUST-10091,22,15,550352.0,68158.14,4,4,4,12,3,Champions,Amit Kulkarni,Small Business,West,Maharashtra,Pune
+CUST-10092,22,10,566115.5,73538.45,4,3,4,11,0,Loyal Regulars,Rahul Reddy,Consumer,South,Telangana,Hyderabad
+CUST-10093,96,14,984841.0,109409.34000000001,3,4,5,12,0,Loyal Regulars,Amit Singh,Consumer,West,Gujarat,Ahmedabad
+CUST-10094,87,21,610554.5,23536.050000000003,3,5,4,12,0,Loyal Regulars,Amit Gupta,Consumer,East,Bihar,Patna
+CUST-10095,122,5,96355.0,7263.7300000000005,2,2,1,5,2,Occasional Buyers,Saanvi Reddy,Consumer,South,Karnataka,Bengaluru
+CUST-10096,247,7,209603.0,-41481.29,1,2,2,5,2,Occasional Buyers,Diya Joshi,Consumer,North,Uttar Pradesh,Noida
+CUST-10097,222,9,863521.5,83214.22,2,3,4,9,0,Loyal Regulars,Diya Nair,Small Business,North,Haryana,Gurugram
+CUST-10098,199,2,114918.0,13774.810000000001,2,1,1,4,2,Occasional Buyers,Karan Gupta,Consumer,South,Telangana,Hyderabad
+CUST-10099,1,53,2452397.5,-20996.750000000007,5,5,5,15,3,Champions,Arjun Nair,Corporate,East,West Bengal,Kolkata
+CUST-10101,288,11,504459.0,86434.20999999999,1,3,3,7,0,Loyal Regulars,Rohan Sharma,Small Business,North,Delhi,New Delhi
+CUST-10102,3,17,1256012.5,22033.479999999996,5,4,5,14,3,Champions,Aarav Iyer,Small Business,North,Haryana,Gurugram
+CUST-10103,378,8,445709.5,81381.95,1,3,3,7,2,Occasional Buyers,Ishaan Kulkarni,Corporate,North,Punjab,Ludhiana
+CUST-10104,73,5,126395.0,16263.17,3,2,2,7,2,Occasional Buyers,Vikram Verma,Small Business,West,Gujarat,Surat
+CUST-10105,11,13,371970.0,44629.119999999995,5,4,3,12,3,Champions,Saanvi Verma,Corporate,South,Karnataka,Mysuru
+CUST-10106,125,1,34659.0,-10150.189999999999,2,1,1,4,1,At Risk / Lapsing,Meera Kulkarni,Corporate,West,Rajasthan,Jaipur
+CUST-10107,906,3,57466.0,13083.82,1,1,1,3,1,At Risk / Lapsing,Amit Verma,Consumer,West,Rajasthan,Jaipur
+CUST-10108,9,13,345172.5,17198.88,5,4,3,12,3,Champions,Kabir Reddy,Corporate,North,Uttar Pradesh,Lucknow
+CUST-10109,371,3,55154.5,1300.02,1,1,1,3,2,Occasional Buyers,Aarav Rao,Consumer,West,Maharashtra,Nagpur
+CUST-10110,64,14,852067.5,58188.420000000006,3,4,4,11,0,Loyal Regulars,Sneha Reddy,Corporate,East,Bihar,Patna
+CUST-10111,114,12,578368.0,81226.39,2,4,4,10,0,Loyal Regulars,Meera Sharma,Consumer,South,Karnataka,Mysuru
+CUST-10112,20,5,236220.0,37085.59,4,2,2,8,0,Loyal Regulars,Karan Singh,Corporate,West,Rajasthan,Jaipur
+CUST-10113,153,6,158006.0,3500.4300000000003,2,2,2,6,2,Occasional Buyers,Ishaan Singh,Corporate,East,Odisha,Sambalpur
+CUST-10115,17,11,297979.0,24726.68,5,3,3,11,0,Loyal Regulars,Ananya Chopra,Consumer,West,Rajasthan,Jaipur
+CUST-10116,7,5,495801.0,43038.64,5,2,3,10,3,Champions,Kabir Gupta,Consumer,South,Telangana,Hyderabad
+CUST-10117,15,12,726875.5,79295.45999999999,5,4,4,13,3,Champions,Vivaan Chopra,Consumer,West,Maharashtra,Mumbai
+CUST-10118,266,15,1042632.5,128893.91,1,4,5,10,0,Loyal Regulars,Saanvi Chopra,Small Business,West,Gujarat,Ahmedabad
+CUST-10119,95,3,77863.0,-2232.84,3,1,1,5,2,Occasional Buyers,Diya Mehta,Consumer,East,West Bengal,Kolkata
+CUST-10120,18,13,362000.0,62238.83,5,4,3,12,3,Champions,Kavya Banerjee,Consumer,South,Karnataka,Bengaluru
+CUST-10121,62,9,266208.5,7380.41,3,3,2,8,0,Loyal Regulars,Karan Das,Corporate,West,Maharashtra,Pune
+CUST-10122,68,10,366242.0,-5262.429999999999,3,3,3,9,0,Loyal Regulars,Rahul Das,Corporate,Central,Chhattisgarh,Raipur
+CUST-10123,40,5,162884.5,8802.199999999999,4,2,2,8,2,Occasional Buyers,Aditya Mishra,Corporate,South,Karnataka,Bengaluru
+CUST-10124,358,3,12849.0,2057.08,1,1,1,3,1,At Risk / Lapsing,Amit Mehta,Consumer,North,Haryana,Faridabad
+CUST-10125,179,8,128664.5,17686.2,2,3,2,7,2,Occasional Buyers,Meera Rao,Consumer,West,Maharashtra,Mumbai
+CUST-10126,120,7,317929.5,2904.52,2,2,3,7,2,Occasional Buyers,Rahul Reddy,Consumer,North,Haryana,Faridabad
+CUST-10127,160,10,522811.0,15298.730000000001,2,3,4,9,0,Loyal Regulars,Aditya Patel,Small Business,North,Haryana,Gurugram
+CUST-10128,436,2,32962.5,679.17,1,1,1,3,1,At Risk / Lapsing,Saanvi Reddy,Corporate,West,Gujarat,Ahmedabad
+CUST-10129,43,20,482470.5,53874.35,4,5,3,12,0,Loyal Regulars,Arjun Reddy,Corporate,North,Haryana,Faridabad
+CUST-10130,136,4,61391.0,2643.7400000000002,2,1,1,4,2,Occasional Buyers,Arjun Gupta,Corporate,North,Uttar Pradesh,Noida
+CUST-10131,16,11,671386.5,49059.560000000005,5,3,4,12,3,Champions,Ananya Verma,Consumer,East,West Bengal,Kolkata
+CUST-10132,896,2,50879.0,72.12000000000003,1,1,1,3,1,At Risk / Lapsing,Arjun Sharma,Corporate,South,Tamil Nadu,Chennai
+CUST-10133,248,5,35350.0,1701.1000000000001,1,2,1,4,2,Occasional Buyers,Ishaan Patel,Consumer,East,Odisha,Sambalpur
+CUST-10134,17,44,2321660.0,-101368.68000000001,5,5,5,15,3,Champions,Neha Banerjee,Corporate,East,Odisha,Bhubaneswar
+CUST-10135,8,18,1393681.5,190130.75,5,4,5,14,3,Champions,Priya Gupta,Corporate,West,Gujarat,Surat
+CUST-10136,86,11,539332.0,-88.56000000000154,3,3,4,10,0,Loyal Regulars,Rahul Joshi,Consumer,North,Uttar Pradesh,Lucknow
+CUST-10137,198,7,239435.5,29177.47,2,2,2,6,2,Occasional Buyers,Diya Iyer,Consumer,South,Tamil Nadu,Coimbatore
+CUST-10138,4,11,447562.5,69948.63,5,3,3,11,3,Champions,Ishaan Sharma,Consumer,North,Punjab,Amritsar
+CUST-10139,108,10,251902.5,17509.94,3,3,2,8,0,Loyal Regulars,Vivaan Mishra,Corporate,North,Punjab,Amritsar
+CUST-10140,63,4,53874.0,9007.45,3,1,1,5,2,Occasional Buyers,Aditya Patel,Consumer,West,Maharashtra,Pune
+CUST-10141,65,19,359422.5,40874.51,3,4,3,10,0,Loyal Regulars,Pooja Banerjee,Consumer,South,Kerala,Kochi
+CUST-10142,5,13,340026.0,13625.599999999999,5,4,3,12,3,Champions,Priya Singh,Corporate,North,Uttar Pradesh,Noida
+CUST-10144,36,6,224021.0,30930.23,4,2,2,8,0,Loyal Regulars,Vikram Kulkarni,Corporate,North,Delhi,New Delhi
+CUST-10145,17,12,609421.0,46384.29,5,4,4,13,3,Champions,Ishaan Iyer,Corporate,West,Rajasthan,Jaipur
+CUST-10146,207,2,2360.0,-12.340000000000003,2,1,1,4,1,At Risk / Lapsing,Karan Joshi,Small Business,North,Uttar Pradesh,Kanpur
+CUST-10147,13,27,1963099.5,-62344.090000000004,5,5,5,15,3,Champions,Meera Kulkarni,Corporate,East,Odisha,Bhubaneswar
+CUST-10148,179,4,128031.5,15332.6,2,1,2,5,2,Occasional Buyers,Meera Verma,Small Business,South,Tamil Nadu,Chennai
+CUST-10149,78,35,1555971.5,89344.06,3,5,5,13,3,Champions,Pooja Joshi,Consumer,North,Haryana,Faridabad
+CUST-10150,3,100,3205992.0,128829.70999999999,5,5,5,15,3,Champions,Rohan Nair,Consumer,East,Odisha,Bhubaneswar
+CUST-10151,5,12,635919.0,42410.64,5,4,4,13,3,Champions,Sneha Gupta,Consumer,South,Telangana,Hyderabad
+CUST-10152,373,3,223368.0,-11895.21,1,1,2,4,2,Occasional Buyers,Ananya Das,Corporate,North,Haryana,Gurugram
+CUST-10153,26,15,657935.0,-53126.759999999995,4,4,4,12,3,Champions,Arjun Singh,Consumer,East,Bihar,Patna
+CUST-10155,122,3,112019.0,-861.9299999999994,2,1,1,4,2,Occasional Buyers,Aditya Patel,Consumer,West,Rajasthan,Jaipur
+CUST-10156,1104,1,49901.0,4330.53,1,1,1,3,1,At Risk / Lapsing,Kabir Verma,Small Business,East,Bihar,Patna
+CUST-10157,185,4,167225.0,-3908.1700000000005,2,1,2,5,2,Occasional Buyers,Meera Iyer,Corporate,North,Uttar Pradesh,Lucknow
+CUST-10158,268,2,28065.0,2646.4300000000003,1,1,1,3,1,At Risk / Lapsing,Neha Patel,Small Business,North,Haryana,Gurugram
+CUST-10159,45,11,552863.5,39104.899999999994,4,3,4,11,0,Loyal Regulars,Saanvi Mehta,Corporate,West,Rajasthan,Jaipur
+CUST-10160,144,8,68971.5,7899.49,2,3,1,6,2,Occasional Buyers,Karan Mehta,Consumer,North,Uttar Pradesh,Lucknow
+CUST-10161,53,14,849556.5,81033.09,3,4,4,11,0,Loyal Regulars,Saanvi Mehta,Consumer,West,Maharashtra,Mumbai
+CUST-10162,90,22,902554.0,113246.01,3,5,4,12,0,Loyal Regulars,Ishaan Iyer,Corporate,West,Rajasthan,Jaipur
+CUST-10163,254,9,246822.5,13486.949999999999,1,3,2,6,2,Occasional Buyers,Arjun Singh,Corporate,Central,Madhya Pradesh,Bhopal
+CUST-10164,309,7,268091.0,18678.059999999998,1,2,2,5,2,Occasional Buyers,Saanvi Verma,Consumer,West,Rajasthan,Jaipur
+CUST-10166,77,28,2573962.5,221841.15,3,5,5,13,3,Champions,Vivaan Das,Small Business,North,Delhi,New Delhi
+CUST-10168,42,7,114452.5,25086.23,4,2,1,7,2,Occasional Buyers,Vivaan Kulkarni,Consumer,West,Gujarat,Ahmedabad
+CUST-10169,96,3,439080.0,76373.68000000001,3,1,3,7,2,Occasional Buyers,Diya Kulkarni,Small Business,South,Kerala,Kochi
+CUST-10170,6,24,1475182.5,34834.73,5,5,5,15,3,Champions,Ishaan Nair,Consumer,Central,Madhya Pradesh,Indore
+CUST-10171,391,2,143311.0,13816.180000000002,1,1,2,4,2,Occasional Buyers,Rohan Joshi,Small Business,South,Karnataka,Bengaluru
+CUST-10172,26,19,601980.0,49991.79,4,4,4,12,3,Champions,Kabir Singh,Consumer,South,Tamil Nadu,Coimbatore
+CUST-10173,37,1,24747.0,-794.9899999999998,4,1,1,6,1,At Risk / Lapsing,Pooja Joshi,Consumer,South,Karnataka,Mysuru
+CUST-10174,158,3,216246.0,-23322.23,2,1,2,5,2,Occasional Buyers,Rohan Chopra,Corporate,Central,Chhattisgarh,Raipur
+CUST-10175,176,14,848330.5,113772.29,2,4,4,10,0,Loyal Regulars,Neha Mehta,Consumer,West,Rajasthan,Jaipur
+CUST-10176,3,5,144496.0,11874.460000000001,5,2,2,9,3,Champions,Saanvi Das,Corporate,East,Odisha,Bhubaneswar
+CUST-10177,282,7,411743.0,50768.12,1,2,3,6,2,Occasional Buyers,Vivaan Patel,Corporate,North,Haryana,Faridabad
+CUST-10178,907,1,4250.0,1023.75,1,1,1,3,1,At Risk / Lapsing,Ananya Mishra,Corporate,West,Maharashtra,Nagpur
+CUST-10179,74,16,1089497.0,6513.8800000000065,3,4,5,12,0,Loyal Regulars,Ishaan Mishra,Consumer,North,Punjab,Amritsar
+CUST-10180,64,4,113118.0,10246.39,3,1,1,5,2,Occasional Buyers,Meera Joshi,Corporate,North,Uttar Pradesh,Kanpur
+CUST-10181,26,12,377331.5,10153.129999999997,4,4,3,11,0,Loyal Regulars,Kavya Singh,Small Business,South,Tamil Nadu,Chennai
+CUST-10182,343,4,324154.0,18827.68,1,1,3,5,2,Occasional Buyers,Karan Banerjee,Corporate,West,Maharashtra,Nagpur
+CUST-10183,93,19,1355213.0,53896.76,3,4,5,12,0,Loyal Regulars,Pooja Gupta,Corporate,West,Rajasthan,Jaipur
+CUST-10184,71,4,129891.0,15841.22,3,1,2,6,2,Occasional Buyers,Aarav Joshi,Small Business,North,Haryana,Faridabad
+CUST-10185,170,1,71946.0,583.5900000000006,2,1,1,4,1,At Risk / Lapsing,Priya Rao,Consumer,South,Karnataka,Mysuru
+CUST-10186,131,8,94478.0,10224.97,2,3,1,6,2,Occasional Buyers,Rahul Banerjee,Corporate,West,Maharashtra,Mumbai
+CUST-10188,142,5,88679.0,8416.93,2,2,1,5,2,Occasional Buyers,Ishaan Reddy,Consumer,North,Punjab,Amritsar
+CUST-10189,135,5,504834.5,61254.86000000001,2,2,3,7,2,Occasional Buyers,Saanvi Rao,Corporate,North,Delhi,New Delhi
+CUST-10190,6,8,387060.5,45829.65,5,3,3,11,3,Champions,Diya Rao,Corporate,North,Delhi,New Delhi
+CUST-10191,27,3,251766.0,3905.209999999999,4,1,2,7,2,Occasional Buyers,Diya Singh,Consumer,North,Punjab,Amritsar
+CUST-10192,49,28,1144701.5,82690.34000000001,4,5,5,14,3,Champions,Rahul Rao,Small Business,South,Kerala,Kochi
+CUST-10193,32,22,714132.0,4126.6799999999985,4,5,4,13,3,Champions,Diya Sharma,Consumer,Central,Chhattisgarh,Raipur
+CUST-10195,327,5,75926.0,2407.72,1,2,1,4,2,Occasional Buyers,Neha Patel,Corporate,West,Gujarat,Ahmedabad
+CUST-10196,521,4,426166.0,20853.420000000002,1,1,3,5,2,Occasional Buyers,Ishaan Verma,Consumer,East,West Bengal,Kolkata
+CUST-10197,417,5,117474.0,-5206.91,1,2,2,5,2,Occasional Buyers,Aarav Gupta,Consumer,North,Delhi,New Delhi
+CUST-10198,130,7,257666.5,16264.119999999999,2,2,2,6,2,Occasional Buyers,Ananya Sharma,Consumer,East,Odisha,Bhubaneswar
+CUST-10199,17,8,121946.5,13684.830000000002,5,3,2,10,0,Loyal Regulars,Neha Singh,Consumer,West,Maharashtra,Pune
+CUST-10200,199,1,4070.0,1188.23,2,1,1,4,1,At Risk / Lapsing,Priya Kulkarni,Consumer,West,Rajasthan,Jaipur
+CUST-10201,27,31,1723903.5,54169.73000000001,4,5,5,14,3,Champions,Vivaan Nair,Consumer,North,Uttar Pradesh,Lucknow
+CUST-10202,107,13,600013.5,19690.68,3,4,4,11,0,Loyal Regulars,Aditya Iyer,Corporate,Central,Chhattisgarh,Raipur
+CUST-10203,840,3,44292.0,3688.48,1,1,1,3,1,At Risk / Lapsing,Arjun Rao,Small Business,Central,Chhattisgarh,Raipur
+CUST-10204,95,4,175577.0,-4328.86,3,1,2,6,2,Occasional Buyers,Rohan Joshi,Corporate,West,Maharashtra,Nagpur
+CUST-10206,23,14,446023.5,43170.0,4,4,3,11,3,Champions,Aditya Singh,Corporate,South,Karnataka,Mysuru
+CUST-10207,168,20,947761.0,86419.88,2,5,5,12,0,Loyal Regulars,Aarav Reddy,Corporate,West,Gujarat,Surat
+CUST-10208,13,15,1021265.0,20629.040000000005,5,4,5,14,3,Champions,Priya Banerjee,Consumer,East,Bihar,Patna
+CUST-10209,15,43,1927763.5,28779.170000000002,5,5,5,15,3,Champions,Vivaan Patel,Consumer,Central,Madhya Pradesh,Indore
+CUST-10210,525,1,39150.0,2753.4300000000003,1,1,1,3,1,At Risk / Lapsing,Vivaan Verma,Consumer,North,Punjab,Amritsar
+CUST-10211,149,6,165700.0,-14115.330000000002,2,2,2,6,2,Occasional Buyers,Meera Gupta,Consumer,East,West Bengal,Kolkata
+CUST-10212,82,7,749414.0,63781.0,3,2,4,9,0,Loyal Regulars,Rahul Verma,Consumer,North,Uttar Pradesh,Noida
+CUST-10213,273,1,86734.0,14659.97,1,1,1,3,1,At Risk / Lapsing,Aditya Chopra,Corporate,North,Delhi,New Delhi
+CUST-10214,53,15,354949.5,41751.15,4,4,3,11,0,Loyal Regulars,Diya Nair,Corporate,South,Kerala,Kochi
+CUST-10215,87,17,1087482.5,67085.28,3,4,5,12,0,Loyal Regulars,Pooja Chopra,Corporate,West,Gujarat,Surat
+CUST-10216,19,10,663789.0,16154.73,5,3,4,12,3,Champions,Vikram Mehta,Small Business,West,Gujarat,Ahmedabad
+CUST-10217,21,24,683590.0,75601.37,4,5,4,13,3,Champions,Aarav Mehta,Consumer,North,Punjab,Ludhiana
+CUST-10218,132,9,448435.0,59718.62,2,3,3,8,0,Loyal Regulars,Saanvi Kulkarni,Consumer,West,Rajasthan,Jaipur
+CUST-10219,46,18,919205.0,36411.939999999995,4,4,5,13,0,Loyal Regulars,Rohan Das,Consumer,West,Rajasthan,Jaipur
+CUST-10220,8,15,601162.0,41950.270000000004,5,4,4,13,3,Champions,Meera Verma,Consumer,South,Tamil Nadu,Coimbatore
+CUST-10221,108,13,395621.0,35758.61,3,4,3,10,0,Loyal Regulars,Vikram Kulkarni,Consumer,North,Punjab,Amritsar
+CUST-10222,30,14,536791.0,23483.390000000003,4,4,4,12,0,Loyal Regulars,Amit Sharma,Small Business,North,Punjab,Amritsar
+CUST-10223,118,4,20976.0,-3042.49,2,1,1,4,1,At Risk / Lapsing,Rohan Mehta,Small Business,Central,Chhattisgarh,Raipur
+CUST-10224,54,19,1011182.0,67830.19,3,4,5,12,0,Loyal Regulars,Kabir Reddy,Consumer,South,Karnataka,Mysuru
+CUST-10225,12,3,240003.0,-22751.84,5,1,2,8,2,Occasional Buyers,Aarav Chopra,Corporate,West,Gujarat,Ahmedabad
+CUST-10226,136,8,307246.0,22044.72,2,3,3,8,0,Loyal Regulars,Ishaan Reddy,Consumer,South,Tamil Nadu,Chennai
+CUST-10227,54,4,232520.0,36996.439999999995,3,1,2,6,2,Occasional Buyers,Sneha Mehta,Small Business,Central,Chhattisgarh,Raipur
+CUST-10228,5,13,268025.5,18133.12,5,4,2,11,3,Champions,Diya Mehta,Consumer,East,Odisha,Bhubaneswar
+CUST-10229,546,1,9250.0,1660.28,1,1,1,3,1,At Risk / Lapsing,Priya Reddy,Consumer,Central,Chhattisgarh,Raipur
+CUST-10230,2,41,1831444.0,172599.92,5,5,5,15,3,Champions,Sneha Singh,Consumer,West,Rajasthan,Jaipur
+CUST-10231,159,3,192201.0,20434.12,2,1,2,5,2,Occasional Buyers,Vikram Mehta,Consumer,West,Gujarat,Surat
+CUST-10233,18,10,430524.5,34556.23,5,3,3,11,0,Loyal Regulars,Saanvi Chopra,Small Business,West,Maharashtra,Mumbai
+CUST-10234,121,4,105090.0,1710.37,2,1,1,4,2,Occasional Buyers,Aditya Nair,Small Business,North,Punjab,Amritsar
+CUST-10235,6,47,1529098.5,36971.69,5,5,5,15,3,Champions,Meera Reddy,Small Business,North,Delhi,New Delhi
+CUST-10236,45,8,431743.0,14077.82,4,3,3,10,0,Loyal Regulars,Vikram Banerjee,Small Business,West,Rajasthan,Jaipur
+CUST-10237,95,8,99811.5,9086.2,3,3,1,7,2,Occasional Buyers,Vivaan Mishra,Small Business,North,Haryana,Gurugram
+CUST-10238,15,18,685719.0,65183.86,5,4,4,13,3,Champions,Rohan Patel,Consumer,South,Telangana,Hyderabad
+CUST-10239,133,23,1505926.5,54436.45,2,5,5,12,0,Loyal Regulars,Ishaan Iyer,Small Business,North,Haryana,Faridabad
+CUST-10240,46,10,1015480.0,-47592.130000000005,4,3,5,12,0,Loyal Regulars,Priya Iyer,Small Business,East,Bihar,Patna
+CUST-10241,232,4,106705.0,6329.22,1,1,1,3,2,Occasional Buyers,Saanvi Joshi,Corporate,South,Tamil Nadu,Coimbatore
+CUST-10242,1237,1,18540.0,628.29,1,1,1,3,1,At Risk / Lapsing,Aditya Verma,Consumer,West,Gujarat,Ahmedabad
+CUST-10243,84,7,76929.0,13112.619999999999,3,2,1,6,2,Occasional Buyers,Vivaan Sharma,Consumer,North,Punjab,Amritsar
+CUST-10244,40,10,181950.0,25042.65,4,3,2,9,0,Loyal Regulars,Rahul Mishra,Small Business,North,Uttar Pradesh,Lucknow
+CUST-10245,204,6,463760.5,50278.57,2,2,3,7,2,Occasional Buyers,Aditya Reddy,Consumer,Central,Madhya Pradesh,Indore
+CUST-10246,11,8,1358876.5,108375.65,5,3,5,13,3,Champions,Meera Kulkarni,Corporate,South,Tamil Nadu,Coimbatore
+CUST-10247,94,26,1810131.5,69978.82,3,5,5,13,0,Loyal Regulars,Karan Das,Small Business,South,Telangana,Hyderabad
+CUST-10248,1,10,277234.0,40080.21,5,3,2,10,3,Champions,Sneha Nair,Consumer,West,Maharashtra,Pune
+CUST-10249,5,20,1023901.0,118881.83,5,5,5,15,3,Champions,Rahul Kulkarni,Corporate,West,Maharashtra,Mumbai
+CUST-10250,187,2,81392.5,5165.8099999999995,2,1,1,4,2,Occasional Buyers,Sneha Singh,Consumer,North,Punjab,Amritsar
+CUST-10251,134,2,156714.0,27940.949999999997,2,1,2,5,2,Occasional Buyers,Saanvi Mishra,Small Business,West,Gujarat,Surat
+CUST-10252,188,5,274406.0,6034.890000000002,2,2,2,6,2,Occasional Buyers,Kabir Mehta,Consumer,North,Haryana,Faridabad
+CUST-10253,196,8,295371.5,27134.019999999997,2,3,3,8,2,Occasional Buyers,Pooja Banerjee,Small Business,West,Rajasthan,Jaipur
+CUST-10254,98,5,248614.5,33745.12,3,2,2,7,2,Occasional Buyers,Vikram Kulkarni,Consumer,South,Telangana,Hyderabad
+CUST-10255,496,2,47962.0,6848.82,1,1,1,3,1,At Risk / Lapsing,Rahul Mehta,Corporate,West,Gujarat,Ahmedabad
+CUST-10256,879,1,75800.0,19606.29,1,1,1,3,1,At Risk / Lapsing,Meera Mehta,Corporate,South,Tamil Nadu,Chennai
+CUST-10257,66,7,126146.5,6769.42,3,2,2,7,2,Occasional Buyers,Ananya Verma,Corporate,North,Punjab,Ludhiana
+CUST-10258,33,17,538160.0,63031.45,4,4,4,12,0,Loyal Regulars,Ananya Joshi,Consumer,North,Uttar Pradesh,Lucknow
+CUST-10259,87,17,755356.0,59125.9,3,4,4,11,0,Loyal Regulars,Pooja Iyer,Consumer,South,Kerala,Kochi
+CUST-10260,60,3,36958.0,4607.83,3,1,1,5,2,Occasional Buyers,Aditya Verma,Consumer,West,Maharashtra,Mumbai
+CUST-10261,33,19,1006003.0,58243.95,4,5,5,14,3,Champions,Saanvi Banerjee,Corporate,West,Maharashtra,Nagpur
+CUST-10262,42,9,600028.5,59815.689999999995,4,3,4,11,0,Loyal Regulars,Neha Reddy,Consumer,North,Haryana,Gurugram
+CUST-10263,173,9,103835.0,7763.050000000001,2,3,1,6,2,Occasional Buyers,Neha Patel,Consumer,South,Karnataka,Bengaluru
+CUST-10264,730,2,77675.5,3897.0,1,1,1,3,1,At Risk / Lapsing,Diya Rao,Corporate,West,Rajasthan,Jaipur
+CUST-10265,125,7,205429.0,22647.550000000003,2,2,2,6,2,Occasional Buyers,Amit Singh,Corporate,East,Odisha,Sambalpur
+CUST-10266,285,6,228745.0,38074.98,1,2,2,5,2,Occasional Buyers,Arjun Das,Consumer,West,Rajasthan,Jaipur
+CUST-10267,249,2,10868.0,1685.79,1,1,1,3,1,At Risk / Lapsing,Neha Reddy,Corporate,West,Gujarat,Surat
+CUST-10268,78,36,2858999.5,244455.32,3,5,5,13,3,Champions,Ananya Gupta,Small Business,South,Karnataka,Mysuru
+CUST-10269,24,9,176467.0,16537.91,4,3,2,9,0,Loyal Regulars,Ishaan Chopra,Corporate,West,Rajasthan,Jaipur
+CUST-10270,186,5,46633.0,7762.39,2,2,1,5,2,Occasional Buyers,Ananya Kulkarni,Consumer,West,Gujarat,Ahmedabad
+CUST-10271,48,20,714701.5,6024.63,4,5,4,13,0,Loyal Regulars,Rahul Chopra,Consumer,East,Odisha,Bhubaneswar
+CUST-10272,149,4,106219.0,-471.3499999999999,2,1,1,4,2,Occasional Buyers,Saanvi Reddy,Consumer,East,West Bengal,Kolkata
+CUST-10273,9,15,473138.0,52751.11,5,4,3,12,3,Champions,Rahul Patel,Consumer,West,Gujarat,Surat
+CUST-10274,884,2,22780.0,5909.58,1,1,1,3,1,At Risk / Lapsing,Vikram Rao,Consumer,South,Telangana,Hyderabad
+CUST-10275,18,26,1191709.5,84410.63,5,5,5,15,3,Champions,Amit Joshi,Consumer,South,Karnataka,Bengaluru
+CUST-10277,747,1,1540.0,398.15,1,1,1,3,1,At Risk / Lapsing,Arjun Iyer,Small Business,West,Maharashtra,Pune
+CUST-10278,78,11,323155.5,32451.6,3,3,3,9,0,Loyal Regulars,Amit Joshi,Consumer,West,Rajasthan,Jaipur
+CUST-10279,289,1,4293.0,503.75,1,1,1,3,1,At Risk / Lapsing,Vivaan Nair,Consumer,South,Kerala,Kochi
+CUST-10280,20,5,203077.5,-2501.44,4,2,2,8,2,Occasional Buyers,Vikram Mehta,Small Business,West,Gujarat,Ahmedabad
+CUST-10281,120,8,265535.5,-942.2099999999995,2,3,2,7,2,Occasional Buyers,Aditya Nair,Small Business,North,Haryana,Gurugram
+CUST-10282,24,17,677328.0,21456.63,4,4,4,12,3,Champions,Saanvi Kulkarni,Consumer,West,Rajasthan,Jaipur
+CUST-10284,311,7,410178.5,-12286.110000000002,1,2,3,6,2,Occasional Buyers,Aditya Kulkarni,Corporate,East,Odisha,Bhubaneswar
+CUST-10285,139,7,274935.5,7421.96,2,2,2,6,2,Occasional Buyers,Amit Joshi,Consumer,Central,Madhya Pradesh,Bhopal
+CUST-10286,77,14,610650.5,-3450.5499999999993,3,4,4,11,0,Loyal Regulars,Neha Patel,Consumer,East,West Bengal,Kolkata
+CUST-10287,13,3,191851.5,8407.72,5,1,2,8,2,Occasional Buyers,Kabir Kulkarni,Consumer,West,Gujarat,Surat
+CUST-10288,858,3,133507.0,18737.97,1,1,2,4,2,Occasional Buyers,Rahul Das,Corporate,South,Karnataka,Bengaluru
+CUST-10289,2,55,1993283.0,199482.84,5,5,5,15,3,Champions,Rohan Rao,Small Business,South,Kerala,Kochi
+CUST-10290,115,5,60133.0,7400.27,2,2,1,5,2,Occasional Buyers,Vivaan Patel,Consumer,West,Maharashtra,Nagpur
+CUST-10291,146,12,361544.0,37197.89,2,4,3,9,0,Loyal Regulars,Rohan Reddy,Small Business,South,Telangana,Hyderabad
+CUST-10292,53,17,873730.0,33014.35,4,4,4,12,0,Loyal Regulars,Sneha Sharma,Corporate,West,Rajasthan,Jaipur
+CUST-10293,16,21,981633.5,61290.06,5,5,5,15,3,Champions,Arjun Gupta,Corporate,North,Uttar Pradesh,Kanpur
+CUST-10294,21,12,275892.0,7454.919999999999,4,4,2,10,0,Loyal Regulars,Aarav Gupta,Consumer,East,Bihar,Patna
+CUST-10295,121,15,1249312.0,156844.83000000002,2,4,5,11,0,Loyal Regulars,Karan Singh,Corporate,North,Punjab,Amritsar
+CUST-10297,277,11,421013.0,63211.67,1,3,3,7,0,Loyal Regulars,Aditya Das,Corporate,South,Karnataka,Mysuru
+CUST-10298,120,3,179968.0,28136.63,2,1,2,5,2,Occasional Buyers,Amit Mehta,Small Business,South,Tamil Nadu,Chennai
+CUST-10299,90,5,277628.5,3533.2700000000004,3,2,2,7,2,Occasional Buyers,Pooja Iyer,Small Business,North,Haryana,Faridabad
+CUST-10300,158,5,153844.0,26077.14,2,2,2,6,2,Occasional Buyers,Vivaan Verma,Consumer,North,Delhi,New Delhi
+CUST-10301,191,10,554220.0,60083.54,2,3,4,9,0,Loyal Regulars,Aarav Rao,Small Business,North,Delhi,New Delhi
+CUST-10302,658,2,121828.0,7395.18,1,1,2,4,2,Occasional Buyers,Priya Joshi,Corporate,East,West Bengal,Kolkata
+CUST-10303,117,6,539520.0,82654.01000000001,2,2,4,8,0,Loyal Regulars,Ananya Kulkarni,Corporate,West,Gujarat,Ahmedabad
+CUST-10304,11,13,448812.0,17346.71,5,4,3,12,3,Champions,Karan Verma,Consumer,East,West Bengal,Kolkata
+CUST-10305,174,2,43960.0,3987.63,2,1,1,4,1,At Risk / Lapsing,Aditya Patel,Consumer,South,Karnataka,Bengaluru
+CUST-10306,71,34,1069703.0,92146.77,3,5,5,13,3,Champions,Ananya Mehta,Corporate,South,Karnataka,Bengaluru
+CUST-10307,183,5,163337.0,7416.37,2,2,2,6,2,Occasional Buyers,Vikram Das,Corporate,North,Haryana,Faridabad
+CUST-10309,478,1,3810.0,772.41,1,1,1,3,1,At Risk / Lapsing,Vivaan Mehta,Corporate,East,Odisha,Sambalpur
+CUST-10310,297,2,43812.0,-11772.64,1,1,1,3,1,At Risk / Lapsing,Arjun Verma,Corporate,East,Bihar,Patna
+CUST-10311,109,13,443407.5,72663.93,3,4,3,10,0,Loyal Regulars,Arjun Chopra,Small Business,West,Maharashtra,Nagpur
+CUST-10312,70,14,874629.5,12663.529999999999,3,4,4,11,0,Loyal Regulars,Kabir Sharma,Consumer,West,Rajasthan,Jaipur
+CUST-10313,108,8,480586.5,38944.26,3,3,3,9,0,Loyal Regulars,Amit Iyer,Corporate,West,Gujarat,Surat
+CUST-10314,154,13,302447.0,12301.77,2,4,3,9,0,Loyal Regulars,Ananya Patel,Corporate,Central,Chhattisgarh,Raipur
+CUST-10315,206,9,695135.0,27380.97,2,3,4,9,0,Loyal Regulars,Diya Das,Small Business,South,Tamil Nadu,Chennai
+CUST-10316,325,11,686197.0,42130.03,1,3,4,8,0,Loyal Regulars,Rahul Patel,Consumer,Central,Chhattisgarh,Raipur
+CUST-10317,134,11,706407.0,61644.54,2,3,4,9,0,Loyal Regulars,Amit Joshi,Small Business,South,Kerala,Kochi
+CUST-10318,106,13,1184548.0,83412.40000000001,3,4,5,12,0,Loyal Regulars,Diya Patel,Consumer,Central,Chhattisgarh,Raipur
+CUST-10319,151,6,115204.5,-1444.4699999999998,2,2,1,5,2,Occasional Buyers,Amit Patel,Small Business,West,Maharashtra,Nagpur
+CUST-10320,121,10,441562.5,43016.71,2,3,3,8,0,Loyal Regulars,Saanvi Nair,Corporate,West,Gujarat,Surat
+CUST-10321,52,2,11864.5,2249.61,4,1,1,6,1,At Risk / Lapsing,Kavya Singh,Consumer,South,Kerala,Kochi
+CUST-10322,31,10,552436.5,15327.4,4,3,4,11,0,Loyal Regulars,Ananya Sharma,Consumer,West,Rajasthan,Jaipur
+CUST-10323,100,11,215556.0,30020.929999999997,3,3,2,8,0,Loyal Regulars,Aarav Sharma,Corporate,West,Maharashtra,Mumbai
+CUST-10324,7,12,1026216.5,141373.53,5,4,5,14,3,Champions,Aarav Reddy,Small Business,South,Kerala,Kochi
+CUST-10325,1,9,265342.0,30854.2,5,3,2,10,3,Champions,Vivaan Singh,Corporate,West,Gujarat,Ahmedabad
+CUST-10326,31,14,764157.0,-18154.53,4,4,4,12,0,Loyal Regulars,Pooja Rao,Corporate,East,West Bengal,Kolkata
+CUST-10327,1166,1,181327.5,25796.96,1,1,2,4,1,At Risk / Lapsing,Sneha Das,Small Business,South,Karnataka,Mysuru
+CUST-10328,55,27,1290481.5,133262.54,3,5,5,13,3,Champions,Diya Gupta,Consumer,West,Rajasthan,Jaipur
+CUST-10329,63,13,326109.5,15119.550000000001,3,4,3,10,0,Loyal Regulars,Priya Reddy,Corporate,West,Maharashtra,Pune
+CUST-10330,675,1,25505.0,-838.2299999999998,1,1,1,3,1,At Risk / Lapsing,Arjun Banerjee,Corporate,North,Punjab,Amritsar
+CUST-10331,105,5,52732.5,4077.81,3,2,1,6,2,Occasional Buyers,Saanvi Nair,Consumer,West,Maharashtra,Mumbai
+CUST-10332,72,13,311740.5,5655.860000000001,3,4,3,10,0,Loyal Regulars,Meera Sharma,Consumer,East,West Bengal,Kolkata
+CUST-10333,90,3,79688.0,10961.67,3,1,1,5,2,Occasional Buyers,Amit Kulkarni,Small Business,South,Telangana,Hyderabad
+CUST-10334,3,15,503766.0,15280.119999999999,5,4,3,12,3,Champions,Rahul Joshi,Corporate,East,West Bengal,Kolkata
+CUST-10335,24,14,296630.5,30058.78,4,4,3,11,0,Loyal Regulars,Meera Patel,Small Business,North,Punjab,Amritsar
+CUST-10336,3,16,339776.0,43934.89,5,4,3,12,3,Champions,Neha Das,Consumer,Central,Madhya Pradesh,Bhopal
+CUST-10337,9,32,1239626.5,136053.18,5,5,5,15,3,Champions,Neha Reddy,Consumer,Central,Chhattisgarh,Raipur
+CUST-10338,61,14,564909.0,31213.64,3,4,4,11,0,Loyal Regulars,Priya Rao,Small Business,North,Uttar Pradesh,Noida
+CUST-10339,213,8,199575.0,14246.64,2,3,2,7,2,Occasional Buyers,Vivaan Nair,Corporate,North,Uttar Pradesh,Noida
+CUST-10340,182,6,320516.0,21555.14,2,2,3,7,2,Occasional Buyers,Ishaan Gupta,Consumer,South,Tamil Nadu,Chennai
+CUST-10341,19,12,469143.0,58373.59,5,4,3,12,3,Champions,Rohan Mishra,Small Business,West,Rajasthan,Jaipur
+CUST-10342,45,4,69078.5,12343.76,4,1,1,6,2,Occasional Buyers,Meera Patel,Consumer,West,Maharashtra,Mumbai
+CUST-10343,27,7,348799.0,23991.72,4,2,3,9,0,Loyal Regulars,Saanvi Nair,Consumer,North,Delhi,New Delhi
+CUST-10345,64,8,842714.0,108409.93000000001,3,3,4,10,0,Loyal Regulars,Rohan Reddy,Corporate,West,Maharashtra,Mumbai
+CUST-10346,607,1,9639.0,-1397.73,1,1,1,3,1,At Risk / Lapsing,Meera Verma,Consumer,North,Punjab,Amritsar
+CUST-10347,28,17,896570.0,52865.18,4,4,4,12,3,Champions,Sneha Patel,Consumer,Central,Chhattisgarh,Raipur
+CUST-10348,18,40,1512350.5,122480.29000000001,5,5,5,15,3,Champions,Priya Gupta,Small Business,South,Telangana,Hyderabad
+CUST-10349,33,26,1399982.5,195096.77,4,5,5,14,3,Champions,Aditya Verma,Consumer,West,Gujarat,Surat
+CUST-10350,11,42,1675788.0,15095.409999999998,5,5,5,15,3,Champions,Kavya Sharma,Consumer,East,Odisha,Sambalpur
+CUST-10351,32,8,468954.0,36298.9,4,3,3,10,0,Loyal Regulars,Aarav Verma,Small Business,North,Delhi,New Delhi
+CUST-10352,66,4,323806.0,26037.02,3,1,3,7,2,Occasional Buyers,Karan Singh,Consumer,West,Maharashtra,Nagpur
+CUST-10353,63,8,361958.5,-13158.189999999999,3,3,3,9,0,Loyal Regulars,Saanvi Reddy,Consumer,East,West Bengal,Kolkata
+CUST-10354,49,19,785444.5,71753.46,4,5,4,13,0,Loyal Regulars,Aarav Das,Consumer,West,Maharashtra,Mumbai
+CUST-10355,250,21,1240828.0,39040.28,1,5,5,11,0,Loyal Regulars,Ishaan Das,Consumer,South,Karnataka,Bengaluru
+CUST-10356,108,13,652526.5,28774.21,3,4,4,11,0,Loyal Regulars,Karan Nair,Corporate,West,Gujarat,Ahmedabad
+CUST-10357,36,10,265658.0,20745.08,4,3,2,9,0,Loyal Regulars,Arjun Mishra,Consumer,North,Haryana,Faridabad
+CUST-10358,20,30,1722864.0,164078.2,4,5,5,14,3,Champions,Aditya Singh,Corporate,South,Kerala,Kochi
+CUST-10359,121,7,181842.5,19575.079999999998,2,2,2,6,2,Occasional Buyers,Ananya Mehta,Corporate,West,Rajasthan,Jaipur
+CUST-10360,159,7,181144.0,19061.43,2,2,2,6,2,Occasional Buyers,Aditya Gupta,Consumer,North,Haryana,Faridabad
+CUST-10362,132,8,58772.0,4234.29,2,3,1,6,2,Occasional Buyers,Rohan Mishra,Consumer,North,Delhi,New Delhi
+CUST-10363,20,13,378613.0,18113.24,5,4,3,12,3,Champions,Meera Joshi,Consumer,West,Rajasthan,Jaipur
+CUST-10364,19,13,916038.5,-29353.400000000005,5,4,5,14,3,Champions,Vikram Patel,Consumer,East,Bihar,Patna
+CUST-10365,24,11,262554.0,-2415.5999999999995,4,3,2,9,0,Loyal Regulars,Ishaan Rao,Small Business,East,Odisha,Bhubaneswar
+CUST-10366,40,29,1460840.5,54022.59,4,5,5,14,3,Champions,Kavya Verma,Corporate,North,Punjab,Amritsar
+CUST-10367,3,20,652556.5,39327.84,5,5,4,14,3,Champions,Saanvi Chopra,Consumer,West,Rajasthan,Jaipur
+CUST-10368,11,8,100304.0,8272.15,5,3,1,9,0,Loyal Regulars,Karan Kulkarni,Consumer,West,Gujarat,Ahmedabad
+CUST-10369,342,8,298968.5,23628.81,1,3,3,7,2,Occasional Buyers,Saanvi Kulkarni,Consumer,West,Maharashtra,Mumbai
+CUST-10370,71,6,88396.0,6674.38,3,2,1,6,2,Occasional Buyers,Saanvi Sharma,Small Business,South,Tamil Nadu,Coimbatore
+CUST-10371,54,5,665646.0,34381.32,3,2,4,9,0,Loyal Regulars,Kabir Iyer,Small Business,Central,Chhattisgarh,Raipur
+CUST-10372,92,9,141899.5,11261.1,3,3,2,8,2,Occasional Buyers,Rohan Mehta,Consumer,South,Tamil Nadu,Coimbatore
+CUST-10373,122,22,920732.0,42119.03,2,5,5,12,0,Loyal Regulars,Meera Singh,Corporate,South,Tamil Nadu,Chennai
+CUST-10375,11,4,131261.0,7356.64,5,1,2,8,2,Occasional Buyers,Kabir Joshi,Corporate,West,Maharashtra,Mumbai
+CUST-10376,28,17,544301.5,-2522.01,4,4,4,12,3,Champions,Arjun Mishra,Small Business,Central,Madhya Pradesh,Bhopal
+CUST-10377,128,4,258394.0,2655.2899999999995,2,1,2,5,2,Occasional Buyers,Kavya Gupta,Small Business,North,Delhi,New Delhi
+CUST-10378,123,12,352593.0,42361.04,2,4,3,9,0,Loyal Regulars,Saanvi Das,Consumer,West,Rajasthan,Jaipur
+CUST-10379,18,43,1587669.5,136939.8,5,5,5,15,3,Champions,Aarav Das,Corporate,North,Punjab,Amritsar
+CUST-10380,249,3,386110.0,31644.78,1,1,3,5,2,Occasional Buyers,Neha Chopra,Small Business,Central,Madhya Pradesh,Bhopal
+CUST-10381,810,1,74740.0,13424.949999999999,1,1,1,3,1,At Risk / Lapsing,Ishaan Rao,Consumer,West,Gujarat,Ahmedabad
+CUST-10382,148,9,631174.0,56274.12,2,3,4,9,0,Loyal Regulars,Ishaan Joshi,Corporate,North,Haryana,Faridabad
+CUST-10383,181,8,549208.0,-132.57999999999765,2,3,4,9,0,Loyal Regulars,Ishaan Singh,Consumer,South,Telangana,Hyderabad
+CUST-10384,139,5,47975.0,2955.82,2,2,1,5,2,Occasional Buyers,Vikram Singh,Consumer,East,Bihar,Patna
+CUST-10385,130,3,62673.0,7367.710000000001,2,1,1,4,2,Occasional Buyers,Neha Kulkarni,Consumer,West,Rajasthan,Jaipur
+CUST-10386,51,8,364105.0,16154.18,4,3,3,10,0,Loyal Regulars,Saanvi Kulkarni,Small Business,West,Maharashtra,Nagpur
+CUST-10387,4,17,920027.5,82998.3,5,4,5,14,3,Champions,Ananya Banerjee,Consumer,East,Odisha,Sambalpur
+CUST-10389,688,3,82725.0,2574.81,1,1,1,3,2,Occasional Buyers,Ananya Chopra,Corporate,North,Haryana,Faridabad
+CUST-10390,2,10,580101.0,38204.5,5,3,4,12,3,Champions,Priya Verma,Consumer,South,Telangana,Hyderabad
+CUST-10391,17,7,64132.0,11063.43,5,2,1,8,2,Occasional Buyers,Aarav Reddy,Corporate,North,Punjab,Amritsar
+CUST-10392,65,15,642174.0,63849.26,3,4,4,11,0,Loyal Regulars,Saanvi Patel,Consumer,West,Gujarat,Surat
+CUST-10393,27,13,488920.5,26634.51,4,4,3,11,0,Loyal Regulars,Amit Kulkarni,Consumer,East,Odisha,Sambalpur
+CUST-10394,93,15,1061349.5,72583.63,3,4,5,12,0,Loyal Regulars,Ananya Sharma,Corporate,West,Gujarat,Ahmedabad
+CUST-10395,330,3,95948.0,-6980.010000000001,1,1,1,3,2,Occasional Buyers,Ishaan Iyer,Small Business,North,Haryana,Gurugram
+CUST-10396,8,26,1350226.0,55795.23,5,5,5,15,3,Champions,Kabir Joshi,Consumer,West,Gujarat,Surat
+CUST-10397,32,28,1323521.0,160100.71,4,5,5,14,3,Champions,Karan Gupta,Consumer,South,Tamil Nadu,Chennai
+CUST-10398,150,6,340652.5,45573.149999999994,2,2,3,7,2,Occasional Buyers,Aarav Verma,Corporate,North,Delhi,New Delhi
+CUST-10399,1134,2,13003.5,2158.5899999999997,1,1,1,3,1,At Risk / Lapsing,Pooja Singh,Consumer,East,Bihar,Patna
+CUST-10400,82,5,173745.5,13549.130000000001,3,2,2,7,2,Occasional Buyers,Meera Sharma,Consumer,North,Uttar Pradesh,Noida
+CUST-10401,177,15,714792.5,63688.03999999999,2,4,4,10,0,Loyal Regulars,Ishaan Das,Consumer,Central,Chhattisgarh,Raipur
+CUST-10402,130,7,175662.5,-11002.329999999998,2,2,2,6,2,Occasional Buyers,Rahul Sharma,Corporate,East,West Bengal,Kolkata
+CUST-10403,89,17,489607.0,-14130.67,3,4,3,10,0,Loyal Regulars,Arjun Banerjee,Consumer,West,Gujarat,Ahmedabad
+CUST-10404,13,12,921644.0,2043.3500000000006,5,4,5,14,3,Champions,Karan Chopra,Corporate,North,Haryana,Faridabad
+CUST-10405,386,2,84958.0,5077.370000000001,1,1,1,3,2,Occasional Buyers,Ananya Iyer,Consumer,North,Uttar Pradesh,Noida
+CUST-10406,80,26,743226.0,75368.12,3,5,4,12,0,Loyal Regulars,Neha Banerjee,Consumer,North,Uttar Pradesh,Noida
+CUST-10407,479,5,198897.5,14343.6,1,2,2,5,2,Occasional Buyers,Kabir Singh,Small Business,North,Haryana,Gurugram
+CUST-10408,230,4,362193.5,13403.119999999999,1,2,3,6,2,Occasional Buyers,Kabir Nair,Corporate,West,Maharashtra,Pune
+CUST-10409,98,24,1635969.5,170952.68,3,5,5,13,0,Loyal Regulars,Kabir Singh,Consumer,North,Uttar Pradesh,Noida
+CUST-10410,83,9,129294.0,18569.38,3,3,2,8,2,Occasional Buyers,Kavya Verma,Consumer,Central,Chhattisgarh,Raipur
+CUST-10411,125,12,351169.0,-3613.5199999999995,2,4,3,9,0,Loyal Regulars,Vivaan Reddy,Consumer,North,Uttar Pradesh,Noida
+CUST-10413,86,7,376882.5,54531.88,3,2,3,8,0,Loyal Regulars,Karan Mehta,Corporate,South,Telangana,Hyderabad
+CUST-10414,172,2,43622.5,9805.57,2,1,1,4,1,At Risk / Lapsing,Rahul Nair,Small Business,West,Rajasthan,Jaipur
+CUST-10416,120,3,143043.0,-19844.55,2,1,2,5,2,Occasional Buyers,Aarav Gupta,Consumer,South,Tamil Nadu,Chennai
+CUST-10417,962,2,97010.0,14395.9,1,1,1,3,1,At Risk / Lapsing,Sneha Singh,Corporate,South,Telangana,Hyderabad
+CUST-10418,9,4,96639.0,3520.1499999999996,5,2,1,8,2,Occasional Buyers,Aditya Singh,Consumer,South,Kerala,Kochi
+CUST-10419,730,1,19850.0,2584.62,1,1,1,3,1,At Risk / Lapsing,Kabir Nair,Consumer,North,Punjab,Ludhiana
+CUST-10420,122,12,389540.0,13381.62,2,4,3,9,0,Loyal Regulars,Aarav Joshi,Consumer,South,Telangana,Hyderabad
+CUST-10421,172,11,241568.0,15099.970000000001,2,3,2,7,0,Loyal Regulars,Ananya Gupta,Consumer,West,Maharashtra,Pune
+CUST-10422,383,1,3640.0,357.0,1,1,1,3,1,At Risk / Lapsing,Aarav Banerjee,Consumer,Central,Madhya Pradesh,Bhopal
+CUST-10423,94,7,565133.0,47332.82,3,2,4,9,0,Loyal Regulars,Vikram Reddy,Corporate,West,Rajasthan,Jaipur
+CUST-10424,48,12,443306.5,-37617.189999999995,4,4,3,11,0,Loyal Regulars,Priya Reddy,Small Business,East,West Bengal,Kolkata
+CUST-10425,154,7,70203.5,10170.49,2,2,1,5,2,Occasional Buyers,Arjun Das,Consumer,South,Telangana,Hyderabad
+CUST-10426,31,23,1318895.0,138194.09,4,5,5,14,3,Champions,Vivaan Singh,Consumer,West,Rajasthan,Jaipur
+CUST-10428,299,2,71012.0,4128.139999999999,1,1,1,3,2,Occasional Buyers,Amit Reddy,Consumer,East,West Bengal,Kolkata
+CUST-10429,441,6,221417.0,7890.29,1,2,2,5,2,Occasional Buyers,Saanvi Iyer,Consumer,North,Haryana,Faridabad
+CUST-10430,445,5,1239042.0,49662.14,1,2,5,8,2,Occasional Buyers,Sneha Mehta,Small Business,East,West Bengal,Kolkata
+CUST-10431,79,23,997586.0,81011.12,3,5,5,13,0,Loyal Regulars,Ananya Kulkarni,Consumer,South,Telangana,Hyderabad
+CUST-10432,55,10,124047.5,3742.529999999999,3,3,2,8,0,Loyal Regulars,Meera Gupta,Consumer,West,Maharashtra,Mumbai
+CUST-10433,45,16,565980.5,55246.62,4,4,4,12,0,Loyal Regulars,Meera Mehta,Consumer,North,Delhi,New Delhi
+CUST-10434,200,12,751898.0,105558.79000000001,2,4,4,10,0,Loyal Regulars,Meera Gupta,Consumer,West,Maharashtra,Pune
+CUST-10435,128,20,871135.0,74803.66,2,5,4,11,0,Loyal Regulars,Aarav Banerjee,Consumer,South,Tamil Nadu,Coimbatore
+CUST-10436,50,16,516773.5,22943.85,4,4,3,11,0,Loyal Regulars,Kavya Nair,Corporate,South,Telangana,Hyderabad
+CUST-10437,37,18,1563439.0,116952.84,4,4,5,13,3,Champions,Rahul Singh,Corporate,North,Punjab,Ludhiana
+CUST-10439,1455,1,3890.0,1103.86,1,1,1,3,1,At Risk / Lapsing,Sneha Joshi,Consumer,North,Delhi,New Delhi
+CUST-10440,10,21,1081875.0,61810.42,5,5,5,15,3,Champions,Diya Das,Consumer,North,Delhi,New Delhi
+CUST-10441,106,4,359918.0,-20535.249999999996,3,2,3,8,2,Occasional Buyers,Vikram Banerjee,Small Business,West,Rajasthan,Jaipur
+CUST-10442,14,17,780090.0,-2732.9799999999996,5,4,4,13,3,Champions,Kabir Chopra,Consumer,East,West Bengal,Kolkata
+CUST-10443,396,2,79355.5,1091.1,1,1,1,3,2,Occasional Buyers,Rahul Verma,Consumer,West,Rajasthan,Jaipur
+CUST-10444,124,10,760035.5,82995.06,2,3,4,9,0,Loyal Regulars,Diya Patel,Corporate,South,Karnataka,Mysuru
+CUST-10445,39,11,574317.0,26710.0,4,3,4,11,0,Loyal Regulars,Kabir Banerjee,Consumer,West,Rajasthan,Jaipur
+CUST-10446,14,39,1802165.0,69724.01,5,5,5,15,3,Champions,Sneha Mehta,Small Business,East,Odisha,Sambalpur
+CUST-10447,134,8,690571.5,100103.44,2,3,4,9,0,Loyal Regulars,Kabir Chopra,Consumer,West,Rajasthan,Jaipur
+CUST-10448,155,16,804701.0,58189.35,2,4,4,10,0,Loyal Regulars,Karan Reddy,Corporate,West,Maharashtra,Nagpur
+CUST-10449,13,19,609220.0,-21016.07,5,5,4,14,3,Champions,Pooja Chopra,Consumer,North,Haryana,Gurugram
+CUST-10450,18,30,812410.0,11277.51,5,5,4,14,3,Champions,Ishaan Sharma,Small Business,East,Odisha,Bhubaneswar
+CUST-10451,1,8,302074.5,-4689.710000000001,5,3,3,11,3,Champions,Amit Verma,Consumer,East,Odisha,Bhubaneswar
+CUST-10452,99,26,1033104.5,242.27999999999957,3,5,5,13,0,Loyal Regulars,Rohan Gupta,Corporate,East,Odisha,Bhubaneswar
+CUST-10453,74,19,1088684.0,113710.15,3,5,5,13,0,Loyal Regulars,Kabir Kulkarni,Consumer,West,Rajasthan,Jaipur
+CUST-10455,35,8,283915.5,31414.87,4,3,2,9,0,Loyal Regulars,Vikram Banerjee,Corporate,West,Gujarat,Ahmedabad
+CUST-10456,33,22,685695.0,6516.219999999991,4,5,4,13,3,Champions,Vivaan Mehta,Corporate,South,Karnataka,Bengaluru
+CUST-10457,40,5,41950.0,1578.71,4,2,1,7,2,Occasional Buyers,Neha Das,Consumer,West,Rajasthan,Jaipur
+CUST-10458,87,13,592145.0,79172.97,3,4,4,11,0,Loyal Regulars,Arjun Banerjee,Consumer,Central,Chhattisgarh,Raipur
+CUST-10459,110,10,516197.5,62623.22,2,3,3,8,0,Loyal Regulars,Karan Joshi,Consumer,North,Uttar Pradesh,Kanpur
+CUST-10460,20,3,244286.5,28294.46,5,1,2,8,2,Occasional Buyers,Meera Mishra,Corporate,West,Maharashtra,Pune
+CUST-10461,17,44,2563827.0,215061.17,5,5,5,15,3,Champions,Kavya Reddy,Corporate,North,Haryana,Gurugram
+CUST-10462,19,12,429407.0,2758.61,5,4,3,12,3,Champions,Karan Nair,Consumer,North,Delhi,New Delhi
+CUST-10463,570,3,47839.5,6871.259999999999,1,1,1,3,1,At Risk / Lapsing,Meera Nair,Corporate,West,Maharashtra,Pune
+CUST-10464,129,6,319118.0,40960.83,2,2,3,7,2,Occasional Buyers,Vikram Mishra,Consumer,South,Karnataka,Mysuru
+CUST-10465,1013,1,17580.0,2417.07,1,1,1,3,1,At Risk / Lapsing,Kabir Kulkarni,Consumer,West,Maharashtra,Mumbai
+CUST-10468,345,3,267586.5,24837.120000000003,1,1,2,4,2,Occasional Buyers,Diya Mehta,Corporate,North,Haryana,Faridabad
+CUST-10469,32,19,957651.0,111156.76,4,5,5,14,3,Champions,Kabir Singh,Small Business,South,Kerala,Kochi
+CUST-10470,123,2,33022.0,-1594.12,2,1,1,4,1,At Risk / Lapsing,Sneha Mehta,Consumer,South,Kerala,Kochi
+CUST-10471,73,11,832674.5,51146.319999999985,3,3,4,10,0,Loyal Regulars,Ishaan Iyer,Corporate,West,Rajasthan,Jaipur
+CUST-10472,175,9,280970.0,20713.879999999997,2,3,2,7,0,Loyal Regulars,Rahul Rao,Consumer,South,Karnataka,Mysuru
+CUST-10473,79,14,312070.5,21149.46,3,4,3,10,0,Loyal Regulars,Vivaan Rao,Consumer,West,Maharashtra,Mumbai
+CUST-10474,129,4,78276.5,15045.070000000002,2,2,1,5,2,Occasional Buyers,Kabir Mishra,Corporate,West,Maharashtra,Mumbai
+CUST-10475,35,28,1381493.0,87179.38999999998,4,5,5,14,3,Champions,Meera Rao,Consumer,West,Gujarat,Surat
+CUST-10476,7,56,2384111.5,148054.96,5,5,5,15,3,Champions,Priya Sharma,Corporate,West,Gujarat,Surat
+CUST-10477,13,23,1310245.5,172166.68,5,5,5,15,3,Champions,Aditya Kulkarni,Consumer,South,Telangana,Hyderabad
+CUST-10478,13,16,1173183.0,129562.34,5,4,5,14,3,Champions,Saanvi Sharma,Consumer,North,Delhi,New Delhi
+CUST-10479,1117,1,7560.0,832.13,1,1,1,3,1,At Risk / Lapsing,Vikram Patel,Corporate,West,Gujarat,Ahmedabad
+CUST-10480,79,1,192320.0,31138.36,3,1,2,6,2,Occasional Buyers,Vivaan Sharma,Small Business,South,Telangana,Hyderabad
+CUST-10481,35,30,1053710.5,67754.59999999999,4,5,5,14,3,Champions,Pooja Singh,Corporate,North,Haryana,Faridabad
+CUST-10482,88,7,41763.0,-4814.84,3,2,1,6,2,Occasional Buyers,Rahul Singh,Corporate,East,Odisha,Sambalpur
+CUST-10483,211,3,146672.0,13810.8,2,1,2,5,2,Occasional Buyers,Vikram Kulkarni,Consumer,North,Haryana,Gurugram
+CUST-10484,248,7,136419.0,1445.85,1,2,2,5,2,Occasional Buyers,Diya Mehta,Consumer,South,Karnataka,Mysuru
+CUST-10485,456,4,100555.0,16535.879999999997,1,2,1,4,2,Occasional Buyers,Pooja Das,Consumer,West,Gujarat,Ahmedabad
+CUST-10486,20,22,1238856.0,152035.33000000002,5,5,5,15,3,Champions,Neha Reddy,Consumer,West,Gujarat,Ahmedabad
+CUST-10487,38,22,1202737.5,124352.78,4,5,5,14,3,Champions,Saanvi Patel,Consumer,North,Haryana,Gurugram
+CUST-10488,149,10,224750.0,30429.32,2,3,2,7,0,Loyal Regulars,Priya Mishra,Consumer,North,Uttar Pradesh,Kanpur
+CUST-10489,1126,4,144916.0,15746.630000000001,1,2,2,5,2,Occasional Buyers,Meera Sharma,Consumer,North,Delhi,New Delhi
+CUST-10490,56,8,155750.5,18526.66,3,3,2,8,2,Occasional Buyers,Vivaan Gupta,Corporate,North,Delhi,New Delhi
+CUST-10491,243,3,170528.5,10362.890000000001,1,1,2,4,2,Occasional Buyers,Ananya Iyer,Small Business,North,Delhi,New Delhi
+CUST-10492,34,68,3508957.5,249509.58,4,5,5,14,3,Champions,Priya Nair,Corporate,Central,Chhattisgarh,Raipur
+CUST-10493,9,11,927415.0,77284.61,5,3,5,13,3,Champions,Priya Patel,Consumer,North,Uttar Pradesh,Kanpur
+CUST-10494,76,22,915597.5,61133.64,3,5,5,13,0,Loyal Regulars,Rohan Nair,Corporate,Central,Madhya Pradesh,Indore
+CUST-10495,140,4,46904.0,-2.990000000000009,2,2,1,5,2,Occasional Buyers,Ananya Rao,Corporate,South,Kerala,Kochi
+CUST-10496,49,18,932793.5,35121.35,4,4,5,13,0,Loyal Regulars,Ishaan Joshi,Consumer,West,Maharashtra,Mumbai
+CUST-10497,7,7,480237.5,59055.14,5,2,3,10,3,Champions,Aarav Iyer,Consumer,Central,Chhattisgarh,Raipur
+CUST-10498,542,4,9590.0,351.13,1,2,1,4,1,At Risk / Lapsing,Sneha Mehta,Corporate,South,Telangana,Hyderabad
+CUST-10499,279,3,157472.5,-1962.4899999999998,1,1,2,4,2,Occasional Buyers,Rahul Mishra,Consumer,East,Bihar,Patna
+CUST-10500,241,3,99918.0,-143.07999999999998,1,1,1,3,2,Occasional Buyers,Amit Iyer,Small Business,North,Delhi,New Delhi
+CUST-10501,101,14,847765.0,122175.28000000001,3,4,4,11,0,Loyal Regulars,Saanvi Rao,Consumer,West,Rajasthan,Jaipur
+CUST-10502,41,5,444638.0,31540.22,4,2,3,9,0,Loyal Regulars,Vikram Reddy,Consumer,North,Uttar Pradesh,Lucknow
+CUST-10503,86,5,281826.0,-9932.430000000002,3,2,2,7,2,Occasional Buyers,Aarav Rao,Consumer,North,Haryana,Faridabad
+CUST-10504,808,2,20774.0,-1117.9099999999999,1,1,1,3,1,At Risk / Lapsing,Kabir Banerjee,Consumer,North,Uttar Pradesh,Kanpur
+CUST-10505,103,7,256513.0,22439.79,3,2,2,7,2,Occasional Buyers,Ananya Patel,Consumer,South,Tamil Nadu,Coimbatore
+CUST-10506,3,18,543046.5,61841.58,5,4,4,13,3,Champions,Diya Joshi,Corporate,West,Rajasthan,Jaipur
+CUST-10507,13,36,2095441.0,67258.55,5,5,5,15,3,Champions,Priya Reddy,Consumer,East,West Bengal,Kolkata
+CUST-10508,54,7,570901.0,31755.47,3,2,4,9,0,Loyal Regulars,Diya Mehta,Consumer,North,Delhi,New Delhi
+CUST-10509,59,17,776407.5,11302.349999999999,3,4,4,11,0,Loyal Regulars,Pooja Sharma,Consumer,South,Kerala,Kochi
+CUST-10510,31,23,1581737.0,98499.66,4,5,5,14,3,Champions,Diya Rao,Small Business,South,Tamil Nadu,Chennai
+CUST-10511,124,6,149380.0,2752.59,2,2,2,6,2,Occasional Buyers,Neha Singh,Consumer,North,Punjab,Ludhiana
+CUST-10512,113,5,251894.0,20559.08,2,2,2,6,2,Occasional Buyers,Arjun Kulkarni,Corporate,North,Delhi,New Delhi
+CUST-10513,26,27,1473392.5,-9363.45,4,5,5,14,3,Champions,Ishaan Mehta,Corporate,South,Telangana,Hyderabad
+CUST-10515,663,2,147460.0,4876.61,1,1,2,4,2,Occasional Buyers,Ishaan Das,Small Business,North,Haryana,Gurugram
+CUST-10516,25,29,963507.5,23126.730000000003,4,5,5,14,3,Champions,Ishaan Joshi,Consumer,North,Uttar Pradesh,Noida
+CUST-10517,162,11,618357.0,65698.26,2,3,4,9,0,Loyal Regulars,Ananya Rao,Corporate,North,Punjab,Ludhiana
+CUST-10518,911,1,617.0,13.62,1,1,1,3,1,At Risk / Lapsing,Kavya Rao,Corporate,West,Rajasthan,Jaipur
+CUST-10519,59,32,1435930.0,-48447.509999999995,3,5,5,13,3,Champions,Diya Sharma,Small Business,East,Bihar,Patna
+CUST-10520,14,29,1200735.0,120841.0,5,5,5,15,3,Champions,Pooja Reddy,Consumer,South,Kerala,Kochi
+CUST-10521,36,45,2583832.0,102303.72,4,5,5,14,3,Champions,Kabir Gupta,Consumer,North,Delhi,New Delhi
+CUST-10522,2,56,3077302.0,285482.15,5,5,5,15,3,Champions,Saanvi Gupta,Consumer,West,Gujarat,Surat
+CUST-10523,393,2,14914.0,-911.28,1,1,1,3,1,At Risk / Lapsing,Pooja Rao,Corporate,Central,Madhya Pradesh,Indore
+CUST-10524,17,16,1286860.5,93347.15,5,4,5,14,3,Champions,Priya Reddy,Consumer,South,Tamil Nadu,Chennai
+CUST-10525,42,14,570417.5,-3673.010000000002,4,4,4,12,0,Loyal Regulars,Arjun Das,Corporate,South,Telangana,Hyderabad
+CUST-10526,212,5,258493.5,30433.18,2,2,2,6,2,Occasional Buyers,Sneha Nair,Small Business,West,Rajasthan,Jaipur
+CUST-10527,85,3,93984.0,14242.310000000001,3,1,1,5,2,Occasional Buyers,Priya Patel,Consumer,West,Rajasthan,Jaipur
+CUST-10528,246,4,191675.0,18928.629999999997,1,2,2,5,2,Occasional Buyers,Ishaan Rao,Consumer,North,Uttar Pradesh,Kanpur
+CUST-10529,4,23,767419.0,91402.05,5,5,4,14,3,Champions,Kavya Patel,Corporate,South,Telangana,Hyderabad
+CUST-10530,2,25,1067032.5,119345.03,5,5,5,15,3,Champions,Neha Iyer,Corporate,North,Haryana,Gurugram
+CUST-10531,36,18,639594.0,76445.37,4,4,4,12,0,Loyal Regulars,Ishaan Kulkarni,Consumer,South,Karnataka,Mysuru
+CUST-10532,932,1,3854.0,905.8100000000001,1,1,1,3,1,At Risk / Lapsing,Ananya Mehta,Consumer,West,Maharashtra,Mumbai
+CUST-10533,166,3,130738.0,19037.51,2,1,2,5,2,Occasional Buyers,Rahul Sharma,Consumer,Central,Chhattisgarh,Raipur
+CUST-10534,41,17,395871.5,50321.41,4,4,3,11,0,Loyal Regulars,Vikram Sharma,Small Business,South,Telangana,Hyderabad
+CUST-10535,93,7,73935.0,5471.39,3,2,1,6,2,Occasional Buyers,Ananya Nair,Small Business,West,Gujarat,Surat
+CUST-10536,7,24,1191383.5,45614.65,5,5,5,15,3,Champions,Kavya Sharma,Corporate,South,Telangana,Hyderabad
+CUST-10537,126,6,533475.0,-18642.37,2,2,4,8,0,Loyal Regulars,Aarav Verma,Consumer,South,Tamil Nadu,Chennai
+CUST-10538,507,3,54313.5,5254.630000000001,1,1,1,3,1,At Risk / Lapsing,Sneha Iyer,Consumer,North,Uttar Pradesh,Kanpur
+CUST-10539,19,22,557066.5,44903.47,5,5,4,14,3,Champions,Meera Verma,Corporate,South,Karnataka,Mysuru
+CUST-10540,218,4,195618.5,17170.87,2,2,2,6,2,Occasional Buyers,Aditya Banerjee,Corporate,South,Tamil Nadu,Coimbatore
+CUST-10541,19,20,1028088.0,123766.81999999999,5,5,5,15,3,Champions,Aarav Banerjee,Consumer,West,Rajasthan,Jaipur
+CUST-10542,3,27,2275818.0,134009.44,5,5,5,15,3,Champions,Vivaan Iyer,Consumer,North,Haryana,Gurugram
+CUST-10543,240,4,79214.0,14153.130000000001,1,2,1,4,2,Occasional Buyers,Ananya Reddy,Consumer,West,Maharashtra,Mumbai
+CUST-10544,102,10,415279.5,46268.47,3,3,3,9,0,Loyal Regulars,Kabir Singh,Consumer,West,Gujarat,Ahmedabad
+CUST-10545,138,9,995929.0,66136.4,2,3,5,10,0,Loyal Regulars,Pooja Nair,Small Business,East,Bihar,Patna
+CUST-10546,714,1,178930.0,4575.89,1,1,2,4,2,Occasional Buyers,Vivaan Iyer,Consumer,North,Delhi,New Delhi
+CUST-10547,35,8,352844.0,53142.6,4,3,3,10,0,Loyal Regulars,Ishaan Gupta,Corporate,South,Telangana,Hyderabad
+CUST-10548,2,15,393985.0,39551.99,5,4,3,12,3,Champions,Aarav Kulkarni,Consumer,North,Uttar Pradesh,Lucknow
+CUST-10549,189,3,110723.5,15216.810000000001,2,1,1,4,2,Occasional Buyers,Ishaan Rao,Corporate,South,Karnataka,Bengaluru
+CUST-10550,6,9,287811.0,31876.61,5,3,3,11,3,Champions,Meera Iyer,Consumer,West,Maharashtra,Pune
+CUST-10551,83,16,853097.0,107686.61,3,4,4,11,0,Loyal Regulars,Rahul Mishra,Consumer,North,Haryana,Faridabad
+CUST-10552,803,1,80658.0,613.4899999999998,1,1,1,3,1,At Risk / Lapsing,Sneha Patel,Consumer,South,Telangana,Hyderabad
+CUST-10554,146,2,8720.0,1354.1399999999999,2,1,1,4,1,At Risk / Lapsing,Aarav Patel,Corporate,West,Maharashtra,Nagpur
+CUST-10555,230,3,260762.0,26329.02,1,1,2,4,2,Occasional Buyers,Vivaan Banerjee,Corporate,North,Punjab,Ludhiana
+CUST-10556,26,3,180964.0,4816.01,4,1,2,7,2,Occasional Buyers,Ananya Chopra,Corporate,North,Haryana,Gurugram
+CUST-10557,14,19,1071079.0,76503.94,5,5,5,15,3,Champions,Kabir Banerjee,Corporate,South,Kerala,Kochi
+CUST-10558,66,10,265727.5,38309.57,3,3,2,8,0,Loyal Regulars,Arjun Sharma,Consumer,West,Gujarat,Surat
+CUST-10559,26,16,711849.0,41105.86,4,4,4,12,3,Champions,Aditya Nair,Consumer,West,Maharashtra,Mumbai
+CUST-10560,472,2,58186.0,5286.28,1,1,1,3,1,At Risk / Lapsing,Saanvi Singh,Consumer,North,Delhi,New Delhi
+CUST-10561,1203,1,96970.0,5625.62,1,1,1,3,1,At Risk / Lapsing,Amit Iyer,Corporate,West,Gujarat,Ahmedabad
+CUST-10562,47,27,1011161.0,40397.05,4,5,5,14,3,Champions,Kavya Reddy,Consumer,Central,Madhya Pradesh,Indore
+CUST-10563,75,6,574605.5,74230.2,3,2,4,9,0,Loyal Regulars,Vivaan Kulkarni,Small Business,South,Karnataka,Bengaluru
+CUST-10564,69,22,1077099.5,131030.87,3,5,5,13,0,Loyal Regulars,Vivaan Kulkarni,Corporate,West,Gujarat,Ahmedabad
+CUST-10565,214,5,106186.0,5214.95,2,2,1,5,2,Occasional Buyers,Saanvi Reddy,Corporate,North,Haryana,Faridabad
+CUST-10566,225,9,726060.0,-50394.1,1,3,4,8,0,Loyal Regulars,Vivaan Chopra,Small Business,West,Rajasthan,Jaipur
+CUST-10567,57,34,1216660.5,86087.07,3,5,5,13,3,Champions,Aarav Gupta,Consumer,West,Rajasthan,Jaipur
+CUST-10568,51,26,924518.0,46292.22,4,5,5,14,3,Champions,Ishaan Gupta,Corporate,East,Odisha,Sambalpur
+CUST-10569,90,8,377828.5,9762.789999999999,3,3,3,9,0,Loyal Regulars,Aditya Mehta,Consumer,North,Delhi,New Delhi
+CUST-10570,1406,1,1450.0,398.06,1,1,1,3,1,At Risk / Lapsing,Aarav Gupta,Consumer,South,Tamil Nadu,Chennai
+CUST-10571,18,23,745618.5,80553.28,5,5,4,14,3,Champions,Ananya Rao,Corporate,West,Maharashtra,Pune
+CUST-10572,786,1,39661.5,4207.32,1,1,1,3,1,At Risk / Lapsing,Rahul Gupta,Corporate,West,Maharashtra,Pune
+CUST-10573,203,7,161152.5,24361.66,2,2,2,6,2,Occasional Buyers,Meera Sharma,Consumer,South,Tamil Nadu,Coimbatore
+CUST-10574,84,8,756379.0,25199.93,3,3,4,10,0,Loyal Regulars,Ananya Rao,Consumer,East,West Bengal,Kolkata
+CUST-10575,122,12,514167.5,6568.42,2,4,3,9,0,Loyal Regulars,Arjun Mishra,Small Business,West,Rajasthan,Jaipur
+CUST-10576,670,3,189469.0,13893.34,1,1,2,4,2,Occasional Buyers,Meera Das,Corporate,West,Gujarat,Ahmedabad
+CUST-10577,112,16,628477.0,2093.1700000000023,2,4,4,10,0,Loyal Regulars,Diya Joshi,Corporate,North,Uttar Pradesh,Lucknow
+CUST-10578,9,9,341928.5,22715.77,5,3,3,11,3,Champions,Vivaan Banerjee,Consumer,East,Bihar,Patna
+CUST-10579,91,16,987695.0,-2785.8399999999965,3,4,5,12,0,Loyal Regulars,Pooja Banerjee,Corporate,East,West Bengal,Kolkata
+CUST-10581,98,8,97652.5,10782.23,3,3,1,7,2,Occasional Buyers,Vivaan Kulkarni,Consumer,West,Gujarat,Ahmedabad
+CUST-10582,177,1,7530.0,1077.12,2,1,1,4,1,At Risk / Lapsing,Karan Verma,Small Business,North,Delhi,New Delhi
+CUST-10583,79,11,904075.0,-9169.830000000002,3,3,4,10,0,Loyal Regulars,Meera Nair,Consumer,North,Haryana,Gurugram
+CUST-10584,4,26,592848.5,62698.72,5,5,4,14,3,Champions,Amit Gupta,Corporate,South,Kerala,Kochi
+CUST-10585,35,18,728879.0,66874.70999999999,4,4,4,12,3,Champions,Aarav Sharma,Corporate,West,Gujarat,Ahmedabad
+CUST-10586,18,15,1004299.5,105113.12999999999,5,4,5,14,3,Champions,Ishaan Gupta,Consumer,West,Maharashtra,Nagpur
+CUST-10587,14,6,160951.0,16681.33,5,2,2,9,0,Loyal Regulars,Rahul Iyer,Corporate,East,West Bengal,Kolkata
+CUST-10588,330,5,206700.0,1535.750000000001,1,2,2,5,2,Occasional Buyers,Vivaan Kulkarni,Small Business,South,Kerala,Kochi
+CUST-10589,49,12,457337.5,47394.299999999996,4,4,3,11,0,Loyal Regulars,Vivaan Kulkarni,Consumer,West,Gujarat,Surat
+CUST-10591,23,11,433499.5,40161.06,4,3,3,10,0,Loyal Regulars,Saanvi Mishra,Corporate,West,Gujarat,Ahmedabad
+CUST-10592,27,21,902709.5,48136.38,4,5,4,13,3,Champions,Sneha Mehta,Consumer,Central,Madhya Pradesh,Bhopal
+CUST-10593,7,25,972340.5,95778.01999999999,5,5,5,15,3,Champions,Priya Das,Corporate,South,Karnataka,Mysuru
+CUST-10595,25,8,406459.0,40847.07,4,3,3,10,0,Loyal Regulars,Sneha Nair,Corporate,South,Kerala,Kochi
+CUST-10596,44,22,865830.0,85457.92,4,5,4,13,3,Champions,Neha Das,Corporate,South,Tamil Nadu,Chennai
+CUST-10597,1,45,2050296.5,123742.39,5,5,5,15,3,Champions,Rahul Verma,Consumer,South,Telangana,Hyderabad
+CUST-10598,25,11,290436.0,6799.980000000001,4,3,3,10,0,Loyal Regulars,Pooja Iyer,Small Business,Central,Chhattisgarh,Raipur
+CUST-10599,19,41,2061155.0,158479.46000000002,5,5,5,15,3,Champions,Vikram Mehta,Corporate,West,Rajasthan,Jaipur
+CUST-10600,11,5,37296.0,3614.02,5,2,1,8,2,Occasional Buyers,Saanvi Chopra,Consumer,West,Gujarat,Surat
+CUST-10601,198,12,693105.0,54429.36,2,4,4,10,0,Loyal Regulars,Aarav Patel,Consumer,North,Haryana,Faridabad
+CUST-10603,680,1,10737.0,-27.95,1,1,1,3,1,At Risk / Lapsing,Diya Chopra,Consumer,East,Odisha,Bhubaneswar
+CUST-10604,43,14,466281.5,58922.729999999996,4,4,3,11,0,Loyal Regulars,Karan Iyer,Small Business,North,Uttar Pradesh,Lucknow
+CUST-10605,32,13,690547.0,53681.6,4,4,4,12,0,Loyal Regulars,Vikram Nair,Consumer,West,Gujarat,Ahmedabad
+CUST-10606,125,6,94878.0,5626.240000000002,2,2,1,5,2,Occasional Buyers,Ishaan Chopra,Consumer,South,Telangana,Hyderabad
+CUST-10607,115,17,652606.5,-7836.53,2,4,4,10,0,Loyal Regulars,Karan Iyer,Consumer,South,Kerala,Kochi
+CUST-10608,17,7,301130.0,45350.2,5,2,3,10,0,Loyal Regulars,Kavya Iyer,Consumer,North,Uttar Pradesh,Lucknow
+CUST-10609,19,6,223180.5,4761.05,5,2,2,9,0,Loyal Regulars,Neha Rao,Consumer,North,Uttar Pradesh,Kanpur
+CUST-10610,44,8,387514.0,6355.719999999999,4,3,3,10,0,Loyal Regulars,Sneha Joshi,Corporate,South,Tamil Nadu,Chennai
+CUST-10611,118,2,33368.0,5793.17,2,1,1,4,1,At Risk / Lapsing,Arjun Verma,Corporate,West,Rajasthan,Jaipur
+CUST-10612,69,10,121381.0,12417.89,3,3,2,8,0,Loyal Regulars,Diya Das,Small Business,North,Haryana,Faridabad
+CUST-10613,159,16,495618.0,18033.81,2,4,3,9,0,Loyal Regulars,Vikram Sharma,Consumer,West,Maharashtra,Mumbai
+CUST-10614,50,32,1328649.0,149837.36000000002,4,5,5,14,3,Champions,Diya Nair,Consumer,North,Delhi,New Delhi
+CUST-10615,86,6,264528.0,34413.75,3,2,2,7,2,Occasional Buyers,Karan Gupta,Corporate,South,Tamil Nadu,Chennai
+CUST-10616,125,8,381784.5,49458.21,2,3,3,8,0,Loyal Regulars,Amit Iyer,Corporate,West,Maharashtra,Mumbai
+CUST-10617,22,13,543079.0,65613.98,4,4,4,12,3,Champions,Sneha Rao,Corporate,South,Kerala,Kochi
+CUST-10618,151,5,204400.5,24375.13,2,2,2,6,2,Occasional Buyers,Aditya Das,Small Business,North,Delhi,New Delhi
+CUST-10619,16,22,636453.0,60666.54,5,5,4,14,3,Champions,Pooja Rao,Consumer,North,Punjab,Amritsar
+CUST-10620,12,23,784176.5,45098.850000000006,5,5,4,14,3,Champions,Pooja Patel,Consumer,North,Haryana,Gurugram
+CUST-10621,32,11,407321.0,52407.09,4,3,3,10,0,Loyal Regulars,Diya Mishra,Small Business,West,Gujarat,Ahmedabad
+CUST-10622,66,15,1158158.0,36539.28,3,4,5,12,0,Loyal Regulars,Kavya Rao,Consumer,North,Haryana,Faridabad
+CUST-10623,24,7,359087.5,-34860.05,4,2,3,9,0,Loyal Regulars,Diya Nair,Small Business,North,Uttar Pradesh,Lucknow
+CUST-10624,8,12,878673.0,87424.89,5,4,4,13,3,Champions,Diya Mishra,Consumer,West,Maharashtra,Pune
+CUST-10625,161,7,121750.0,7702.95,2,2,2,6,2,Occasional Buyers,Ishaan Gupta,Consumer,South,Tamil Nadu,Coimbatore
+CUST-10626,10,33,1283694.0,127882.70000000001,5,5,5,15,3,Champions,Ishaan Chopra,Consumer,South,Tamil Nadu,Chennai
+CUST-10627,23,22,1149455.5,30812.13,4,5,5,14,3,Champions,Ananya Rao,Consumer,West,Gujarat,Ahmedabad
+CUST-10628,26,3,87754.0,-63.72999999999968,4,1,1,6,2,Occasional Buyers,Vivaan Patel,Corporate,South,Karnataka,Mysuru
+CUST-10629,123,10,650499.0,41465.329999999994,2,3,4,9,0,Loyal Regulars,Aarav Nair,Consumer,North,Haryana,Gurugram
+CUST-10630,62,13,502945.5,38549.770000000004,3,4,3,10,0,Loyal Regulars,Diya Rao,Consumer,South,Telangana,Hyderabad
+CUST-10631,19,10,494085.5,-5127.629999999997,5,3,3,11,0,Loyal Regulars,Neha Mehta,Small Business,West,Rajasthan,Jaipur
+CUST-10632,302,7,125496.5,8423.609999999999,1,2,2,5,2,Occasional Buyers,Pooja Mishra,Small Business,East,Bihar,Patna
+CUST-10633,212,5,461397.0,46262.25,2,2,3,7,2,Occasional Buyers,Neha Banerjee,Corporate,West,Maharashtra,Pune
+CUST-10634,57,41,2507915.5,105323.58,3,5,5,13,3,Champions,Amit Singh,Consumer,South,Kerala,Kochi
+CUST-10635,37,35,2056304.5,32737.420000000002,4,5,5,14,3,Champions,Neha Chopra,Corporate,East,Bihar,Patna
+CUST-10636,36,16,770885.5,34180.23,4,4,4,12,0,Loyal Regulars,Arjun Reddy,Corporate,North,Haryana,Faridabad
+CUST-10637,107,6,91305.0,12031.25,3,2,1,6,2,Occasional Buyers,Meera Banerjee,Consumer,East,Bihar,Patna
+CUST-10638,71,9,733086.5,58254.2,3,3,4,10,0,Loyal Regulars,Vikram Das,Consumer,West,Rajasthan,Jaipur
+CUST-10639,16,5,93272.0,6865.009999999999,5,2,1,8,2,Occasional Buyers,Arjun Sharma,Consumer,South,Telangana,Hyderabad
+CUST-10640,54,43,3305014.0,205579.28,3,5,5,13,3,Champions,Amit Kulkarni,Consumer,North,Uttar Pradesh,Lucknow
+CUST-10641,41,8,381915.5,59524.020000000004,4,3,3,10,0,Loyal Regulars,Meera Rao,Consumer,South,Karnataka,Mysuru
+CUST-10642,531,4,237761.0,30945.96,1,2,2,5,2,Occasional Buyers,Rohan Das,Corporate,Central,Chhattisgarh,Raipur
+CUST-10644,159,9,211608.0,3136.2599999999998,2,3,2,7,2,Occasional Buyers,Ananya Chopra,Consumer,Central,Chhattisgarh,Raipur
+CUST-10645,112,7,559408.0,-12311.52,2,2,4,8,0,Loyal Regulars,Aarav Sharma,Corporate,North,Uttar Pradesh,Noida
+CUST-10646,38,6,426100.5,41652.22,4,2,3,9,0,Loyal Regulars,Kabir Rao,Corporate,North,Delhi,New Delhi
+CUST-10647,35,5,247540.0,26797.33,4,2,2,8,2,Occasional Buyers,Aarav Patel,Consumer,West,Gujarat,Ahmedabad
+CUST-10648,14,12,502353.5,12637.1,5,4,3,12,3,Champions,Ishaan Kulkarni,Corporate,North,Delhi,New Delhi
+CUST-10649,54,13,302571.5,22653.91,3,4,3,10,0,Loyal Regulars,Aditya Patel,Corporate,South,Kerala,Kochi
+CUST-10650,87,6,464352.0,48393.72,3,2,3,8,0,Loyal Regulars,Ishaan Singh,Corporate,West,Gujarat,Ahmedabad
+CUST-10651,1240,1,216384.0,-18414.41,1,1,2,4,2,Occasional Buyers,Meera Nair,Consumer,South,Karnataka,Bengaluru
+CUST-10652,145,6,346866.5,31389.76,2,2,3,7,2,Occasional Buyers,Arjun Chopra,Consumer,West,Gujarat,Surat
+CUST-10653,31,6,360336.0,-50012.89000000001,4,2,3,9,0,Loyal Regulars,Ishaan Verma,Corporate,South,Karnataka,Bengaluru
+CUST-10654,1240,1,230.0,74.4,1,1,1,3,1,At Risk / Lapsing,Meera Reddy,Consumer,Central,Chhattisgarh,Raipur
+CUST-10655,275,10,462832.0,70186.69,1,3,3,7,0,Loyal Regulars,Saanvi Mehta,Consumer,West,Gujarat,Ahmedabad
+CUST-10656,3,25,1296854.5,104375.56999999999,5,5,5,15,3,Champions,Aarav Das,Consumer,North,Haryana,Faridabad
+CUST-10657,746,4,9333.0,2004.59,1,2,1,4,1,At Risk / Lapsing,Ishaan Mehta,Consumer,North,Uttar Pradesh,Kanpur
+CUST-10659,208,8,225274.5,2820.0800000000004,2,3,2,7,2,Occasional Buyers,Ananya Chopra,Small Business,North,Delhi,New Delhi
+CUST-10660,468,6,242591.5,14948.54,1,2,2,5,2,Occasional Buyers,Karan Das,Corporate,North,Uttar Pradesh,Noida
+CUST-10661,429,2,59222.0,2051.76,1,1,1,3,1,At Risk / Lapsing,Saanvi Patel,Small Business,Central,Madhya Pradesh,Indore
+CUST-10662,136,11,440965.0,10488.8,2,3,3,8,0,Loyal Regulars,Sneha Mehta,Corporate,North,Uttar Pradesh,Noida
+CUST-10663,201,9,666949.0,58781.14,2,3,4,9,0,Loyal Regulars,Neha Kulkarni,Consumer,West,Maharashtra,Pune
+CUST-10664,210,2,16160.0,3177.15,2,1,1,4,1,At Risk / Lapsing,Arjun Mishra,Consumer,South,Karnataka,Mysuru
+CUST-10665,118,23,1572274.5,3922.4599999999987,2,5,5,12,0,Loyal Regulars,Pooja Patel,Corporate,West,Rajasthan,Jaipur
+CUST-10666,55,21,1356227.0,156970.25,3,5,5,13,0,Loyal Regulars,Kavya Kulkarni,Corporate,West,Gujarat,Ahmedabad
+CUST-10667,87,3,239976.5,15241.81,3,1,2,6,2,Occasional Buyers,Karan Gupta,Consumer,North,Haryana,Faridabad
+CUST-10668,467,6,516744.0,66123.43,1,2,3,6,2,Occasional Buyers,Pooja Kulkarni,Consumer,West,Gujarat,Surat
+CUST-10669,76,7,482589.5,6798.33,3,2,3,8,0,Loyal Regulars,Aarav Patel,Consumer,West,Gujarat,Surat
+CUST-10670,13,20,1592930.5,144632.02,5,5,5,15,3,Champions,Vivaan Gupta,Consumer,West,Gujarat,Surat
+CUST-10671,566,3,55775.0,-2320.63,1,1,1,3,1,At Risk / Lapsing,Karan Banerjee,Consumer,North,Punjab,Ludhiana
+CUST-10672,461,4,208712.5,-13135.88,1,2,2,5,2,Occasional Buyers,Amit Sharma,Small Business,West,Maharashtra,Pune
+CUST-10673,98,22,782748.0,66970.73,3,5,4,12,0,Loyal Regulars,Kavya Gupta,Small Business,Central,Chhattisgarh,Raipur
+CUST-10674,1135,1,39259.0,-5773.51,1,1,1,3,1,At Risk / Lapsing,Rahul Nair,Consumer,North,Delhi,New Delhi
+CUST-10675,113,2,56292.0,3429.09,2,1,1,4,2,Occasional Buyers,Saanvi Chopra,Consumer,North,Haryana,Gurugram
+CUST-10676,247,5,229663.0,-37214.53,1,2,2,5,2,Occasional Buyers,Vivaan Rao,Consumer,North,Punjab,Amritsar
+CUST-10677,676,2,118072.0,14417.880000000001,1,1,2,4,2,Occasional Buyers,Vivaan Sharma,Consumer,South,Tamil Nadu,Chennai
+CUST-10678,229,2,20070.0,2741.3199999999997,1,1,1,3,1,At Risk / Lapsing,Diya Joshi,Consumer,North,Haryana,Gurugram
+CUST-10680,27,35,1421678.5,4420.409999999999,4,5,5,14,3,Champions,Neha Patel,Consumer,North,Haryana,Faridabad
+CUST-10681,300,4,323150.0,21049.530000000002,1,2,3,6,2,Occasional Buyers,Arjun Patel,Consumer,North,Punjab,Ludhiana
+CUST-10682,658,2,6844.0,588.4200000000001,1,1,1,3,1,At Risk / Lapsing,Sneha Rao,Consumer,North,Haryana,Gurugram
+CUST-10683,890,1,181962.0,-10942.88,1,1,2,4,2,Occasional Buyers,Vivaan Nair,Corporate,West,Maharashtra,Nagpur
+CUST-10684,39,13,362825.5,5446.620000000001,4,4,3,11,0,Loyal Regulars,Rahul Rao,Corporate,East,West Bengal,Kolkata
+CUST-10685,12,29,752302.5,72873.63,5,5,4,14,3,Champions,Diya Singh,Corporate,West,Gujarat,Surat
+CUST-10686,7,21,939948.0,83876.17,5,5,5,15,3,Champions,Rohan Sharma,Consumer,North,Delhi,New Delhi
+CUST-10687,140,10,397986.5,47347.55,2,3,3,8,0,Loyal Regulars,Vikram Das,Corporate,West,Rajasthan,Jaipur
+CUST-10688,17,22,717734.0,43094.100000000006,5,5,4,14,3,Champions,Saanvi Chopra,Consumer,North,Punjab,Ludhiana
+CUST-10689,73,24,551285.0,52781.22,3,5,4,12,0,Loyal Regulars,Ananya Patel,Consumer,South,Karnataka,Mysuru
+CUST-10690,111,9,296632.0,-2421.4100000000003,2,3,3,8,0,Loyal Regulars,Vikram Iyer,Corporate,Central,Madhya Pradesh,Indore
+CUST-10691,92,15,306634.0,36508.82,3,4,3,10,0,Loyal Regulars,Pooja Mishra,Corporate,South,Karnataka,Bengaluru
+CUST-10692,140,12,539483.0,32733.5,2,4,4,10,0,Loyal Regulars,Vivaan Sharma,Corporate,North,Uttar Pradesh,Noida
+CUST-10693,165,3,32649.5,6212.12,2,1,1,4,1,At Risk / Lapsing,Ananya Gupta,Corporate,West,Gujarat,Surat
+CUST-10694,89,9,304141.0,46429.909999999996,3,3,3,9,0,Loyal Regulars,Ishaan Singh,Consumer,West,Maharashtra,Nagpur
+CUST-10695,5,21,1430535.0,142006.08,5,5,5,15,3,Champions,Kabir Banerjee,Consumer,South,Karnataka,Bengaluru
+CUST-10696,63,10,899177.0,111659.05,3,3,4,10,0,Loyal Regulars,Diya Gupta,Consumer,North,Delhi,New Delhi
+CUST-10697,20,10,226148.5,-2750.7200000000003,5,3,2,10,0,Loyal Regulars,Arjun Patel,Consumer,East,Bihar,Patna
+CUST-10698,20,35,2039573.0,72315.84000000001,5,5,5,15,3,Champions,Vivaan Das,Corporate,East,Bihar,Patna
+CUST-10699,19,8,123861.0,96.88999999999942,5,3,2,10,0,Loyal Regulars,Pooja Gupta,Corporate,West,Gujarat,Surat
+CUST-10700,149,5,267387.0,15785.18,2,2,2,6,2,Occasional Buyers,Karan Singh,Consumer,South,Tamil Nadu,Chennai
+CUST-10702,29,47,1865571.5,163981.12,4,5,5,14,3,Champions,Vivaan Nair,Small Business,West,Gujarat,Surat
+CUST-10703,280,10,187204.0,16226.16,1,3,2,6,2,Occasional Buyers,Vikram Joshi,Consumer,West,Maharashtra,Pune
+CUST-10704,375,8,832842.5,98657.93,1,3,4,8,0,Loyal Regulars,Rohan Singh,Corporate,South,Telangana,Hyderabad
+CUST-10705,30,11,163127.0,11561.839999999998,4,3,2,9,0,Loyal Regulars,Aarav Chopra,Corporate,North,Haryana,Gurugram
+CUST-10706,88,13,603069.5,92855.99,3,4,4,11,0,Loyal Regulars,Saanvi Nair,Consumer,West,Maharashtra,Mumbai
+CUST-10707,84,17,1446697.5,115515.12000000001,3,4,5,12,0,Loyal Regulars,Arjun Singh,Consumer,North,Uttar Pradesh,Kanpur
+CUST-10709,24,7,753262.0,108426.49,4,2,4,10,0,Loyal Regulars,Aditya Singh,Small Business,West,Gujarat,Ahmedabad
+CUST-10710,61,4,180546.0,30942.190000000002,3,2,2,7,2,Occasional Buyers,Amit Kulkarni,Corporate,South,Telangana,Hyderabad
+CUST-10711,19,18,480966.5,46973.5,5,4,3,12,3,Champions,Arjun Mishra,Small Business,South,Karnataka,Bengaluru
+CUST-10712,14,17,938344.5,146491.91,5,4,5,14,3,Champions,Amit Singh,Consumer,North,Delhi,New Delhi
+CUST-10713,66,13,187549.0,-2727.8900000000003,3,4,2,9,0,Loyal Regulars,Ishaan Rao,Corporate,East,Bihar,Patna
+CUST-10714,66,14,255830.0,2191.84,3,4,2,9,0,Loyal Regulars,Vivaan Mehta,Consumer,North,Delhi,New Delhi
+CUST-10715,101,15,626261.0,78772.70999999999,3,4,4,11,0,Loyal Regulars,Vikram Joshi,Consumer,South,Kerala,Kochi
+CUST-10716,101,17,688638.5,49216.54,3,4,4,11,0,Loyal Regulars,Rohan Verma,Consumer,South,Karnataka,Bengaluru
+CUST-10717,24,16,339927.0,37949.31,4,4,3,11,3,Champions,Vivaan Patel,Small Business,South,Karnataka,Bengaluru
+CUST-10718,1260,1,32616.0,-2315.3,1,1,1,3,1,At Risk / Lapsing,Ananya Mishra,Consumer,West,Maharashtra,Pune
+CUST-10719,276,3,28530.0,5509.63,1,1,1,3,1,At Risk / Lapsing,Ishaan Nair,Small Business,West,Maharashtra,Pune
+CUST-10720,834,1,2394.0,-388.65,1,1,1,3,1,At Risk / Lapsing,Ananya Iyer,Consumer,North,Uttar Pradesh,Noida
+CUST-10721,614,1,4666.5,854.34,1,1,1,3,1,At Risk / Lapsing,Neha Chopra,Consumer,West,Gujarat,Surat
+CUST-10722,44,4,136606.0,19144.18,4,2,2,8,2,Occasional Buyers,Kavya Sharma,Consumer,South,Karnataka,Bengaluru
+CUST-10723,1398,1,62484.0,-7957.85,1,1,1,3,1,At Risk / Lapsing,Aarav Mehta,Consumer,North,Uttar Pradesh,Kanpur
+CUST-10724,587,1,569.5,106.83,1,1,1,3,1,At Risk / Lapsing,Neha Singh,Consumer,East,Bihar,Patna
+CUST-10725,2,6,338600.0,-7679.020000000001,5,2,3,10,3,Champions,Arjun Das,Corporate,West,Gujarat,Surat
+CUST-10726,264,14,702854.0,111341.53,1,4,4,9,0,Loyal Regulars,Karan Chopra,Consumer,South,Telangana,Hyderabad
+CUST-10727,5,6,930775.0,160656.69,5,2,5,12,3,Champions,Aditya Mehta,Corporate,West,Rajasthan,Jaipur
+CUST-10728,397,2,1943.0,497.11,1,1,1,3,1,At Risk / Lapsing,Karan Mehta,Consumer,North,Delhi,New Delhi
+CUST-10729,3,14,379239.5,19174.94,5,4,3,12,3,Champions,Vikram Mehta,Consumer,South,Kerala,Kochi
+CUST-10731,86,24,1140183.5,98807.3,3,5,5,13,0,Loyal Regulars,Diya Iyer,Small Business,West,Maharashtra,Nagpur
+CUST-10732,26,11,516510.5,21172.840000000004,4,3,3,10,0,Loyal Regulars,Karan Kulkarni,Small Business,West,Maharashtra,Pune
+CUST-10733,17,44,1829741.5,89512.79999999999,5,5,5,15,3,Champions,Pooja Kulkarni,Consumer,North,Uttar Pradesh,Kanpur
+CUST-10734,61,13,875605.0,39133.91,3,4,4,11,0,Loyal Regulars,Rohan Rao,Small Business,East,Bihar,Patna
+CUST-10735,33,14,534738.5,38457.85,4,4,4,12,0,Loyal Regulars,Rohan Banerjee,Corporate,North,Delhi,New Delhi
+CUST-10736,56,4,157413.5,25378.15,3,2,2,7,2,Occasional Buyers,Aditya Sharma,Small Business,East,Bihar,Patna
+CUST-10737,52,8,340559.0,39874.51,4,3,3,10,0,Loyal Regulars,Aarav Mishra,Consumer,North,Uttar Pradesh,Lucknow
+CUST-10738,369,2,17415.0,3644.29,1,1,1,3,1,At Risk / Lapsing,Kavya Chopra,Corporate,North,Delhi,New Delhi
+CUST-10739,11,11,742524.5,67257.73,5,3,4,12,3,Champions,Amit Verma,Corporate,South,Tamil Nadu,Coimbatore
+CUST-10740,37,18,440412.0,50081.909999999996,4,4,3,11,0,Loyal Regulars,Vivaan Rao,Small Business,South,Telangana,Hyderabad
+CUST-10741,33,27,1461372.5,98269.68000000001,4,5,5,14,3,Champions,Meera Mehta,Corporate,North,Punjab,Amritsar
+CUST-10742,129,5,292720.5,42673.71,2,2,3,7,2,Occasional Buyers,Kabir Mishra,Consumer,West,Maharashtra,Nagpur
+CUST-10743,99,20,828884.5,64931.0,3,5,4,12,0,Loyal Regulars,Ananya Joshi,Corporate,West,Maharashtra,Mumbai
+CUST-10744,33,5,202202.0,-8288.570000000002,4,2,2,8,2,Occasional Buyers,Ishaan Reddy,Consumer,East,West Bengal,Kolkata
+CUST-10745,225,4,28579.0,3703.31,1,2,1,4,1,At Risk / Lapsing,Pooja Joshi,Small Business,West,Maharashtra,Nagpur
+CUST-10746,355,9,205284.5,31741.87,1,3,2,6,2,Occasional Buyers,Diya Sharma,Corporate,South,Telangana,Hyderabad
+CUST-10747,341,11,342704.5,4905.080000000001,1,3,3,7,0,Loyal Regulars,Ananya Rao,Corporate,West,Gujarat,Surat
+CUST-10748,623,2,266342.0,21512.58,1,1,2,4,2,Occasional Buyers,Sneha Mehta,Consumer,South,Kerala,Kochi
+CUST-10749,15,9,511110.0,35509.81,5,3,3,11,3,Champions,Priya Sharma,Small Business,East,Odisha,Bhubaneswar
+CUST-10750,94,4,254641.0,29955.05,3,2,2,7,2,Occasional Buyers,Ishaan Sharma,Consumer,South,Karnataka,Bengaluru
+CUST-10751,162,5,209348.0,24022.32,2,2,2,6,2,Occasional Buyers,Rohan Mehta,Consumer,West,Maharashtra,Mumbai
+CUST-10752,262,3,218904.5,17579.25,1,1,2,4,2,Occasional Buyers,Amit Patel,Consumer,West,Gujarat,Ahmedabad
+CUST-10753,3,32,1594430.5,34009.28,5,5,5,15,3,Champions,Pooja Kulkarni,Consumer,East,Bihar,Patna
+CUST-10754,78,8,392964.5,41963.049999999996,3,3,3,9,0,Loyal Regulars,Ishaan Iyer,Consumer,North,Uttar Pradesh,Lucknow
+CUST-10755,47,31,1020538.5,18615.109999999993,4,5,5,14,3,Champions,Arjun Das,Consumer,East,Bihar,Patna
+CUST-10756,112,15,871600.0,93449.27,2,4,4,10,0,Loyal Regulars,Aarav Reddy,Small Business,West,Rajasthan,Jaipur
+CUST-10757,109,4,20052.0,2896.84,3,2,1,6,1,At Risk / Lapsing,Kabir Rao,Consumer,North,Haryana,Faridabad
+CUST-10758,15,15,563316.5,77736.41,5,4,4,13,3,Champions,Amit Gupta,Consumer,West,Gujarat,Ahmedabad
+CUST-10759,9,17,845918.0,15372.099999999997,5,4,4,13,3,Champions,Aarav Rao,Consumer,Central,Chhattisgarh,Raipur
+CUST-10760,875,2,25651.0,2817.04,1,1,1,3,1,At Risk / Lapsing,Priya Banerjee,Corporate,North,Uttar Pradesh,Noida
+CUST-10761,329,7,259300.5,15400.369999999997,1,2,2,5,2,Occasional Buyers,Rohan Banerjee,Corporate,Central,Madhya Pradesh,Indore
+CUST-10762,4,11,873345.5,34189.98,5,3,4,12,3,Champions,Amit Singh,Consumer,West,Maharashtra,Nagpur
+CUST-10763,116,12,439110.0,51734.98,2,4,3,9,0,Loyal Regulars,Amit Chopra,Consumer,East,West Bengal,Kolkata
+CUST-10764,280,12,600186.5,14323.48,1,4,4,9,0,Loyal Regulars,Karan Kulkarni,Corporate,West,Gujarat,Ahmedabad
+CUST-10765,46,5,117855.0,6918.33,4,2,2,8,2,Occasional Buyers,Aditya Nair,Consumer,West,Gujarat,Ahmedabad
+CUST-10766,2,11,631615.0,43045.91,5,3,4,12,3,Champions,Amit Verma,Corporate,West,Rajasthan,Jaipur
+CUST-10767,344,2,115563.0,4008.4300000000003,1,1,2,4,2,Occasional Buyers,Kavya Chopra,Consumer,North,Delhi,New Delhi
+CUST-10768,122,10,70120.5,5911.12,2,3,1,6,2,Occasional Buyers,Saanvi Joshi,Consumer,North,Delhi,New Delhi
+CUST-10769,492,1,5549.0,225.73,1,1,1,3,1,At Risk / Lapsing,Rahul Kulkarni,Corporate,West,Maharashtra,Nagpur
+CUST-10770,59,8,316790.0,38109.79,3,3,3,9,0,Loyal Regulars,Aarav Rao,Consumer,West,Gujarat,Surat
+CUST-10771,152,23,807830.5,32320.579999999998,2,5,4,11,0,Loyal Regulars,Aditya Nair,Consumer,East,Bihar,Patna
+CUST-10772,24,14,815994.5,65181.5,4,4,4,12,3,Champions,Diya Patel,Consumer,West,Rajasthan,Jaipur
+CUST-10773,67,12,990157.5,126386.76000000001,3,4,5,12,0,Loyal Regulars,Arjun Rao,Consumer,South,Tamil Nadu,Chennai
+CUST-10774,610,1,765.0,67.88,1,1,1,3,1,At Risk / Lapsing,Neha Gupta,Corporate,North,Delhi,New Delhi
+CUST-10775,420,7,1094568.0,91078.4,1,2,5,8,0,Loyal Regulars,Vivaan Iyer,Consumer,Central,Chhattisgarh,Raipur
+CUST-10776,111,7,708442.0,97635.86,2,2,4,8,0,Loyal Regulars,Vikram Singh,Consumer,South,Kerala,Kochi
+CUST-10777,187,9,267998.5,11466.02,2,3,2,7,2,Occasional Buyers,Sneha Verma,Consumer,East,West Bengal,Kolkata
+CUST-10778,4,8,140361.0,11704.35,5,3,2,10,3,Champions,Neha Chopra,Corporate,West,Gujarat,Ahmedabad
+CUST-10779,5,15,517879.0,7815.779999999999,5,4,3,12,3,Champions,Vikram Iyer,Consumer,South,Telangana,Hyderabad
+CUST-10780,13,10,1278914.0,128064.20999999999,5,3,5,13,3,Champions,Arjun Iyer,Corporate,North,Uttar Pradesh,Kanpur
+CUST-10782,876,2,49249.0,2033.9,1,1,1,3,1,At Risk / Lapsing,Sneha Banerjee,Corporate,East,Odisha,Sambalpur
+CUST-10783,33,28,1830287.5,41358.799999999996,4,5,5,14,3,Champions,Vivaan Rao,Small Business,North,Punjab,Ludhiana
+CUST-10784,77,10,375866.0,41110.12,3,3,3,9,0,Loyal Regulars,Kavya Singh,Consumer,West,Rajasthan,Jaipur
+CUST-10785,27,6,321316.0,51827.6,4,2,3,9,0,Loyal Regulars,Diya Singh,Small Business,West,Gujarat,Ahmedabad
+CUST-10786,9,10,704590.0,48032.03,5,3,4,12,3,Champions,Pooja Gupta,Consumer,South,Karnataka,Bengaluru
+CUST-10787,52,10,335561.5,44453.24,4,3,3,10,0,Loyal Regulars,Kavya Banerjee,Consumer,West,Maharashtra,Pune
+CUST-10789,139,11,360940.5,11074.89,2,3,3,8,0,Loyal Regulars,Ishaan Kulkarni,Small Business,North,Haryana,Gurugram
+CUST-10790,125,11,340680.5,26264.96,2,3,3,8,0,Loyal Regulars,Pooja Rao,Corporate,West,Maharashtra,Mumbai
+CUST-10791,102,26,1442945.0,56453.219999999994,3,5,5,13,0,Loyal Regulars,Karan Patel,Consumer,East,Odisha,Bhubaneswar
+CUST-10792,12,35,1231597.5,25852.65,5,5,5,15,3,Champions,Aditya Nair,Consumer,East,Bihar,Patna
+CUST-10793,126,7,452558.5,35048.26,2,2,3,7,0,Loyal Regulars,Kavya Das,Small Business,South,Kerala,Kochi
+CUST-10794,150,10,255616.5,32542.129999999997,2,3,2,7,0,Loyal Regulars,Ishaan Nair,Corporate,North,Haryana,Faridabad
+CUST-10795,223,3,541038.0,44608.020000000004,2,1,4,7,2,Occasional Buyers,Kavya Kulkarni,Small Business,North,Delhi,New Delhi
+CUST-10796,29,12,961419.5,80149.81999999999,4,4,5,13,0,Loyal Regulars,Amit Nair,Consumer,South,Kerala,Kochi
+CUST-10797,6,16,340683.0,42839.92,5,4,3,12,3,Champions,Rohan Rao,Consumer,South,Kerala,Kochi
+CUST-10798,76,13,954853.5,117601.48000000001,3,4,5,12,0,Loyal Regulars,Amit Das,Corporate,West,Maharashtra,Pune
+CUST-10799,16,11,752318.5,49388.86,5,3,4,12,3,Champions,Rohan Singh,Consumer,West,Rajasthan,Jaipur
+CUST-10800,85,10,539107.0,48744.590000000004,3,3,4,10,0,Loyal Regulars,Kavya Nair,Corporate,North,Haryana,Gurugram
+CUST-10801,57,34,1287536.0,127086.93,3,5,5,13,3,Champions,Vivaan Singh,Consumer,South,Kerala,Kochi
+CUST-10802,364,11,632799.5,101602.69,1,3,4,8,0,Loyal Regulars,Vikram Verma,Corporate,North,Haryana,Gurugram
+CUST-10803,70,47,2068664.5,233264.06,3,5,5,13,3,Champions,Pooja Iyer,Consumer,West,Rajasthan,Jaipur
+CUST-10804,8,65,2772833.5,80940.21,5,5,5,15,3,Champions,Ananya Sharma,Consumer,East,West Bengal,Kolkata
+CUST-10805,12,49,2714931.0,196234.22,5,5,5,15,3,Champions,Rohan Patel,Consumer,North,Haryana,Faridabad
+CUST-10806,15,3,111754.0,605.5900000000001,5,1,1,7,2,Occasional Buyers,Aarav Reddy,Consumer,North,Delhi,New Delhi
+CUST-10807,35,4,157634.0,22687.19,4,2,2,8,2,Occasional Buyers,Arjun Rao,Small Business,West,Gujarat,Ahmedabad
+CUST-10808,184,7,176743.0,11080.27,2,2,2,6,2,Occasional Buyers,Sneha Banerjee,Consumer,North,Uttar Pradesh,Kanpur
+CUST-10809,430,3,108245.0,2226.7099999999996,1,1,1,3,2,Occasional Buyers,Ishaan Singh,Corporate,West,Gujarat,Surat
+CUST-10810,156,11,515691.0,65206.759999999995,2,3,3,8,0,Loyal Regulars,Sneha Sharma,Consumer,South,Telangana,Hyderabad
+CUST-10811,38,10,590778.0,72629.49,4,3,4,11,0,Loyal Regulars,Kabir Patel,Consumer,North,Haryana,Gurugram
+CUST-10812,46,13,203394.0,16269.22,4,4,2,10,0,Loyal Regulars,Sneha Iyer,Corporate,Central,Chhattisgarh,Raipur
+CUST-10813,24,16,725566.5,43615.07,4,4,4,12,3,Champions,Aditya Kulkarni,Corporate,South,Tamil Nadu,Chennai
+CUST-10814,235,3,474374.0,-23481.610000000004,1,1,3,5,2,Occasional Buyers,Kavya Rao,Consumer,Central,Madhya Pradesh,Bhopal
+CUST-10815,276,6,249819.0,18808.26,1,2,2,5,2,Occasional Buyers,Kavya Das,Consumer,South,Kerala,Kochi
+CUST-10816,188,6,210899.0,35259.56999999999,2,2,2,6,2,Occasional Buyers,Neha Nair,Consumer,South,Kerala,Kochi
+CUST-10817,19,13,868951.0,108648.15,5,4,4,13,3,Champions,Rahul Sharma,Consumer,West,Gujarat,Ahmedabad
+CUST-10818,6,15,830955.5,54346.38,5,4,4,13,3,Champions,Rohan Joshi,Consumer,North,Delhi,New Delhi
+CUST-10819,9,12,427859.5,44747.46,5,4,3,12,3,Champions,Pooja Iyer,Corporate,West,Gujarat,Surat
+CUST-10820,18,25,747445.0,91826.09,5,5,4,14,3,Champions,Vikram Sharma,Small Business,West,Rajasthan,Jaipur
+CUST-10821,199,7,263669.0,39673.18,2,2,2,6,2,Occasional Buyers,Saanvi Sharma,Consumer,South,Telangana,Hyderabad
+CUST-10822,13,6,349736.0,36789.88,5,2,3,10,0,Loyal Regulars,Rahul Nair,Small Business,North,Uttar Pradesh,Lucknow
+CUST-10823,55,6,361549.0,8718.009999999998,3,2,3,8,0,Loyal Regulars,Neha Kulkarni,Consumer,West,Maharashtra,Mumbai
+CUST-10824,43,10,338568.0,39390.79,4,3,3,10,0,Loyal Regulars,Aditya Chopra,Corporate,North,Haryana,Faridabad
+CUST-10825,20,12,240968.0,-1101.8200000000002,5,4,2,11,0,Loyal Regulars,Priya Verma,Consumer,West,Rajasthan,Jaipur
+CUST-10826,38,17,604106.0,74371.3,4,4,4,12,0,Loyal Regulars,Kabir Patel,Corporate,West,Rajasthan,Jaipur
+CUST-10827,12,11,500545.0,55471.13,5,3,3,11,3,Champions,Saanvi Singh,Corporate,North,Delhi,New Delhi
+CUST-10828,8,18,767402.5,95828.83,5,4,4,13,3,Champions,Kabir Rao,Corporate,South,Telangana,Hyderabad
+CUST-10829,40,28,1793040.5,151151.96,4,5,5,14,3,Champions,Rohan Gupta,Consumer,West,Rajasthan,Jaipur
+CUST-10830,16,30,1241754.5,5405.340000000002,5,5,5,15,3,Champions,Pooja Rao,Consumer,East,Odisha,Bhubaneswar
+CUST-10831,22,2,191830.0,27883.54,4,1,2,7,2,Occasional Buyers,Ishaan Reddy,Consumer,North,Uttar Pradesh,Kanpur
+CUST-10832,564,2,218462.0,12585.869999999999,1,1,2,4,2,Occasional Buyers,Meera Rao,Small Business,North,Haryana,Faridabad
+CUST-10833,56,3,125835.0,18647.8,3,1,2,6,2,Occasional Buyers,Karan Singh,Corporate,North,Haryana,Faridabad
+CUST-10834,28,16,1156401.0,145458.29,4,4,5,13,3,Champions,Diya Mishra,Consumer,South,Karnataka,Bengaluru
+CUST-10835,52,20,649896.0,81239.22,4,5,4,13,0,Loyal Regulars,Aditya Nair,Corporate,West,Rajasthan,Jaipur
+CUST-10836,73,10,255709.0,33544.54,3,3,2,8,0,Loyal Regulars,Ananya Gupta,Consumer,West,Gujarat,Ahmedabad
+CUST-10837,299,5,187069.5,27985.46,1,2,2,5,2,Occasional Buyers,Karan Rao,Corporate,North,Punjab,Ludhiana
+CUST-10838,110,15,502718.0,72887.59,2,4,3,9,0,Loyal Regulars,Karan Joshi,Corporate,South,Tamil Nadu,Chennai
+CUST-10839,156,7,275892.5,36281.13,2,2,2,6,2,Occasional Buyers,Ananya Rao,Small Business,South,Telangana,Hyderabad
+CUST-10840,264,2,15306.0,2916.85,1,1,1,3,1,At Risk / Lapsing,Pooja Rao,Corporate,West,Rajasthan,Jaipur
+CUST-10841,390,3,48423.5,7684.62,1,1,1,3,1,At Risk / Lapsing,Diya Nair,Corporate,South,Telangana,Hyderabad
+CUST-10842,90,13,841088.5,33459.17,3,4,4,11,0,Loyal Regulars,Rohan Verma,Corporate,North,Uttar Pradesh,Lucknow
+CUST-10843,5,13,907621.5,58082.7,5,4,4,13,3,Champions,Diya Mehta,Consumer,North,Haryana,Gurugram
+CUST-10844,292,5,360584.5,-4827.870000000003,1,2,3,6,2,Occasional Buyers,Priya Mishra,Consumer,South,Karnataka,Mysuru
+CUST-10845,125,2,37817.5,-1311.1599999999996,2,1,1,4,1,At Risk / Lapsing,Arjun Verma,Consumer,West,Gujarat,Ahmedabad
+CUST-10846,110,12,438248.0,44828.829999999994,2,4,3,9,0,Loyal Regulars,Kavya Mehta,Consumer,North,Uttar Pradesh,Noida
+CUST-10847,35,9,685435.5,93306.29999999999,4,3,4,11,0,Loyal Regulars,Sneha Patel,Consumer,North,Punjab,Ludhiana
+CUST-10848,467,2,41080.0,6997.65,1,1,1,3,1,At Risk / Lapsing,Amit Das,Corporate,West,Rajasthan,Jaipur
+CUST-10849,55,6,627408.0,94312.63,3,2,4,9,0,Loyal Regulars,Priya Iyer,Consumer,West,Gujarat,Surat
+CUST-10850,208,8,371397.0,47850.99,2,3,3,8,2,Occasional Buyers,Pooja Nair,Corporate,North,Punjab,Ludhiana
+CUST-10851,331,5,112639.0,13150.54,1,2,1,4,2,Occasional Buyers,Vivaan Patel,Consumer,North,Punjab,Amritsar
+CUST-10852,15,12,343889.0,54410.23,5,4,3,12,3,Champions,Arjun Gupta,Corporate,West,Rajasthan,Jaipur
+CUST-10853,99,10,348770.5,3538.4399999999973,3,3,3,9,0,Loyal Regulars,Vikram Nair,Corporate,East,Bihar,Patna
+CUST-10854,121,8,160978.5,15493.789999999999,2,3,2,7,2,Occasional Buyers,Kabir Verma,Consumer,West,Rajasthan,Jaipur
+CUST-10855,84,11,443994.5,8526.33,3,3,3,9,0,Loyal Regulars,Priya Singh,Consumer,West,Maharashtra,Mumbai
+CUST-10856,45,11,546167.5,41632.08,4,3,4,11,0,Loyal Regulars,Kabir Nair,Consumer,South,Kerala,Kochi
+CUST-10857,4,21,718758.0,38027.66,5,5,4,14,3,Champions,Amit Rao,Consumer,North,Delhi,New Delhi
+CUST-10858,80,35,1257756.5,117398.28,3,5,5,13,0,Loyal Regulars,Saanvi Singh,Corporate,North,Uttar Pradesh,Kanpur
+CUST-10859,15,20,753588.5,41611.47,5,5,4,14,3,Champions,Meera Joshi,Corporate,West,Maharashtra,Nagpur
+CUST-10860,153,7,208988.5,13738.9,2,2,2,6,2,Occasional Buyers,Aditya Sharma,Small Business,West,Maharashtra,Pune
+CUST-10861,52,14,375211.5,34973.11,4,4,3,11,0,Loyal Regulars,Meera Chopra,Consumer,West,Gujarat,Ahmedabad
+CUST-10862,66,32,1492653.5,5402.6,3,5,5,13,3,Champions,Aditya Gupta,Consumer,Central,Chhattisgarh,Raipur
+CUST-10863,21,12,293947.0,34475.350000000006,4,4,3,11,0,Loyal Regulars,Ananya Banerjee,Corporate,South,Kerala,Kochi
+CUST-10864,312,6,69920.0,1990.0400000000004,1,2,1,4,2,Occasional Buyers,Pooja Patel,Corporate,West,Rajasthan,Jaipur
+CUST-10865,156,6,343293.0,51770.09,2,2,3,7,2,Occasional Buyers,Sneha Rao,Consumer,West,Maharashtra,Nagpur
+CUST-10866,2,20,923931.0,79585.05,5,5,5,15,3,Champions,Karan Mishra,Corporate,East,Bihar,Patna
+CUST-10867,53,16,827405.5,-41543.15,4,4,4,12,0,Loyal Regulars,Arjun Rao,Consumer,East,Odisha,Bhubaneswar
+CUST-10868,55,8,125692.5,6085.079999999999,3,3,2,8,2,Occasional Buyers,Priya Sharma,Corporate,North,Uttar Pradesh,Noida
+CUST-10869,7,8,191969.0,-2688.1500000000005,5,3,2,10,3,Champions,Rahul Mehta,Corporate,South,Kerala,Kochi
+CUST-10870,24,9,493715.0,42440.1,4,3,3,10,0,Loyal Regulars,Priya Das,Corporate,West,Maharashtra,Pune
+CUST-10871,93,11,1358016.0,89540.72,3,3,5,11,0,Loyal Regulars,Rahul Reddy,Small Business,North,Uttar Pradesh,Kanpur
+CUST-10872,200,15,982326.0,102232.37,2,4,5,11,0,Loyal Regulars,Karan Reddy,Consumer,West,Gujarat,Surat
+CUST-10873,268,6,237150.0,3669.0300000000007,1,2,2,5,2,Occasional Buyers,Priya Patel,Corporate,East,Bihar,Patna
+CUST-10874,82,7,173986.0,-5872.65,3,2,2,7,2,Occasional Buyers,Aditya Verma,Small Business,East,West Bengal,Kolkata
+CUST-10875,531,7,842081.0,18932.36,1,2,4,7,2,Occasional Buyers,Meera Mehta,Consumer,West,Gujarat,Ahmedabad
+CUST-10876,841,1,22966.0,2176.2799999999997,1,1,1,3,1,At Risk / Lapsing,Karan Nair,Small Business,West,Maharashtra,Mumbai
+CUST-10877,155,27,1104773.0,95964.61,2,5,5,12,0,Loyal Regulars,Karan Gupta,Consumer,South,Tamil Nadu,Coimbatore
+CUST-10878,106,11,558294.0,51861.14,3,3,4,10,0,Loyal Regulars,Priya Mishra,Small Business,South,Kerala,Kochi
+CUST-10879,301,6,367192.5,1421.3800000000015,1,2,3,6,2,Occasional Buyers,Saanvi Rao,Consumer,North,Delhi,New Delhi
+CUST-10880,95,14,224347.0,35949.79,3,4,2,9,0,Loyal Regulars,Kavya Sharma,Corporate,West,Gujarat,Ahmedabad
+CUST-10881,62,23,980872.0,35740.0,3,5,5,13,0,Loyal Regulars,Neha Verma,Corporate,West,Gujarat,Surat
+CUST-10882,251,6,213998.0,34875.31,1,2,2,5,2,Occasional Buyers,Neha Kulkarni,Small Business,South,Karnataka,Mysuru
+CUST-10883,327,3,357528.0,15125.01,1,1,3,5,2,Occasional Buyers,Ishaan Gupta,Consumer,West,Rajasthan,Jaipur
+CUST-10884,25,17,678475.5,47251.990000000005,4,4,4,12,3,Champions,Neha Verma,Consumer,North,Delhi,New Delhi
+CUST-10885,474,4,115394.5,13729.03,1,2,1,4,2,Occasional Buyers,Diya Mehta,Small Business,West,Rajasthan,Jaipur
+CUST-10886,19,22,897370.5,55055.729999999996,5,5,4,14,3,Champions,Aarav Gupta,Consumer,West,Gujarat,Surat
+CUST-10887,46,23,845373.0,25473.6,4,5,4,13,3,Champions,Aditya Sharma,Consumer,North,Punjab,Ludhiana
+CUST-10888,38,5,439154.0,-13305.400000000001,4,2,3,9,0,Loyal Regulars,Diya Nair,Consumer,North,Delhi,New Delhi
+CUST-10889,4,24,573023.0,22251.11,5,5,4,14,3,Champions,Neha Joshi,Corporate,West,Rajasthan,Jaipur
+CUST-10890,29,18,1404486.0,144347.69,4,4,5,13,3,Champions,Aditya Chopra,Consumer,South,Tamil Nadu,Chennai
+CUST-10891,4,25,938077.0,80728.37000000001,5,5,5,15,3,Champions,Meera Verma,Consumer,South,Tamil Nadu,Chennai
+CUST-10892,42,15,1126533.5,93254.44,4,4,5,13,0,Loyal Regulars,Ishaan Chopra,Corporate,North,Haryana,Gurugram
+CUST-10893,144,18,935596.0,108902.26,2,4,5,11,0,Loyal Regulars,Saanvi Nair,Consumer,West,Gujarat,Surat
+CUST-10894,168,7,346262.5,15421.519999999999,2,2,3,7,2,Occasional Buyers,Karan Banerjee,Consumer,East,West Bengal,Kolkata
+CUST-10895,1,8,636683.0,-22375.010000000002,5,3,4,12,3,Champions,Arjun Banerjee,Small Business,East,West Bengal,Kolkata
+CUST-10896,29,31,2456278.0,115952.28000000001,4,5,5,14,3,Champions,Neha Iyer,Corporate,West,Rajasthan,Jaipur
+CUST-10898,66,4,144697.0,7809.04,3,2,2,7,2,Occasional Buyers,Meera Mehta,Corporate,North,Delhi,New Delhi
+CUST-10899,172,6,288758.5,45096.07,2,2,3,7,2,Occasional Buyers,Amit Mehta,Small Business,West,Gujarat,Ahmedabad
+CUST-10900,5,41,2075526.0,92395.73,5,5,5,15,3,Champions,Diya Verma,Consumer,Central,Chhattisgarh,Raipur
+CUST-10901,470,8,377095.5,38784.950000000004,1,3,3,7,2,Occasional Buyers,Aarav Chopra,Consumer,South,Telangana,Hyderabad
+CUST-10902,10,19,344528.5,40842.68,5,5,3,13,3,Champions,Ananya Chopra,Consumer,West,Rajasthan,Jaipur
+CUST-10903,47,15,879414.0,78047.26999999999,4,4,4,12,0,Loyal Regulars,Kavya Sharma,Consumer,South,Tamil Nadu,Coimbatore
+CUST-10904,52,2,73575.5,-1.7499999999995453,4,1,1,6,2,Occasional Buyers,Vivaan Gupta,Corporate,West,Gujarat,Ahmedabad
+CUST-10905,282,4,271112.0,34453.39,1,2,2,5,2,Occasional Buyers,Aditya Gupta,Corporate,North,Delhi,New Delhi
+CUST-10906,110,4,234304.5,42190.57,2,2,2,6,2,Occasional Buyers,Ishaan Kulkarni,Consumer,South,Tamil Nadu,Coimbatore
+CUST-10907,30,23,1038441.0,150176.46,4,5,5,14,3,Champions,Rahul Joshi,Small Business,South,Telangana,Hyderabad
+CUST-10908,7,20,811055.5,46404.799999999996,5,5,4,14,3,Champions,Rahul Joshi,Corporate,East,West Bengal,Kolkata
+CUST-10909,19,11,671043.5,-1052.8499999999985,5,3,4,12,3,Champions,Meera Rao,Consumer,South,Karnataka,Mysuru
+CUST-10910,1139,1,37804.0,2457.8599999999997,1,1,1,3,1,At Risk / Lapsing,Sneha Rao,Small Business,South,Kerala,Kochi
+CUST-10911,44,13,770640.5,50009.22,4,4,4,12,0,Loyal Regulars,Priya Das,Consumer,South,Tamil Nadu,Chennai
+CUST-10912,69,19,522952.5,67261.63,3,5,4,12,0,Loyal Regulars,Aarav Gupta,Consumer,Central,Chhattisgarh,Raipur
+CUST-10913,2,24,636970.0,45018.76,5,5,4,14,3,Champions,Meera Rao,Consumer,North,Haryana,Faridabad
+CUST-10914,52,34,1418022.0,20447.52999999999,4,5,5,14,3,Champions,Pooja Joshi,Consumer,North,Punjab,Amritsar
+CUST-10915,309,10,810053.0,60239.18,1,3,4,8,0,Loyal Regulars,Ananya Reddy,Consumer,South,Kerala,Kochi
+CUST-10916,131,6,314118.5,8399.01,2,2,3,7,2,Occasional Buyers,Sneha Sharma,Corporate,West,Maharashtra,Mumbai
+CUST-10917,15,20,643658.0,57843.16,5,5,4,14,3,Champions,Saanvi Verma,Consumer,West,Gujarat,Surat
+CUST-10918,460,3,26242.0,2109.67,1,1,1,3,1,At Risk / Lapsing,Diya Nair,Consumer,South,Karnataka,Bengaluru
+CUST-10919,619,2,17531.0,3246.52,1,1,1,3,1,At Risk / Lapsing,Karan Patel,Consumer,West,Rajasthan,Jaipur
+CUST-10920,73,23,727810.5,55231.98,3,5,4,12,0,Loyal Regulars,Kavya Gupta,Consumer,South,Telangana,Hyderabad
+CUST-10921,73,10,199526.0,30665.82,3,3,2,8,0,Loyal Regulars,Aditya Kulkarni,Consumer,Central,Madhya Pradesh,Indore
+CUST-10922,136,3,141100.5,21359.19,2,1,2,5,2,Occasional Buyers,Sneha Rao,Corporate,North,Uttar Pradesh,Kanpur
+CUST-10923,10,37,1206953.5,102524.11,5,5,5,15,3,Champions,Kavya Nair,Consumer,South,Kerala,Kochi
+CUST-10924,853,1,75231.0,-286.29,1,1,1,3,1,At Risk / Lapsing,Vikram Iyer,Small Business,South,Tamil Nadu,Chennai
+CUST-10925,3,39,2409832.5,248332.14,5,5,5,15,3,Champions,Arjun Patel,Corporate,North,Haryana,Faridabad
+CUST-10926,35,7,257272.0,-36038.68,4,2,2,8,0,Loyal Regulars,Aarav Mehta,Corporate,East,Odisha,Bhubaneswar
+CUST-10927,114,13,1358822.0,71861.7,2,4,5,11,0,Loyal Regulars,Ananya Sharma,Small Business,South,Kerala,Kochi
+CUST-10928,558,1,1060.0,303.97,1,1,1,3,1,At Risk / Lapsing,Vivaan Kulkarni,Corporate,North,Punjab,Ludhiana
+CUST-10929,372,8,357008.0,10550.020000000002,1,3,3,7,2,Occasional Buyers,Pooja Rao,Corporate,North,Punjab,Ludhiana
+CUST-10930,28,26,990191.0,102520.48999999999,4,5,5,14,3,Champions,Vivaan Sharma,Small Business,South,Karnataka,Mysuru
+CUST-10931,175,10,450229.5,28479.1,2,3,3,8,0,Loyal Regulars,Rohan Gupta,Consumer,North,Delhi,New Delhi
+CUST-10932,97,6,318315.5,31784.78,3,2,3,8,2,Occasional Buyers,Priya Nair,Small Business,West,Maharashtra,Nagpur
+CUST-10933,4,30,1131901.5,137192.13999999998,5,5,5,15,3,Champions,Kavya Das,Corporate,South,Telangana,Hyderabad
+CUST-10934,18,9,543028.0,76889.82,5,3,4,12,0,Loyal Regulars,Amit Banerjee,Consumer,North,Uttar Pradesh,Kanpur
+CUST-10935,24,11,404748.0,48331.44,4,3,3,10,0,Loyal Regulars,Aditya Banerjee,Corporate,West,Maharashtra,Pune
+CUST-10936,165,4,33470.0,3660.39,2,2,1,5,2,Occasional Buyers,Neha Gupta,Consumer,South,Kerala,Kochi
+CUST-10937,26,3,332041.0,22626.35,4,1,3,8,2,Occasional Buyers,Amit Mehta,Consumer,North,Delhi,New Delhi
+CUST-10938,95,5,197676.0,16476.58,3,2,2,7,2,Occasional Buyers,Diya Banerjee,Consumer,West,Gujarat,Ahmedabad
+CUST-10939,43,11,603776.0,-21611.299999999996,4,3,4,11,0,Loyal Regulars,Neha Gupta,Consumer,West,Rajasthan,Jaipur
+CUST-10941,225,1,31840.0,1628.64,1,1,1,3,1,At Risk / Lapsing,Rohan Sharma,Consumer,South,Tamil Nadu,Chennai
+CUST-10942,41,16,500921.5,33632.74,4,4,3,11,0,Loyal Regulars,Neha Mehta,Corporate,South,Telangana,Hyderabad
+CUST-10943,37,1,18510.0,4142.780000000001,4,1,1,6,1,At Risk / Lapsing,Priya Iyer,Consumer,South,Karnataka,Bengaluru
+CUST-10944,484,7,168633.5,9581.3,1,2,2,5,2,Occasional Buyers,Ishaan Iyer,Consumer,South,Tamil Nadu,Coimbatore
+CUST-10945,28,11,378341.5,15217.9,4,3,3,10,0,Loyal Regulars,Rohan Kulkarni,Consumer,East,West Bengal,Kolkata
+CUST-10946,397,5,251863.0,11168.63,1,2,2,5,2,Occasional Buyers,Ananya Banerjee,Consumer,South,Karnataka,Mysuru
+CUST-10947,148,6,392968.0,9697.49,2,2,3,7,2,Occasional Buyers,Karan Mehta,Consumer,West,Maharashtra,Pune
+CUST-10948,44,24,880191.5,25558.12,4,5,4,13,3,Champions,Kabir Gupta,Corporate,East,Bihar,Patna
+CUST-10949,239,2,65072.0,624.0700000000002,1,1,1,3,2,Occasional Buyers,Neha Mehta,Small Business,South,Telangana,Hyderabad
+CUST-10950,26,9,421293.5,33564.229999999996,4,3,3,10,0,Loyal Regulars,Saanvi Mishra,Corporate,South,Tamil Nadu,Chennai
+CUST-10951,138,5,62370.5,9720.11,2,2,1,5,2,Occasional Buyers,Meera Das,Small Business,South,Telangana,Hyderabad
+CUST-10952,67,7,586843.5,42394.8,3,2,4,9,0,Loyal Regulars,Saanvi Singh,Small Business,West,Gujarat,Ahmedabad
+CUST-10953,65,12,662517.0,66864.76,3,4,4,11,0,Loyal Regulars,Arjun Joshi,Consumer,North,Haryana,Faridabad
+CUST-10954,2,33,1421024.5,142102.8,5,5,5,15,3,Champions,Rahul Verma,Corporate,West,Rajasthan,Jaipur
+CUST-10955,61,1,104820.0,13515.71,3,1,1,5,2,Occasional Buyers,Meera Rao,Consumer,South,Kerala,Kochi
+CUST-10956,40,12,1140735.0,148356.17,4,4,5,13,0,Loyal Regulars,Aarav Verma,Corporate,South,Kerala,Kochi
+CUST-10957,88,6,209922.5,10850.970000000001,3,2,2,7,2,Occasional Buyers,Saanvi Banerjee,Consumer,West,Maharashtra,Mumbai
+CUST-10958,307,3,317426.0,39893.0,1,1,3,5,2,Occasional Buyers,Ishaan Iyer,Corporate,South,Karnataka,Mysuru
+CUST-10959,1067,1,28040.0,6489.43,1,1,1,3,1,At Risk / Lapsing,Vikram Chopra,Consumer,South,Tamil Nadu,Coimbatore
+CUST-10960,10,20,958753.0,-5046.730000000001,5,5,5,15,3,Champions,Karan Gupta,Consumer,North,Haryana,Faridabad
+CUST-10961,252,9,236752.5,25648.27,1,3,2,6,2,Occasional Buyers,Sneha Joshi,Corporate,North,Haryana,Faridabad
+CUST-10962,570,6,299963.0,30169.52,1,2,3,6,2,Occasional Buyers,Meera Chopra,Consumer,North,Haryana,Gurugram
+CUST-10963,309,4,105337.0,2422.65,1,2,1,4,2,Occasional Buyers,Kabir Banerjee,Corporate,East,West Bengal,Kolkata
+CUST-10964,88,5,112663.0,22765.29,3,2,1,6,2,Occasional Buyers,Amit Mehta,Corporate,West,Gujarat,Surat
+CUST-10965,68,19,839372.5,113895.49,3,5,4,12,0,Loyal Regulars,Neha Mehta,Small Business,South,Tamil Nadu,Chennai
+CUST-10966,507,3,79061.0,6034.1,1,1,1,3,2,Occasional Buyers,Aarav Verma,Consumer,West,Rajasthan,Jaipur
+CUST-10967,9,5,394508.0,-27520.19,5,2,3,10,3,Champions,Ananya Joshi,Consumer,West,Rajasthan,Jaipur
+CUST-10968,2,5,176978.0,13761.910000000002,5,2,2,9,3,Champions,Kavya Banerjee,Small Business,West,Maharashtra,Mumbai
+CUST-10969,224,7,41770.0,8288.17,2,2,1,5,2,Occasional Buyers,Pooja Mishra,Corporate,North,Uttar Pradesh,Lucknow
+CUST-10970,93,7,324163.0,19566.2,3,3,3,9,0,Loyal Regulars,Vivaan Gupta,Corporate,East,Bihar,Patna
+CUST-10971,44,9,625810.0,60058.26,4,3,4,11,0,Loyal Regulars,Diya Chopra,Consumer,South,Kerala,Kochi
+CUST-10972,298,9,164352.5,16475.54,1,3,2,6,2,Occasional Buyers,Rahul Mishra,Corporate,North,Uttar Pradesh,Lucknow
+CUST-10973,34,20,1374914.0,68395.58,4,5,5,14,3,Champions,Karan Patel,Corporate,South,Kerala,Kochi
+CUST-10974,25,9,347408.0,38089.89,4,3,3,10,0,Loyal Regulars,Karan Das,Corporate,West,Maharashtra,Pune
+CUST-10975,15,14,831514.0,84389.62,5,4,4,13,3,Champions,Diya Joshi,Corporate,South,Kerala,Kochi
+CUST-10976,28,18,1337591.0,156242.86,4,4,5,13,3,Champions,Vikram Sharma,Small Business,South,Kerala,Kochi
+CUST-10977,56,9,713507.0,55333.32,3,3,4,10,0,Loyal Regulars,Amit Patel,Small Business,Central,Madhya Pradesh,Indore
+CUST-10978,28,59,2496928.5,201964.22999999998,4,5,5,14,3,Champions,Neha Das,Consumer,South,Kerala,Kochi
+CUST-10979,71,11,276865.0,28672.649999999998,3,3,2,8,0,Loyal Regulars,Vivaan Gupta,Consumer,North,Delhi,New Delhi
+CUST-10980,131,31,1385652.0,156992.13,2,5,5,12,0,Loyal Regulars,Priya Gupta,Consumer,West,Rajasthan,Jaipur
+CUST-10981,59,17,713605.0,53844.81,3,4,4,11,0,Loyal Regulars,Pooja Joshi,Small Business,South,Kerala,Kochi
+CUST-10982,9,19,1244353.0,56847.0,5,5,5,15,3,Champions,Karan Chopra,Corporate,West,Rajasthan,Jaipur
+CUST-10984,149,5,200820.0,32911.1,2,2,2,6,2,Occasional Buyers,Arjun Iyer,Corporate,South,Kerala,Kochi
+CUST-10985,172,11,781159.0,107545.69,2,3,4,9,0,Loyal Regulars,Priya Mehta,Corporate,South,Karnataka,Bengaluru
+CUST-10986,423,6,135052.5,11561.75,1,2,2,5,2,Occasional Buyers,Priya Gupta,Corporate,West,Gujarat,Surat
+CUST-10987,21,12,723492.5,21291.33,4,4,4,12,3,Champions,Pooja Singh,Small Business,South,Telangana,Hyderabad
+CUST-10988,111,15,1240174.5,128601.35,2,4,5,11,0,Loyal Regulars,Diya Patel,Corporate,North,Punjab,Amritsar
+CUST-10989,1117,2,72427.0,6970.63,1,1,1,3,1,At Risk / Lapsing,Arjun Joshi,Consumer,North,Haryana,Gurugram
+CUST-10990,708,2,17920.0,-1488.8000000000002,1,1,1,3,1,At Risk / Lapsing,Kavya Singh,Consumer,North,Haryana,Gurugram
+CUST-10991,3,31,1583100.0,62642.15,5,5,5,15,3,Champions,Priya Singh,Consumer,South,Tamil Nadu,Coimbatore
+CUST-10992,11,25,1622918.5,146891.38,5,5,5,15,3,Champions,Ishaan Nair,Corporate,North,Uttar Pradesh,Kanpur
+CUST-10993,15,12,280555.0,35170.29,5,4,2,11,3,Champions,Neha Chopra,Corporate,West,Gujarat,Ahmedabad
+CUST-10994,316,6,285643.5,4991.02,1,2,2,5,2,Occasional Buyers,Saanvi Sharma,Corporate,North,Punjab,Ludhiana
+CUST-10995,24,18,986506.5,-30022.74,4,4,5,13,3,Champions,Kabir Das,Corporate,East,Bihar,Patna
+CUST-10996,64,3,29437.0,-1485.45,3,1,1,5,2,Occasional Buyers,Priya Gupta,Corporate,North,Punjab,Ludhiana
+CUST-10997,91,19,1088797.0,150432.59,3,5,5,13,0,Loyal Regulars,Kabir Patel,Consumer,South,Kerala,Kochi
+CUST-10999,68,19,389726.0,42191.68,3,5,3,11,0,Loyal Regulars,Ishaan Joshi,Consumer,South,Kerala,Kochi
+CUST-11000,146,11,550145.0,67524.49,2,3,4,9,0,Loyal Regulars,Neha Banerjee,Consumer,West,Rajasthan,Jaipur
+CUST-11001,175,10,369053.0,45947.24,2,3,3,8,0,Loyal Regulars,Amit Singh,Corporate,North,Delhi,New Delhi
+CUST-11002,60,14,376118.0,61781.75,3,4,3,10,0,Loyal Regulars,Aditya Reddy,Small Business,South,Karnataka,Bengaluru
+CUST-11003,8,27,914617.0,59306.270000000004,5,5,5,15,3,Champions,Aditya Singh,Corporate,North,Uttar Pradesh,Kanpur
+CUST-11004,193,10,381873.0,-14323.38,2,3,3,8,0,Loyal Regulars,Kabir Verma,Consumer,South,Telangana,Hyderabad
+CUST-11005,109,21,786365.0,99570.4,3,5,4,12,0,Loyal Regulars,Karan Kulkarni,Consumer,West,Gujarat,Ahmedabad
+CUST-11006,19,11,152857.0,5636.16,5,3,2,10,0,Loyal Regulars,Ishaan Banerjee,Consumer,East,West Bengal,Kolkata
+CUST-11007,65,24,1553771.0,102143.46,3,5,5,13,0,Loyal Regulars,Ananya Reddy,Corporate,South,Tamil Nadu,Chennai
+CUST-11008,22,51,1653672.5,123189.02,4,5,5,14,3,Champions,Diya Sharma,Consumer,Central,Madhya Pradesh,Bhopal
+CUST-11009,164,7,153856.5,-3055.54,2,3,2,7,2,Occasional Buyers,Rahul Kulkarni,Small Business,West,Maharashtra,Pune
+CUST-11010,114,9,371093.0,53278.3,2,3,3,8,0,Loyal Regulars,Aarav Singh,Consumer,South,Karnataka,Mysuru
+CUST-11011,88,20,677803.0,29620.269999999997,3,5,4,12,0,Loyal Regulars,Kavya Singh,Consumer,South,Tamil Nadu,Coimbatore
+CUST-11012,70,6,81477.5,6048.12,3,2,1,6,2,Occasional Buyers,Meera Banerjee,Consumer,South,Tamil Nadu,Coimbatore
+CUST-11013,110,11,359485.0,31525.829999999998,2,3,3,8,0,Loyal Regulars,Diya Reddy,Consumer,North,Delhi,New Delhi
+CUST-11014,116,6,283873.0,11792.82,2,2,2,6,2,Occasional Buyers,Rohan Sharma,Corporate,South,Karnataka,Bengaluru
+CUST-11015,351,3,29339.0,691.8000000000004,1,1,1,3,1,At Risk / Lapsing,Rohan Gupta,Small Business,West,Gujarat,Surat
+CUST-11016,145,16,545216.5,38095.84,2,4,4,10,0,Loyal Regulars,Rahul Mehta,Consumer,North,Delhi,New Delhi
+CUST-11017,163,13,442977.5,31900.989999999998,2,4,3,9,0,Loyal Regulars,Rohan Chopra,Consumer,South,Tamil Nadu,Coimbatore
+CUST-11018,209,8,132703.5,10662.95,2,3,2,7,2,Occasional Buyers,Rahul Verma,Small Business,North,Haryana,Gurugram
+CUST-11019,9,22,681451.0,60547.48,5,5,4,14,3,Champions,Pooja Verma,Small Business,South,Tamil Nadu,Coimbatore
+CUST-11021,130,9,818095.0,120184.56,2,3,4,9,0,Loyal Regulars,Sneha Sharma,Small Business,South,Kerala,Kochi
+CUST-11022,16,4,50378.0,-1147.5499999999997,5,2,1,8,2,Occasional Buyers,Aditya Singh,Consumer,South,Telangana,Hyderabad
+CUST-11023,103,5,94388.0,7088.679999999999,3,2,1,6,2,Occasional Buyers,Priya Mishra,Small Business,Central,Chhattisgarh,Raipur
+CUST-11024,2,5,419291.5,-24649.38,5,2,3,10,3,Champions,Karan Sharma,Consumer,East,West Bengal,Kolkata
+CUST-11025,155,11,431262.5,22240.239999999998,2,3,3,8,0,Loyal Regulars,Aarav Iyer,Small Business,North,Haryana,Gurugram
+CUST-11026,2,13,541071.0,75018.82,5,4,4,13,3,Champions,Saanvi Banerjee,Consumer,North,Haryana,Faridabad
+CUST-11027,121,15,838137.0,33357.69,2,4,4,10,0,Loyal Regulars,Kavya Patel,Consumer,West,Rajasthan,Jaipur
+CUST-11028,8,31,1550555.0,158262.95,5,5,5,15,3,Champions,Saanvi Patel,Corporate,West,Rajasthan,Jaipur
+CUST-11029,48,12,519016.0,365.9400000000053,4,4,4,12,0,Loyal Regulars,Aditya Mishra,Consumer,North,Delhi,New Delhi
+CUST-11030,97,7,355064.0,3154.56,3,3,3,9,0,Loyal Regulars,Saanvi Chopra,Consumer,South,Kerala,Kochi
+CUST-11031,206,3,27828.5,6982.9800000000005,2,1,1,4,1,At Risk / Lapsing,Kavya Mishra,Consumer,West,Rajasthan,Jaipur
+CUST-11032,78,3,18140.0,4003.63,3,1,1,5,1,At Risk / Lapsing,Neha Rao,Consumer,North,Haryana,Gurugram
+CUST-11033,8,17,1031078.0,127047.4,5,4,5,14,3,Champions,Vivaan Verma,Small Business,West,Rajasthan,Jaipur
+CUST-11034,316,3,3503.0,666.6,1,1,1,3,1,At Risk / Lapsing,Vivaan Rao,Corporate,North,Punjab,Amritsar
+CUST-11035,1118,1,640.0,150.7,1,1,1,3,1,At Risk / Lapsing,Aarav Rao,Corporate,North,Delhi,New Delhi
+CUST-11036,209,2,158010.0,23140.769999999997,2,1,2,5,2,Occasional Buyers,Neha Nair,Consumer,North,Punjab,Amritsar
+CUST-11037,10,39,1483920.5,79423.92,5,5,5,15,3,Champions,Priya Verma,Consumer,Central,Madhya Pradesh,Bhopal
+CUST-11038,20,11,277803.0,21743.82,5,3,2,10,0,Loyal Regulars,Arjun Nair,Small Business,West,Gujarat,Ahmedabad
+CUST-11039,178,4,102279.0,14912.58,2,2,1,5,2,Occasional Buyers,Aditya Rao,Consumer,North,Punjab,Amritsar
+CUST-11040,60,9,939219.5,128489.79999999999,3,3,5,11,0,Loyal Regulars,Vivaan Sharma,Consumer,West,Rajasthan,Jaipur
+CUST-11041,86,14,489916.0,15778.380000000001,3,4,3,10,0,Loyal Regulars,Priya Banerjee,Corporate,West,Maharashtra,Mumbai
+CUST-11042,61,4,102170.0,6323.65,3,2,1,6,2,Occasional Buyers,Ananya Kulkarni,Consumer,Central,Madhya Pradesh,Bhopal
+CUST-11044,206,16,571285.5,64778.66,2,4,4,10,0,Loyal Regulars,Sneha Reddy,Corporate,West,Rajasthan,Jaipur
+CUST-11045,34,19,300760.0,32955.14,4,5,3,12,0,Loyal Regulars,Saanvi Patel,Consumer,West,Gujarat,Surat
+CUST-11046,82,4,228143.5,-2383.47,3,2,2,7,2,Occasional Buyers,Rahul Patel,Corporate,Central,Madhya Pradesh,Indore
+CUST-11047,18,6,208071.0,10988.91,5,2,2,9,0,Loyal Regulars,Rahul Chopra,Corporate,South,Kerala,Kochi
+CUST-11048,22,15,985309.0,77031.77,4,4,5,13,3,Champions,Meera Joshi,Consumer,West,Gujarat,Ahmedabad
+CUST-11049,184,6,115331.5,9716.37,2,2,1,5,2,Occasional Buyers,Rohan Nair,Consumer,West,Rajasthan,Jaipur
+CUST-11050,64,12,968897.0,62658.33000000001,3,4,5,12,0,Loyal Regulars,Aditya Patel,Consumer,South,Kerala,Kochi
+CUST-11051,162,10,245169.0,17370.25,2,3,2,7,0,Loyal Regulars,Priya Singh,Small Business,South,Kerala,Kochi
+CUST-11052,457,5,299546.5,22406.93,1,2,3,6,2,Occasional Buyers,Saanvi Chopra,Corporate,North,Haryana,Gurugram
+CUST-11053,35,13,639253.0,60263.670000000006,4,4,4,12,0,Loyal Regulars,Ishaan Iyer,Consumer,West,Rajasthan,Jaipur
+CUST-11054,273,5,118929.5,15279.35,1,2,2,5,2,Occasional Buyers,Meera Sharma,Consumer,South,Tamil Nadu,Chennai
+CUST-11055,15,24,1461251.0,74601.82,5,5,5,15,3,Champions,Rahul Singh,Corporate,South,Tamil Nadu,Chennai
+CUST-11056,571,3,94687.0,5562.1,1,1,1,3,2,Occasional Buyers,Ishaan Mehta,Consumer,South,Tamil Nadu,Chennai
+CUST-11057,25,38,1862397.0,106407.07,4,5,5,14,3,Champions,Diya Das,Consumer,North,Punjab,Amritsar
+CUST-11058,257,12,298317.5,12684.7,1,4,3,8,0,Loyal Regulars,Saanvi Gupta,Consumer,West,Gujarat,Surat
+CUST-11059,44,31,1885135.0,161094.66,4,5,5,14,3,Champions,Amit Rao,Corporate,North,Punjab,Ludhiana
+CUST-11060,143,19,761378.0,63066.37,2,5,4,11,0,Loyal Regulars,Ishaan Chopra,Corporate,North,Haryana,Gurugram
+CUST-11061,38,5,190880.0,-3798.6400000000017,4,2,2,8,2,Occasional Buyers,Arjun Nair,Consumer,Central,Madhya Pradesh,Bhopal
+CUST-11062,177,4,60425.0,2411.7999999999993,2,2,1,5,2,Occasional Buyers,Sneha Das,Small Business,West,Maharashtra,Nagpur
+CUST-11063,88,12,793788.5,96063.87,3,4,4,11,0,Loyal Regulars,Karan Joshi,Consumer,North,Delhi,New Delhi
+CUST-11064,252,8,434990.0,-4071.570000000002,1,3,3,7,2,Occasional Buyers,Vivaan Banerjee,Corporate,East,Odisha,Bhubaneswar
+CUST-11065,130,3,92038.0,9160.44,2,1,1,4,2,Occasional Buyers,Kabir Rao,Consumer,North,Haryana,Faridabad
+CUST-11066,20,8,414795.0,42745.67,5,3,3,11,0,Loyal Regulars,Neha Kulkarni,Consumer,South,Karnataka,Bengaluru
+CUST-11067,134,5,143324.0,15417.669999999998,2,2,2,6,2,Occasional Buyers,Pooja Patel,Corporate,North,Haryana,Faridabad
+CUST-11068,8,12,405285.5,-3847.3300000000013,5,4,3,12,3,Champions,Neha Rao,Small Business,East,Odisha,Sambalpur
+CUST-11069,145,3,55169.0,-6481.25,2,1,1,4,2,Occasional Buyers,Pooja Banerjee,Corporate,South,Karnataka,Bengaluru
+CUST-11070,441,2,40070.0,8246.07,1,1,1,3,1,At Risk / Lapsing,Meera Verma,Consumer,West,Maharashtra,Nagpur
+CUST-11071,384,4,238248.0,14702.57,1,2,2,5,2,Occasional Buyers,Kavya Banerjee,Consumer,East,Bihar,Patna
+CUST-11072,71,8,432966.5,31373.789999999997,3,3,3,9,0,Loyal Regulars,Ananya Gupta,Corporate,Central,Chhattisgarh,Raipur
+CUST-11073,22,49,2638930.0,209364.97999999998,4,5,5,14,3,Champions,Priya Mehta,Corporate,West,Rajasthan,Jaipur
+CUST-11074,25,11,506005.5,8637.3,4,3,3,10,0,Loyal Regulars,Arjun Nair,Corporate,North,Uttar Pradesh,Kanpur
+CUST-11075,108,3,25812.0,2780.1899999999996,3,1,1,5,1,At Risk / Lapsing,Ishaan Nair,Consumer,Central,Madhya Pradesh,Bhopal
+CUST-11077,24,19,702699.5,52544.64,4,5,4,13,3,Champions,Meera Das,Corporate,West,Gujarat,Ahmedabad
+CUST-11078,247,6,409216.5,391.4300000000012,1,2,3,6,2,Occasional Buyers,Vikram Kulkarni,Small Business,South,Kerala,Kochi
+CUST-11079,201,8,420680.5,41902.85,2,3,3,8,0,Loyal Regulars,Kavya Mehta,Small Business,West,Maharashtra,Pune
+CUST-11081,506,5,384320.5,-19077.620000000003,1,2,3,6,2,Occasional Buyers,Kabir Patel,Corporate,North,Haryana,Gurugram
+CUST-11082,48,15,968745.0,62657.14,4,4,5,13,0,Loyal Regulars,Rahul Mishra,Consumer,South,Kerala,Kochi
+CUST-11083,62,22,704216.0,61561.0,3,5,4,12,0,Loyal Regulars,Arjun Nair,Corporate,West,Rajasthan,Jaipur
+CUST-11084,172,8,514157.0,41575.92,2,3,3,8,0,Loyal Regulars,Karan Nair,Consumer,North,Uttar Pradesh,Lucknow
+CUST-11085,33,14,461324.0,56037.85,4,4,3,11,0,Loyal Regulars,Rohan Mehta,Corporate,North,Delhi,New Delhi
+CUST-11086,137,2,4861.5,779.28,2,1,1,4,1,At Risk / Lapsing,Karan Iyer,Consumer,South,Tamil Nadu,Coimbatore
+CUST-11087,23,22,1274451.5,109294.27,4,5,5,14,3,Champions,Aarav Rao,Corporate,North,Delhi,New Delhi
+CUST-11088,89,5,276219.0,17459.109999999997,3,2,2,7,2,Occasional Buyers,Priya Singh,Consumer,North,Uttar Pradesh,Noida
+CUST-11089,4,26,1333606.0,82996.31,5,5,5,15,3,Champions,Meera Verma,Consumer,Central,Madhya Pradesh,Bhopal
+CUST-11090,252,4,54597.5,4492.62,1,2,1,4,2,Occasional Buyers,Saanvi Kulkarni,Consumer,South,Kerala,Kochi
+CUST-11091,157,11,228115.5,13290.99,2,3,2,7,0,Loyal Regulars,Sneha Iyer,Consumer,North,Uttar Pradesh,Lucknow
+CUST-11092,308,14,743773.5,82833.73,1,4,4,9,0,Loyal Regulars,Priya Nair,Consumer,West,Gujarat,Ahmedabad
+CUST-11093,24,22,787976.5,74745.2,4,5,4,13,3,Champions,Kavya Joshi,Small Business,West,Rajasthan,Jaipur
+CUST-11094,37,3,90884.5,8730.76,4,1,1,6,2,Occasional Buyers,Diya Joshi,Corporate,East,Bihar,Patna
+CUST-11095,920,1,7110.0,-96.69,1,1,1,3,1,At Risk / Lapsing,Sneha Das,Corporate,West,Maharashtra,Nagpur
+CUST-11096,870,1,20280.0,3721.7799999999997,1,1,1,3,1,At Risk / Lapsing,Pooja Singh,Corporate,West,Maharashtra,Nagpur
+CUST-11097,4,4,18333.5,295.34000000000015,5,2,1,8,2,Occasional Buyers,Diya Sharma,Corporate,South,Kerala,Kochi
+CUST-11098,23,38,1766453.0,-27916.409999999996,4,5,5,14,3,Champions,Diya Kulkarni,Corporate,East,Odisha,Bhubaneswar
+CUST-11099,3,25,1084538.5,79619.8,5,5,5,15,3,Champions,Amit Mishra,Corporate,South,Tamil Nadu,Coimbatore
+CUST-11100,16,40,2993227.5,330816.85000000003,5,5,5,15,3,Champions,Vivaan Das,Consumer,West,Rajasthan,Jaipur
+CUST-11101,541,6,208547.0,7926.7300000000005,1,2,2,5,2,Occasional Buyers,Neha Sharma,Small Business,East,Bihar,Patna
+CUST-11102,373,4,109944.0,12974.67,1,2,1,4,2,Occasional Buyers,Amit Mehta,Consumer,North,Punjab,Ludhiana
+CUST-11103,53,9,186729.0,7214.889999999999,4,3,2,9,0,Loyal Regulars,Ananya Gupta,Consumer,East,West Bengal,Kolkata
+CUST-11104,26,37,1945858.0,86083.09999999999,4,5,5,14,3,Champions,Sneha Mishra,Consumer,South,Telangana,Hyderabad
+CUST-11105,169,2,38760.0,-3056.69,2,1,1,4,1,At Risk / Lapsing,Sneha Kulkarni,Consumer,North,Uttar Pradesh,Kanpur
+CUST-11106,32,17,391272.0,40165.14,4,4,3,11,0,Loyal Regulars,Ananya Rao,Corporate,North,Uttar Pradesh,Kanpur
+CUST-11107,287,6,86757.0,-5433.0,1,2,1,4,2,Occasional Buyers,Diya Das,Consumer,South,Telangana,Hyderabad
+CUST-11108,76,46,2426622.5,146404.52000000002,3,5,5,13,3,Champions,Aarav Singh,Consumer,North,Uttar Pradesh,Lucknow
+CUST-11109,660,2,295803.0,24553.15,1,1,3,5,2,Occasional Buyers,Meera Das,Small Business,North,Haryana,Gurugram
+CUST-11110,21,11,432416.0,42020.51,4,3,3,10,0,Loyal Regulars,Ishaan Mishra,Corporate,North,Haryana,Gurugram
+CUST-11111,176,7,256713.5,19976.91,2,3,2,7,2,Occasional Buyers,Sneha Chopra,Corporate,North,Delhi,New Delhi
+CUST-11112,6,36,2031269.5,74123.31,5,5,5,15,3,Champions,Neha Verma,Consumer,West,Maharashtra,Mumbai
+CUST-11113,237,2,23587.0,3382.12,1,1,1,3,1,At Risk / Lapsing,Ananya Mehta,Consumer,North,Uttar Pradesh,Kanpur
+CUST-11114,494,1,6850.0,-615.64,1,1,1,3,1,At Risk / Lapsing,Arjun Mehta,Consumer,North,Uttar Pradesh,Lucknow
+CUST-11116,25,7,314899.0,7503.5,4,3,3,10,0,Loyal Regulars,Diya Mehta,Corporate,West,Rajasthan,Jaipur
+CUST-11117,180,6,300712.0,29159.2,2,2,3,7,2,Occasional Buyers,Vikram Chopra,Small Business,West,Rajasthan,Jaipur
+CUST-11118,5,26,695786.5,82618.45999999999,5,5,4,14,3,Champions,Kabir Sharma,Consumer,South,Telangana,Hyderabad
+CUST-11119,15,11,403010.5,8275.06,5,3,3,11,3,Champions,Karan Nair,Corporate,Central,Chhattisgarh,Raipur
+CUST-11120,15,28,1339332.5,119572.59,5,5,5,15,3,Champions,Amit Nair,Consumer,South,Tamil Nadu,Coimbatore
+CUST-11121,136,16,585969.5,81459.04,2,4,4,10,0,Loyal Regulars,Aarav Banerjee,Consumer,West,Maharashtra,Pune
+CUST-11122,5,12,335977.5,9795.230000000001,5,4,3,12,3,Champions,Karan Das,Consumer,North,Punjab,Amritsar
+CUST-11123,15,27,1338641.5,-64018.81999999999,5,5,5,15,3,Champions,Meera Patel,Consumer,North,Punjab,Ludhiana
+CUST-11124,110,7,260854.0,10236.38,2,3,2,7,2,Occasional Buyers,Diya Reddy,Consumer,East,Odisha,Sambalpur
+CUST-11125,83,3,120691.0,9627.4,3,1,2,6,2,Occasional Buyers,Aarav Gupta,Small Business,West,Maharashtra,Pune
+CUST-11126,256,11,576106.5,56744.66,1,3,4,8,0,Loyal Regulars,Rahul Reddy,Consumer,South,Karnataka,Mysuru
+CUST-11127,56,17,957827.5,68385.5,3,4,5,12,0,Loyal Regulars,Aditya Rao,Corporate,North,Uttar Pradesh,Noida
+CUST-11128,321,11,581594.5,31532.349999999995,1,3,4,8,0,Loyal Regulars,Diya Sharma,Consumer,South,Karnataka,Mysuru
+CUST-11129,415,4,206637.0,-5447.42,1,2,2,5,2,Occasional Buyers,Kabir Chopra,Small Business,North,Delhi,New Delhi
+CUST-11130,41,13,892701.5,7175.21,4,4,4,12,0,Loyal Regulars,Meera Kulkarni,Corporate,South,Telangana,Hyderabad
+CUST-11131,567,2,97940.0,14286.919999999998,1,1,1,3,2,Occasional Buyers,Kavya Iyer,Consumer,South,Kerala,Kochi
+CUST-11132,180,8,77138.0,5892.81,2,3,1,6,2,Occasional Buyers,Ishaan Verma,Corporate,East,Bihar,Patna
+CUST-11133,31,12,1034385.5,41298.399999999994,4,4,5,13,0,Loyal Regulars,Arjun Nair,Consumer,East,West Bengal,Kolkata
+CUST-11134,3,10,281902.0,31286.34,5,3,2,10,3,Champions,Aditya Das,Consumer,South,Karnataka,Bengaluru
+CUST-11136,46,18,831926.5,18381.44,4,4,4,12,0,Loyal Regulars,Karan Kulkarni,Corporate,Central,Chhattisgarh,Raipur
+CUST-11137,19,16,607973.5,13608.5,5,4,4,13,3,Champions,Neha Gupta,Corporate,East,West Bengal,Kolkata
+CUST-11138,25,17,768896.0,73710.90000000001,4,4,4,12,3,Champions,Arjun Chopra,Corporate,North,Haryana,Faridabad
+CUST-11139,73,8,597232.5,49883.92,3,3,4,10,0,Loyal Regulars,Kabir Mehta,Consumer,North,Haryana,Gurugram
+CUST-11140,137,7,136138.0,5394.849999999999,2,3,2,7,2,Occasional Buyers,Ananya Sharma,Small Business,North,Delhi,New Delhi
+CUST-11141,114,13,693177.5,832.1299999999997,2,4,4,10,0,Loyal Regulars,Neha Banerjee,Small Business,East,Odisha,Sambalpur
+CUST-11142,24,22,1073117.0,111809.50999999998,4,5,5,14,3,Champions,Saanvi Gupta,Consumer,West,Gujarat,Ahmedabad
+CUST-11143,54,14,522358.5,53179.68,3,4,4,11,0,Loyal Regulars,Vikram Kulkarni,Corporate,West,Maharashtra,Mumbai
+CUST-11144,413,3,164830.0,23027.61,1,1,2,4,2,Occasional Buyers,Sneha Mehta,Consumer,South,Kerala,Kochi
+CUST-11145,199,4,183200.0,10360.85,2,2,2,6,2,Occasional Buyers,Vikram Sharma,Corporate,South,Tamil Nadu,Chennai
+CUST-11146,62,12,373979.0,55679.11,3,4,3,10,0,Loyal Regulars,Aditya Joshi,Corporate,North,Haryana,Gurugram
+CUST-11147,187,6,337098.0,38508.06,2,2,3,7,2,Occasional Buyers,Pooja Verma,Corporate,North,Haryana,Gurugram
+CUST-11148,21,39,1807147.5,225498.78,4,5,5,14,3,Champions,Ishaan Mehta,Consumer,South,Tamil Nadu,Coimbatore
+CUST-11149,31,10,512124.5,8207.220000000001,4,3,3,10,0,Loyal Regulars,Rahul Gupta,Consumer,East,Bihar,Patna
+CUST-11150,42,9,409061.0,54589.67,4,3,3,10,0,Loyal Regulars,Rohan Mishra,Consumer,South,Tamil Nadu,Chennai
+CUST-11151,9,14,263204.0,12175.83,5,4,2,11,3,Champions,Diya Gupta,Consumer,West,Rajasthan,Jaipur
+CUST-11152,26,30,946891.0,78810.3,4,5,5,14,3,Champions,Kabir Rao,Consumer,South,Tamil Nadu,Chennai
+CUST-11153,185,8,372129.0,59749.280000000006,2,3,3,8,0,Loyal Regulars,Kavya Gupta,Corporate,West,Maharashtra,Pune
+CUST-11154,176,3,18296.0,3415.75,2,1,1,4,1,At Risk / Lapsing,Meera Kulkarni,Corporate,West,Maharashtra,Nagpur
+CUST-11155,181,5,77135.0,7588.08,2,2,1,5,2,Occasional Buyers,Kabir Patel,Consumer,North,Delhi,New Delhi
+CUST-11156,128,12,361124.5,10280.15,2,4,3,9,0,Loyal Regulars,Karan Rao,Corporate,West,Gujarat,Ahmedabad
+CUST-11158,1,5,115665.0,14268.96,5,2,2,9,3,Champions,Priya Gupta,Consumer,North,Punjab,Amritsar
+CUST-11159,48,10,222759.0,20910.98,4,3,2,9,0,Loyal Regulars,Kabir Joshi,Corporate,North,Haryana,Faridabad
+CUST-11160,185,6,330937.0,1395.8600000000001,2,2,3,7,2,Occasional Buyers,Sneha Iyer,Consumer,South,Telangana,Hyderabad
+CUST-11161,345,4,151374.0,25849.14,1,2,2,5,2,Occasional Buyers,Priya Singh,Small Business,North,Delhi,New Delhi
+CUST-11162,63,4,300258.0,42621.03,3,2,3,8,2,Occasional Buyers,Priya Reddy,Consumer,South,Kerala,Kochi
+CUST-11163,10,19,559767.0,-3677.340000000004,5,5,4,14,3,Champions,Kabir Joshi,Small Business,West,Gujarat,Ahmedabad
+CUST-11164,13,11,597321.5,51998.91,5,3,4,12,3,Champions,Kabir Reddy,Consumer,West,Maharashtra,Mumbai
+CUST-11165,491,1,32940.0,6430.35,1,1,1,3,1,At Risk / Lapsing,Arjun Singh,Small Business,North,Haryana,Gurugram
+CUST-11166,184,3,21302.0,1812.2400000000002,2,1,1,4,1,At Risk / Lapsing,Meera Rao,Consumer,West,Maharashtra,Pune
+CUST-11167,117,3,458102.0,40862.659999999996,2,1,3,6,2,Occasional Buyers,Sneha Sharma,Consumer,South,Tamil Nadu,Chennai
+CUST-11168,4,22,575743.5,45904.23,5,5,4,14,3,Champions,Rahul Das,Consumer,West,Rajasthan,Jaipur
+CUST-11169,174,3,3651.5,1072.5,2,1,1,4,1,At Risk / Lapsing,Sneha Kulkarni,Small Business,South,Tamil Nadu,Coimbatore
+CUST-11170,33,27,1175882.5,138879.08,4,5,5,14,3,Champions,Vikram Reddy,Corporate,South,Telangana,Hyderabad
+CUST-11171,41,10,227575.0,7682.81,4,3,2,9,0,Loyal Regulars,Aditya Singh,Small Business,North,Delhi,New Delhi
+CUST-11172,11,8,347769.5,53875.049999999996,5,3,3,11,3,Champions,Vivaan Das,Corporate,West,Rajasthan,Jaipur
+CUST-11173,82,3,112077.0,9142.83,3,1,1,5,2,Occasional Buyers,Saanvi Joshi,Corporate,South,Tamil Nadu,Coimbatore
+CUST-11174,44,12,1052573.5,70510.36,4,4,5,13,0,Loyal Regulars,Rahul Verma,Corporate,South,Telangana,Hyderabad
+CUST-11175,13,17,962755.5,58644.57,5,4,5,14,3,Champions,Vikram Singh,Corporate,South,Tamil Nadu,Coimbatore
+CUST-11176,49,5,237428.5,10573.220000000001,4,2,2,8,2,Occasional Buyers,Ishaan Joshi,Small Business,North,Haryana,Gurugram
+CUST-11177,71,6,928796.5,108758.93000000001,3,2,5,10,0,Loyal Regulars,Kabir Sharma,Corporate,South,Karnataka,Mysuru
+CUST-11178,105,7,136454.5,11058.259999999998,3,3,2,8,2,Occasional Buyers,Sneha Das,Consumer,South,Kerala,Kochi
+CUST-11179,334,5,253332.0,10144.46,1,2,2,5,2,Occasional Buyers,Sneha Joshi,Consumer,West,Maharashtra,Pune
+CUST-11180,21,23,1048995.0,113316.3,4,5,5,14,3,Champions,Karan Mishra,Corporate,South,Kerala,Kochi
+CUST-11181,42,8,168789.5,10756.12,4,3,2,9,0,Loyal Regulars,Aditya Gupta,Consumer,South,Telangana,Hyderabad
+CUST-11182,287,20,1436161.0,24169.889999999996,1,5,5,11,0,Loyal Regulars,Rohan Rao,Consumer,East,West Bengal,Kolkata
+CUST-11183,15,44,1621678.0,193583.62,5,5,5,15,3,Champions,Meera Joshi,Consumer,South,Karnataka,Bengaluru
+CUST-11184,34,8,670569.0,72857.61,4,3,4,11,0,Loyal Regulars,Pooja Sharma,Consumer,West,Rajasthan,Jaipur
+CUST-11185,39,19,1021799.5,59699.2,4,5,5,14,3,Champions,Ananya Sharma,Corporate,East,Bihar,Patna
+CUST-11186,90,4,28393.0,4853.09,3,2,1,6,2,Occasional Buyers,Ananya Mehta,Corporate,West,Rajasthan,Jaipur
+CUST-11187,208,9,913715.5,-79178.41,2,3,5,10,0,Loyal Regulars,Aarav Kulkarni,Consumer,North,Delhi,New Delhi
+CUST-11188,14,48,1848126.5,160135.0,5,5,5,15,3,Champions,Meera Nair,Corporate,West,Rajasthan,Jaipur
+CUST-11189,145,5,229141.0,-2228.3199999999997,2,2,2,6,2,Occasional Buyers,Ananya Singh,Corporate,East,Odisha,Sambalpur
+CUST-11190,9,10,439821.0,9559.699999999999,5,3,3,11,3,Champions,Arjun Mehta,Corporate,East,Bihar,Patna
+CUST-11191,8,38,2374534.0,218952.5,5,5,5,15,3,Champions,Amit Banerjee,Consumer,North,Punjab,Amritsar
+CUST-11192,20,18,743091.0,61821.86000000001,5,4,4,13,3,Champions,Meera Chopra,Consumer,West,Rajasthan,Jaipur
+CUST-11193,4,38,1743179.5,156874.45,5,5,5,15,3,Champions,Kavya Rao,Consumer,Central,Chhattisgarh,Raipur
+CUST-11194,20,32,1787801.5,47694.49,5,5,5,15,3,Champions,Aarav Singh,Consumer,East,Odisha,Sambalpur
+CUST-11195,147,11,396158.5,41300.94,2,3,3,8,0,Loyal Regulars,Aditya Verma,Corporate,South,Karnataka,Bengaluru
+CUST-11196,81,9,384836.0,23600.04,3,3,3,9,0,Loyal Regulars,Vivaan Nair,Consumer,North,Punjab,Ludhiana
+CUST-11197,130,2,22548.0,76.04000000000002,2,1,1,4,1,At Risk / Lapsing,Amit Sharma,Consumer,West,Gujarat,Surat
+CUST-11198,88,15,534500.5,4805.4400000000005,3,4,4,11,0,Loyal Regulars,Karan Das,Consumer,West,Maharashtra,Mumbai
+CUST-11199,466,4,334464.5,21552.11,1,2,3,6,2,Occasional Buyers,Aditya Kulkarni,Consumer,North,Delhi,New Delhi
+CUST-11200,12,26,1273693.5,151916.09,5,5,5,15,3,Champions,Sneha Kulkarni,Consumer,South,Telangana,Hyderabad
+CUST-11201,163,2,21808.5,4776.12,2,1,1,4,1,At Risk / Lapsing,Meera Das,Corporate,West,Maharashtra,Pune
+CUST-11202,867,1,342720.0,27253.800000000003,1,1,3,5,2,Occasional Buyers,Amit Mishra,Corporate,North,Uttar Pradesh,Lucknow
+CUST-11203,50,16,1078155.5,73915.08,4,4,5,13,0,Loyal Regulars,Vikram Chopra,Corporate,South,Karnataka,Mysuru
+CUST-11204,16,4,178640.0,-19465.18,5,2,2,9,2,Occasional Buyers,Kabir Sharma,Small Business,West,Maharashtra,Nagpur
+CUST-11205,145,5,127114.5,11432.609999999999,2,2,2,6,2,Occasional Buyers,Kavya Kulkarni,Consumer,West,Maharashtra,Mumbai
+CUST-11206,89,3,159839.0,18168.2,3,1,2,6,2,Occasional Buyers,Vivaan Chopra,Consumer,South,Tamil Nadu,Coimbatore
+CUST-11207,45,26,1576845.5,88767.06,4,5,5,14,3,Champions,Aditya Verma,Small Business,West,Gujarat,Ahmedabad
+CUST-11208,24,4,32349.5,6615.61,4,2,1,7,2,Occasional Buyers,Karan Reddy,Small Business,South,Telangana,Hyderabad
+CUST-11209,54,23,658241.0,36868.799999999996,3,5,4,12,0,Loyal Regulars,Rohan Reddy,Consumer,South,Kerala,Kochi
+CUST-11210,21,38,1274319.0,43679.1,4,5,5,14,3,Champions,Kavya Chopra,Consumer,Central,Madhya Pradesh,Bhopal
+CUST-11211,363,14,347747.0,12603.37,1,4,3,8,0,Loyal Regulars,Aditya Mehta,Consumer,South,Tamil Nadu,Coimbatore
+CUST-11212,1178,1,7820.0,1059.44,1,1,1,3,1,At Risk / Lapsing,Kavya Joshi,Corporate,North,Delhi,New Delhi
+CUST-11213,4,47,1898565.0,155602.4,5,5,5,15,3,Champions,Kavya Kulkarni,Small Business,South,Tamil Nadu,Chennai
+CUST-11214,8,21,1187270.5,150518.53999999998,5,5,5,15,3,Champions,Aditya Joshi,Corporate,South,Tamil Nadu,Coimbatore
+CUST-11215,482,5,538050.0,-36268.88,1,2,4,7,2,Occasional Buyers,Amit Gupta,Consumer,East,Bihar,Patna
+CUST-11216,298,4,234410.0,-15625.05,1,2,2,5,2,Occasional Buyers,Vikram Rao,Small Business,South,Tamil Nadu,Chennai
+CUST-11217,43,24,551833.0,37936.43,4,5,4,13,0,Loyal Regulars,Aarav Reddy,Consumer,West,Maharashtra,Pune
+CUST-11219,341,4,179025.5,8708.68,1,2,2,5,2,Occasional Buyers,Saanvi Sharma,Corporate,North,Haryana,Faridabad
+CUST-11220,87,6,110085.0,14912.050000000001,3,2,1,6,2,Occasional Buyers,Kavya Das,Consumer,North,Haryana,Faridabad
+CUST-11221,184,2,69174.0,8300.93,2,1,1,4,2,Occasional Buyers,Arjun Nair,Corporate,West,Maharashtra,Mumbai
+CUST-11222,11,17,694416.0,55797.520000000004,5,4,4,13,3,Champions,Meera Chopra,Corporate,South,Kerala,Kochi
+CUST-11223,27,11,635449.5,16537.760000000002,4,3,4,11,0,Loyal Regulars,Saanvi Gupta,Corporate,South,Kerala,Kochi
+CUST-11225,99,27,1088282.0,102125.90000000001,3,5,5,13,0,Loyal Regulars,Neha Das,Consumer,South,Karnataka,Mysuru
+CUST-11226,6,22,1296285.5,149835.19,5,5,5,15,3,Champions,Aditya Reddy,Corporate,West,Maharashtra,Nagpur
+CUST-11227,15,31,1636012.0,141789.84,5,5,5,15,3,Champions,Amit Rao,Consumer,North,Haryana,Faridabad
+CUST-11228,32,10,212523.0,22418.149999999998,4,3,2,9,0,Loyal Regulars,Vikram Gupta,Consumer,South,Tamil Nadu,Coimbatore
+CUST-11229,51,22,965689.5,46205.82,4,5,5,14,0,Loyal Regulars,Aarav Das,Consumer,South,Kerala,Kochi
+CUST-11230,21,13,1406476.5,195469.34999999998,4,4,5,13,3,Champions,Priya Singh,Consumer,Central,Madhya Pradesh,Bhopal
+CUST-11231,87,14,266724.0,-4588.67,3,4,2,9,0,Loyal Regulars,Kavya Das,Corporate,West,Maharashtra,Nagpur
+CUST-11232,13,5,105866.0,8553.03,5,2,1,8,2,Occasional Buyers,Neha Mishra,Consumer,East,Bihar,Patna
+CUST-11233,54,19,571848.0,37401.32,3,5,4,12,0,Loyal Regulars,Kabir Gupta,Consumer,North,Punjab,Amritsar
+CUST-11234,10,4,422045.0,-26089.7,5,2,3,10,0,Loyal Regulars,Karan Reddy,Small Business,West,Rajasthan,Jaipur
+CUST-11235,57,12,694332.5,80001.17,3,4,4,11,0,Loyal Regulars,Arjun Joshi,Consumer,South,Karnataka,Mysuru
+CUST-11236,30,11,654207.0,52343.57,4,3,4,11,0,Loyal Regulars,Ananya Mishra,Consumer,South,Karnataka,Bengaluru
+CUST-11237,4,19,1361598.5,104384.65,5,5,5,15,3,Champions,Aditya Reddy,Corporate,South,Kerala,Kochi
+CUST-11238,45,9,195615.0,1778.8000000000002,4,3,2,9,0,Loyal Regulars,Priya Rao,Consumer,East,West Bengal,Kolkata
+CUST-11239,258,3,98241.0,10006.519999999999,1,1,1,3,2,Occasional Buyers,Aditya Mishra,Corporate,North,Punjab,Amritsar
+CUST-11240,597,2,25431.0,-812.5,1,1,1,3,1,At Risk / Lapsing,Vikram Iyer,Consumer,West,Gujarat,Surat
+CUST-11241,43,3,47778.0,8753.369999999999,4,1,1,6,2,Occasional Buyers,Kavya Patel,Consumer,West,Maharashtra,Pune
+CUST-11242,957,1,1310.0,525.12,1,1,1,3,1,At Risk / Lapsing,Diya Sharma,Small Business,North,Uttar Pradesh,Kanpur
+CUST-11243,31,38,949377.5,50806.32,4,5,5,14,3,Champions,Ananya Chopra,Small Business,North,Haryana,Gurugram
+CUST-11244,8,18,597092.0,46506.25,5,4,4,13,3,Champions,Saanvi Gupta,Consumer,West,Maharashtra,Mumbai
+CUST-11245,146,9,478250.0,70281.43,2,3,3,8,0,Loyal Regulars,Rohan Sharma,Small Business,South,Telangana,Hyderabad
+CUST-11246,310,10,208786.5,1641.8299999999992,1,3,2,6,2,Occasional Buyers,Diya Sharma,Corporate,East,West Bengal,Kolkata
+CUST-11247,27,35,2199022.0,176989.49,4,5,5,14,3,Champions,Meera Gupta,Consumer,West,Rajasthan,Jaipur
+CUST-11248,17,21,787401.0,91270.87,5,5,4,14,3,Champions,Aditya Das,Consumer,North,Delhi,New Delhi
+CUST-11249,34,11,434462.5,52475.17,4,3,3,10,0,Loyal Regulars,Neha Mehta,Consumer,West,Rajasthan,Jaipur
+CUST-11250,29,2,79562.5,12893.18,4,1,1,6,2,Occasional Buyers,Karan Chopra,Small Business,South,Tamil Nadu,Coimbatore
+CUST-11251,171,15,492149.5,46776.29,2,4,3,9,0,Loyal Regulars,Sneha Banerjee,Small Business,South,Karnataka,Bengaluru
+CUST-11252,123,2,141384.0,26597.67,2,1,2,5,2,Occasional Buyers,Meera Nair,Consumer,East,Odisha,Bhubaneswar
+CUST-11253,100,4,70698.0,-953.6799999999998,3,2,1,6,2,Occasional Buyers,Rohan Singh,Consumer,West,Gujarat,Surat
+CUST-11254,95,10,650071.0,54980.270000000004,3,3,4,10,0,Loyal Regulars,Meera Mishra,Consumer,South,Karnataka,Bengaluru
+CUST-11255,430,3,55064.0,5836.63,1,1,1,3,1,At Risk / Lapsing,Diya Das,Corporate,North,Haryana,Gurugram
+CUST-11256,20,11,1007231.5,116122.25,5,3,5,13,3,Champions,Amit Iyer,Corporate,West,Gujarat,Surat
+CUST-11258,1029,1,11361.0,1427.6399999999999,1,1,1,3,1,At Risk / Lapsing,Vikram Mehta,Corporate,North,Punjab,Amritsar
+CUST-11259,28,37,1768305.0,82758.09999999999,4,5,5,14,3,Champions,Diya Iyer,Small Business,East,Odisha,Bhubaneswar
+CUST-11260,104,15,805771.5,35173.5,3,4,4,11,0,Loyal Regulars,Meera Iyer,Consumer,North,Delhi,New Delhi
+CUST-11261,862,2,57095.5,-9824.75,1,1,1,3,1,At Risk / Lapsing,Sneha Rao,Small Business,South,Kerala,Kochi
+CUST-11262,32,39,1863304.0,33039.19999999999,4,5,5,14,3,Champions,Vivaan Reddy,Consumer,North,Delhi,New Delhi
+CUST-11263,79,18,660158.0,-13014.92,3,4,4,11,0,Loyal Regulars,Neha Sharma,Corporate,East,Odisha,Sambalpur
+CUST-11264,250,6,155390.0,22552.27,1,2,2,5,2,Occasional Buyers,Priya Singh,Consumer,South,Kerala,Kochi
+CUST-11265,529,1,2600.0,801.73,1,1,1,3,1,At Risk / Lapsing,Saanvi Singh,Corporate,West,Maharashtra,Mumbai
+CUST-11266,297,5,98370.0,12021.13,1,2,1,4,2,Occasional Buyers,Ananya Mehta,Consumer,South,Telangana,Hyderabad
+CUST-11267,3,5,156711.0,12359.779999999999,5,2,2,9,3,Champions,Aarav Iyer,Small Business,North,Punjab,Amritsar
+CUST-11268,173,13,554197.5,25642.03,2,4,4,10,0,Loyal Regulars,Pooja Das,Consumer,South,Tamil Nadu,Coimbatore
+CUST-11269,26,11,457042.0,13066.739999999996,4,3,3,10,0,Loyal Regulars,Rohan Mishra,Consumer,West,Gujarat,Surat
+CUST-11270,22,5,138743.5,25817.510000000002,4,2,2,8,2,Occasional Buyers,Vivaan Kulkarni,Corporate,West,Maharashtra,Nagpur
+CUST-11271,17,14,490276.0,37441.0,5,4,3,12,3,Champions,Saanvi Chopra,Consumer,North,Uttar Pradesh,Lucknow
+CUST-11272,48,5,196889.5,12619.87,4,2,2,8,2,Occasional Buyers,Neha Singh,Small Business,South,Karnataka,Bengaluru
+CUST-11273,79,4,53757.0,9807.38,3,2,1,6,2,Occasional Buyers,Rohan Das,Consumer,South,Tamil Nadu,Chennai
+CUST-11274,46,21,452010.0,22122.25,4,5,3,12,0,Loyal Regulars,Aarav Mehta,Small Business,West,Gujarat,Surat
+CUST-11275,1181,1,8280.0,2659.12,1,1,1,3,1,At Risk / Lapsing,Meera Kulkarni,Consumer,South,Telangana,Hyderabad
+CUST-11276,97,12,586359.5,2124.4599999999996,3,4,4,11,0,Loyal Regulars,Rahul Singh,Consumer,East,Odisha,Bhubaneswar
+CUST-11277,74,2,258787.0,-176.3099999999995,3,1,2,6,2,Occasional Buyers,Ananya Joshi,Consumer,West,Gujarat,Surat
+CUST-11279,31,10,336860.0,32519.100000000002,4,3,3,10,0,Loyal Regulars,Aditya Iyer,Small Business,North,Haryana,Gurugram
+CUST-11280,108,7,74176.0,10291.85,3,3,1,7,2,Occasional Buyers,Arjun Singh,Consumer,North,Haryana,Faridabad
+CUST-11281,9,20,708529.0,38831.07,5,5,4,14,3,Champions,Kavya Mishra,Consumer,West,Gujarat,Surat
+CUST-11282,44,14,323826.5,33973.44,4,4,3,11,0,Loyal Regulars,Ishaan Sharma,Consumer,South,Telangana,Hyderabad
+CUST-11283,310,3,56641.0,10007.59,1,1,1,3,2,Occasional Buyers,Karan Verma,Small Business,West,Maharashtra,Pune
+CUST-11284,804,1,24702.0,1732.28,1,1,1,3,1,At Risk / Lapsing,Ishaan Iyer,Small Business,West,Maharashtra,Mumbai
+CUST-11285,69,16,603948.0,45591.840000000004,3,4,4,11,0,Loyal Regulars,Diya Gupta,Corporate,Central,Chhattisgarh,Raipur
+CUST-11286,33,3,166542.0,11525.92,4,1,2,7,2,Occasional Buyers,Pooja Gupta,Small Business,North,Uttar Pradesh,Kanpur
+CUST-11287,2,18,1158692.5,108054.31,5,4,5,14,3,Champions,Amit Nair,Consumer,North,Punjab,Amritsar
+CUST-11288,175,2,70812.0,5472.59,2,1,1,4,2,Occasional Buyers,Priya Mishra,Corporate,North,Punjab,Amritsar
+CUST-11289,3,10,367288.0,-17910.2,5,3,3,11,3,Champions,Pooja Singh,Corporate,East,West Bengal,Kolkata
+CUST-11290,108,7,198650.0,-2854.8500000000004,3,3,2,8,2,Occasional Buyers,Saanvi Mishra,Corporate,West,Rajasthan,Jaipur
+CUST-11291,33,19,682399.0,44196.81,4,5,4,13,3,Champions,Vikram Nair,Consumer,Central,Chhattisgarh,Raipur
+CUST-11292,439,7,148769.0,2948.3999999999996,1,3,2,6,2,Occasional Buyers,Karan Kulkarni,Corporate,South,Kerala,Kochi
+CUST-11293,8,16,699067.5,544.6299999999956,5,4,4,13,3,Champions,Kavya Joshi,Corporate,West,Gujarat,Surat
+CUST-11294,37,24,1346773.5,35603.44,4,5,5,14,3,Champions,Meera Mishra,Consumer,North,Punjab,Ludhiana
+CUST-11295,54,24,1016822.5,95343.92,3,5,5,13,0,Loyal Regulars,Priya Mehta,Consumer,North,Haryana,Faridabad
+CUST-11296,602,3,169033.0,-12040.27,1,1,2,4,2,Occasional Buyers,Arjun Gupta,Consumer,North,Punjab,Ludhiana
+CUST-11297,85,3,72182.0,6655.67,3,1,1,5,2,Occasional Buyers,Vivaan Patel,Consumer,North,Punjab,Amritsar
+CUST-11298,301,4,118576.0,-6572.82,1,2,2,5,2,Occasional Buyers,Pooja Reddy,Consumer,North,Haryana,Gurugram
+CUST-11299,62,9,626904.0,33964.22,3,3,4,10,0,Loyal Regulars,Aarav Chopra,Consumer,West,Rajasthan,Jaipur
+CUST-11300,12,17,688270.5,72479.12000000001,5,4,4,13,3,Champions,Kabir Joshi,Consumer,North,Uttar Pradesh,Noida
+CUST-11301,58,23,930263.5,49642.9,3,5,5,13,0,Loyal Regulars,Arjun Rao,Corporate,North,Uttar Pradesh,Noida
+CUST-11302,90,16,1021358.0,20056.4,3,4,5,12,0,Loyal Regulars,Kavya Das,Consumer,Central,Chhattisgarh,Raipur
+CUST-11303,149,6,137227.0,20075.43,2,2,2,6,2,Occasional Buyers,Rohan Chopra,Small Business,West,Maharashtra,Mumbai
+CUST-11304,113,9,608616.0,75751.54,2,3,4,9,0,Loyal Regulars,Arjun Joshi,Small Business,South,Telangana,Hyderabad
+CUST-11305,129,7,755450.5,29966.940000000002,2,3,4,9,0,Loyal Regulars,Rohan Chopra,Consumer,South,Tamil Nadu,Coimbatore
+CUST-11306,296,2,789.0,127.95,1,1,1,3,1,At Risk / Lapsing,Diya Verma,Corporate,North,Delhi,New Delhi
+CUST-11307,47,14,886650.0,33773.69,4,4,4,12,0,Loyal Regulars,Ananya Sharma,Corporate,South,Kerala,Kochi
+CUST-11308,163,12,439727.0,46986.92,2,4,3,9,0,Loyal Regulars,Ananya Joshi,Consumer,West,Gujarat,Ahmedabad
+CUST-11309,43,13,1534097.0,105142.18000000001,4,4,5,13,0,Loyal Regulars,Ishaan Kulkarni,Consumer,North,Haryana,Gurugram
+CUST-11310,20,28,1327397.5,20109.499999999996,5,5,5,15,3,Champions,Kabir Nair,Consumer,West,Rajasthan,Jaipur
+CUST-11311,78,7,257059.5,-10497.359999999999,3,3,2,8,2,Occasional Buyers,Rohan Gupta,Consumer,East,Bihar,Patna
+CUST-11312,124,29,2646204.5,181239.36,2,5,5,12,0,Loyal Regulars,Saanvi Singh,Consumer,South,Karnataka,Mysuru
+CUST-11313,71,11,324485.0,41767.87,3,4,3,10,0,Loyal Regulars,Saanvi Kulkarni,Consumer,South,Tamil Nadu,Chennai
+CUST-11314,16,38,1624994.5,102259.09999999999,5,5,5,15,3,Champions,Sneha Banerjee,Corporate,South,Tamil Nadu,Coimbatore
+CUST-11315,39,3,251606.0,48007.509999999995,4,1,2,7,2,Occasional Buyers,Pooja Mehta,Small Business,West,Gujarat,Surat
+CUST-11316,88,26,1349793.0,117758.85,3,5,5,13,0,Loyal Regulars,Ishaan Gupta,Small Business,West,Rajasthan,Jaipur
+CUST-11317,34,14,1854769.5,216076.71,4,4,5,13,3,Champions,Rohan Das,Small Business,South,Kerala,Kochi
+CUST-11318,28,20,964518.5,48594.770000000004,4,5,5,14,3,Champions,Neha Das,Consumer,North,Punjab,Amritsar
+CUST-11319,112,9,148013.0,15073.96,2,3,2,7,2,Occasional Buyers,Karan Nair,Consumer,North,Delhi,New Delhi
+CUST-11320,81,21,886662.0,53786.810000000005,3,5,4,12,0,Loyal Regulars,Diya Patel,Consumer,North,Haryana,Faridabad
+CUST-11321,1095,2,5417.0,57.76999999999998,1,1,1,3,1,At Risk / Lapsing,Diya Mishra,Consumer,West,Rajasthan,Jaipur
+CUST-11322,74,19,683195.0,58801.409999999996,3,5,4,12,0,Loyal Regulars,Karan Iyer,Consumer,West,Rajasthan,Jaipur
+CUST-11323,9,43,2192967.0,209076.99,5,5,5,15,3,Champions,Priya Sharma,Corporate,West,Rajasthan,Jaipur
+CUST-11324,25,1,240.0,47.68,4,1,1,6,1,At Risk / Lapsing,Ananya Verma,Corporate,West,Gujarat,Surat
+CUST-11325,1,13,642497.5,79256.81999999999,5,4,4,13,3,Champions,Vikram Kulkarni,Consumer,South,Karnataka,Mysuru
+CUST-11326,75,17,574984.0,63134.66,3,4,4,11,0,Loyal Regulars,Neha Sharma,Consumer,South,Karnataka,Mysuru
+CUST-11328,64,20,909022.0,115445.39,3,5,5,13,0,Loyal Regulars,Saanvi Iyer,Small Business,West,Gujarat,Ahmedabad
+CUST-11329,26,9,370573.5,36392.62,4,3,3,10,0,Loyal Regulars,Ananya Nair,Small Business,South,Telangana,Hyderabad
+CUST-11330,173,6,331717.0,28969.51,2,2,3,7,2,Occasional Buyers,Kavya Joshi,Consumer,South,Telangana,Hyderabad
+CUST-11331,105,21,706409.0,14001.749999999996,3,5,4,12,0,Loyal Regulars,Karan Rao,Consumer,West,Rajasthan,Jaipur
+CUST-11332,47,5,189149.5,5897.3200000000015,4,2,2,8,2,Occasional Buyers,Meera Patel,Consumer,West,Maharashtra,Mumbai
+CUST-11333,74,10,166008.0,15518.420000000002,3,3,2,8,0,Loyal Regulars,Kabir Gupta,Consumer,East,Odisha,Bhubaneswar
+CUST-11334,31,27,1359800.0,30202.810000000005,4,5,5,14,3,Champions,Karan Sharma,Small Business,North,Delhi,New Delhi
+CUST-11335,547,1,4613.0,376.03,1,1,1,3,1,At Risk / Lapsing,Sneha Iyer,Corporate,North,Uttar Pradesh,Noida
+CUST-11336,13,10,222408.0,9335.730000000001,5,3,2,10,3,Champions,Rahul Banerjee,Consumer,South,Telangana,Hyderabad
+CUST-11337,168,16,554393.0,42032.68,2,4,4,10,0,Loyal Regulars,Aditya Singh,Corporate,West,Maharashtra,Nagpur
+CUST-11338,21,3,5550.0,1302.82,4,1,1,6,1,At Risk / Lapsing,Vivaan Sharma,Consumer,West,Rajasthan,Jaipur
+CUST-11339,638,4,188914.5,-7824.360000000001,1,2,2,5,2,Occasional Buyers,Ishaan Verma,Consumer,West,Rajasthan,Jaipur
+CUST-11340,318,12,294086.5,23616.09,1,4,3,8,0,Loyal Regulars,Aditya Das,Consumer,East,Odisha,Bhubaneswar
+CUST-11341,697,3,29788.0,5869.12,1,1,1,3,1,At Risk / Lapsing,Amit Kulkarni,Consumer,North,Punjab,Amritsar
+CUST-11343,104,11,358811.0,45867.270000000004,3,4,3,10,0,Loyal Regulars,Saanvi Banerjee,Small Business,West,Maharashtra,Pune
+CUST-11344,25,34,2021462.0,55120.81,4,5,5,14,3,Champions,Amit Patel,Small Business,East,Bihar,Patna
+CUST-11345,212,3,9942.0,550.7099999999999,2,1,1,4,1,At Risk / Lapsing,Rohan Verma,Corporate,South,Tamil Nadu,Coimbatore
+CUST-11346,140,8,226248.0,13413.92,2,3,2,7,2,Occasional Buyers,Vikram Patel,Consumer,North,Delhi,New Delhi
+CUST-11347,720,1,1220.0,299.67,1,1,1,3,1,At Risk / Lapsing,Vivaan Iyer,Consumer,West,Rajasthan,Jaipur
+CUST-11349,11,11,480511.5,40181.49,5,4,3,12,3,Champions,Aarav Nair,Corporate,South,Karnataka,Mysuru
+CUST-11350,13,3,38666.5,828.38,5,1,1,7,2,Occasional Buyers,Pooja Rao,Corporate,West,Gujarat,Surat
+CUST-11352,134,15,600209.5,80768.41,2,4,4,10,0,Loyal Regulars,Neha Mehta,Consumer,South,Kerala,Kochi
+CUST-11353,30,15,304482.5,35404.57,4,4,3,11,0,Loyal Regulars,Aarav Joshi,Corporate,North,Uttar Pradesh,Noida
+CUST-11354,166,11,429317.0,33612.4,2,4,3,9,0,Loyal Regulars,Karan Iyer,Small Business,South,Karnataka,Mysuru
+CUST-11355,101,8,369059.0,27092.110000000004,3,3,3,9,0,Loyal Regulars,Pooja Chopra,Small Business,East,Bihar,Patna
+CUST-11356,134,21,951422.5,78799.61,2,5,5,12,0,Loyal Regulars,Rahul Patel,Small Business,Central,Chhattisgarh,Raipur
+CUST-11357,160,17,922645.0,-9807.43,2,4,5,11,0,Loyal Regulars,Arjun Das,Consumer,East,West Bengal,Kolkata
+CUST-11358,145,6,123936.5,5373.62,2,2,2,6,2,Occasional Buyers,Saanvi Sharma,Corporate,North,Punjab,Amritsar
+CUST-11359,66,17,563667.0,54002.68,3,4,4,11,0,Loyal Regulars,Aditya Mehta,Corporate,South,Karnataka,Mysuru
+CUST-11360,6,23,1240362.0,157284.43,5,5,5,15,3,Champions,Neha Mehta,Corporate,Central,Chhattisgarh,Raipur
+CUST-11361,57,10,337722.0,8512.179999999998,3,3,3,9,0,Loyal Regulars,Neha Mehta,Consumer,South,Karnataka,Bengaluru
+CUST-11362,24,37,1423782.5,-33109.8,4,5,5,14,3,Champions,Saanvi Mishra,Consumer,Central,Madhya Pradesh,Indore
+CUST-11363,20,2,73600.0,-11260.029999999999,5,1,1,7,2,Occasional Buyers,Aditya Mehta,Corporate,Central,Chhattisgarh,Raipur
+CUST-11364,197,3,188926.0,20313.04,2,1,2,5,2,Occasional Buyers,Sneha Verma,Small Business,West,Gujarat,Ahmedabad
+CUST-11365,101,2,95343.5,4315.150000000001,3,1,1,5,2,Occasional Buyers,Saanvi Mishra,Consumer,East,Odisha,Bhubaneswar
+CUST-11366,17,6,289440.5,36427.2,5,2,3,10,0,Loyal Regulars,Sneha Nair,Small Business,North,Punjab,Amritsar
+CUST-11367,74,4,212682.0,18980.35,3,2,2,7,2,Occasional Buyers,Sneha Sharma,Corporate,South,Kerala,Kochi
+CUST-11368,15,14,553374.5,53128.2,5,4,4,13,3,Champions,Neha Iyer,Small Business,West,Gujarat,Surat
+CUST-11369,4,8,389800.0,46321.31999999999,5,3,3,11,3,Champions,Saanvi Nair,Small Business,South,Telangana,Hyderabad
+CUST-11370,130,14,375996.5,30182.34,2,4,3,9,0,Loyal Regulars,Rohan Das,Consumer,North,Haryana,Faridabad
+CUST-11371,477,4,271938.0,33033.69,1,2,2,5,2,Occasional Buyers,Rahul Mehta,Consumer,Central,Madhya Pradesh,Indore
+CUST-11372,393,4,80887.0,-10254.57,1,2,1,4,2,Occasional Buyers,Diya Iyer,Consumer,North,Punjab,Amritsar
+CUST-11373,126,22,715196.5,57961.21,2,5,4,11,0,Loyal Regulars,Karan Chopra,Consumer,West,Maharashtra,Mumbai
+CUST-11374,132,8,266867.0,32676.489999999998,2,3,2,7,2,Occasional Buyers,Karan Reddy,Consumer,North,Delhi,New Delhi
+CUST-11375,247,5,533200.0,37086.299999999996,1,2,4,7,2,Occasional Buyers,Ananya Chopra,Corporate,North,Uttar Pradesh,Kanpur
+CUST-11376,379,5,153510.0,27580.07,1,2,2,5,2,Occasional Buyers,Sneha Chopra,Corporate,South,Kerala,Kochi
+CUST-11377,117,6,132488.0,17812.93,2,2,2,6,2,Occasional Buyers,Aditya Reddy,Small Business,South,Kerala,Kochi
+CUST-11379,56,7,166558.5,7777.389999999999,3,3,2,8,2,Occasional Buyers,Amit Das,Consumer,West,Rajasthan,Jaipur
+CUST-11380,120,14,485028.0,42978.63,2,4,3,9,0,Loyal Regulars,Sneha Verma,Corporate,South,Kerala,Kochi
+CUST-11381,522,2,78074.0,9047.45,1,1,1,3,1,At Risk / Lapsing,Aarav Patel,Corporate,West,Gujarat,Ahmedabad
+CUST-11382,31,27,1379669.0,77318.42,4,5,5,14,3,Champions,Kavya Chopra,Corporate,West,Maharashtra,Nagpur
+CUST-11383,198,2,60323.0,4640.490000000001,2,1,1,4,2,Occasional Buyers,Rahul Mehta,Consumer,East,West Bengal,Kolkata
+CUST-11384,51,56,3265248.0,17940.99,4,5,5,14,3,Champions,Priya Kulkarni,Small Business,East,West Bengal,Kolkata
+CUST-11385,97,4,107480.0,15130.8,3,2,1,6,2,Occasional Buyers,Rohan Mishra,Corporate,West,Maharashtra,Nagpur
+CUST-11386,20,25,1555736.5,169533.79,5,5,5,15,3,Champions,Rahul Banerjee,Small Business,South,Tamil Nadu,Coimbatore
+CUST-11387,447,7,210597.0,33609.729999999996,1,3,2,6,2,Occasional Buyers,Amit Mishra,Corporate,South,Kerala,Kochi
+CUST-11388,31,9,616503.0,56438.5,4,3,4,11,0,Loyal Regulars,Amit Kulkarni,Corporate,South,Karnataka,Mysuru
+CUST-11389,531,2,126084.0,7189.39,1,1,2,4,2,Occasional Buyers,Rahul Nair,Consumer,West,Maharashtra,Mumbai
+CUST-11390,10,32,1567272.5,106418.82,5,5,5,15,3,Champions,Priya Mishra,Corporate,South,Tamil Nadu,Coimbatore
+CUST-11391,165,4,338579.5,13694.32,2,2,3,7,2,Occasional Buyers,Meera Chopra,Corporate,East,West Bengal,Kolkata
+CUST-11392,82,7,612184.5,-31149.23,3,3,4,10,0,Loyal Regulars,Sneha Patel,Small Business,North,Delhi,New Delhi
+CUST-11393,109,14,447641.5,15153.58,3,4,3,10,0,Loyal Regulars,Rohan Joshi,Consumer,West,Rajasthan,Jaipur
+CUST-11394,120,20,633232.0,34397.479999999996,2,5,4,11,0,Loyal Regulars,Rahul Joshi,Corporate,Central,Madhya Pradesh,Bhopal
+CUST-11395,37,3,85317.0,9665.24,4,1,1,6,2,Occasional Buyers,Sneha Kulkarni,Consumer,South,Kerala,Kochi
+CUST-11396,4,10,312674.0,30388.120000000003,5,3,3,11,3,Champions,Ananya Iyer,Consumer,West,Maharashtra,Nagpur
+CUST-11397,504,1,379360.0,71686.37,1,1,3,5,2,Occasional Buyers,Aarav Verma,Consumer,Central,Madhya Pradesh,Bhopal
+CUST-11398,528,1,10989.0,-37.91,1,1,1,3,1,At Risk / Lapsing,Meera Sharma,Corporate,East,West Bengal,Kolkata
+CUST-11399,13,19,1077721.5,67339.49,5,5,5,15,3,Champions,Arjun Iyer,Consumer,Central,Chhattisgarh,Raipur
+CUST-11400,16,5,516251.0,41966.43,5,2,3,10,0,Loyal Regulars,Pooja Joshi,Consumer,North,Haryana,Gurugram
