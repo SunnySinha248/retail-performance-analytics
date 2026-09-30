@@ -6,3 +6,7 @@ __pycache__/
 venv/
 *.twbr
 ~$*
+tableau/tests/
+tableau/extracts/
+tableau/*.twb
+hyperd.log
