@@ -52,8 +52,17 @@ The same three-page story is built in both tools on identical data, so results r
 | Driver analysis | Trend line (R², p-value) | Key Influencers, Decomposition Tree |
 | Forecast | Python Holt-Winters + Tableau forecast cross-check | Python Holt-Winters + Power BI ETS forecast cross-check |
 
-<!-- Replace with your screenshots after building -->
-<!-- ![Tableau overview](images/dashboard_overview.png) -->
+### Tableau dashboards
+
+**1. Executive Overview**
+![Executive Overview](images/dashboard_overview.png)
+
+**2. Regional & Profitability Drivers** (click a region or state to filter the dashboard)
+![Regional & Profitability](images/dashboard_profitability.png)
+
+**3. Customers & Forecast**
+![Customers & Forecast](images/dashboard_customers.png)
+
 <!-- ![Power BI overview](images/powerbi_overview.png) -->
 
 ### Analysis previews (Python)
@@ -96,7 +105,9 @@ retail-performance-analytics/
 │   └── 02_analysis.py
 ├── tableau/
 │   ├── TABLEAU_BUILD_GUIDE.md          # step-by-step build instructions
-│   └── Retail_Performance_Analytics.twbx   # (add after building)
+│   ├── Retail_Performance_Analytics.twbx   # packaged workbook (open in Tableau Public)
+│   ├── build_twb.py                    # generates the workbook XML
+│   └── build_hyper.py                  # builds .hyper extracts + packages the .twbx
 ├── powerbi/
 │   ├── POWERBI_BUILD_GUIDE.md          # step-by-step build instructions
 │   ├── power_query.m                   # data load & typing
