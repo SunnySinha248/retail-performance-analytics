@@ -1,0 +1,225 @@
+// =====================================================================
+// DAX — Retail Performance Analytics (Power BI)
+// Create a blank table named _Measures (Home → Enter data → OK) and add
+// every measure below to it (Modeling → New measure). Keeps them together.
+// =====================================================================
+
+
+// ---------------------------------------------------------------------
+// 1. DATE TABLE  (Modeling → New table)  — Indian fiscal year Apr–Mar
+//    Then: right-click Date → Mark as date table → column [Date]
+// ---------------------------------------------------------------------
+Date =
+VAR _Start = DATE ( 2022, 4, 1 )
+VAR _End   = DATE ( 2027, 3, 31 )      // covers the 12-month forecast horizon
+RETURN
+ADDCOLUMNS (
+    CALENDAR ( _Start, _End ),
+    "Year",          YEAR ( [Date] ),
+    "Month No",      MONTH ( [Date] ),
+    "Month",         FORMAT ( [Date], "MMM" ),
+    "Month Start",   DATE ( YEAR ( [Date] ), MONTH ( [Date] ), 1 ),
+    "Month-Year",    FORMAT ( [Date], "MMM YY" ),
+    "FY Start Year", IF ( MONTH ( [Date] ) >= 4, YEAR ( [Date] ), YEAR ( [Date] ) - 1 ),
+    "Fiscal Year",
+        VAR y = IF ( MONTH ( [Date] ) >= 4, YEAR ( [Date] ), YEAR ( [Date] ) - 1 )
+        RETURN "FY" & RIGHT ( y, 2 ) & "-" & RIGHT ( y + 1, 2 ),
+    "FY Month No",   MOD ( MONTH ( [Date] ) - 4, 12 ) + 1,     // Apr = 1 … Mar = 12
+    "Fiscal Quarter","Q" & ROUNDUP ( ( MOD ( MONTH ( [Date] ) - 4, 12 ) + 1 ) / 3, 0 ),
+    "Is Festive",    IF ( MONTH ( [Date] ) IN { 10, 11 }, "Festive (Oct–Nov)", "Other" )
+)
+// Sort columns: Month → by Month No is wrong for FY; set Month → sort by FY Month No.
+//               Month-Year → sort by Month Start.
+
+
+// ---------------------------------------------------------------------
+// 2. CORE KPIs
+// ---------------------------------------------------------------------
+Revenue = SUM ( Sales[Sales] )
+
+Profit = SUM ( Sales[Profit] )
+
+Profit Margin % = DIVIDE ( [Profit], [Revenue] )
+
+Orders = DISTINCTCOUNT ( Sales[Order ID] )
+
+Customers = DISTINCTCOUNT ( Sales[Customer ID] )
+
+Units = SUM ( Sales[Quantity] )
+
+AOV = DIVIDE ( [Revenue], [Orders] )
+
+Avg Discount % =
+DIVIDE (
+    SUMX ( Sales, Sales[Discount] * Sales[Unit Price] * Sales[Quantity] ),
+    SUMX ( Sales, Sales[Unit Price] * Sales[Quantity] )
+)   // revenue-weighted list-price discount
+
+Loss Lines % =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( Sales ), Sales[Profit] < 0 ),
+    COUNTROWS ( Sales )
+)
+
+Loss Value = CALCULATE ( [Profit], Sales[Profit] < 0 )
+
+Revenue (Cr) = DIVIDE ( [Revenue], 1e7 )
+
+Profit (Lakh) = DIVIDE ( [Profit], 1e5 )
+
+
+// ---------------------------------------------------------------------
+// 3. TIME INTELLIGENCE  (fiscal year ends 31-Mar)
+// ---------------------------------------------------------------------
+Revenue FYTD = TOTALYTD ( [Revenue], 'Date'[Date], "3/31" )
+
+Profit FYTD  = TOTALYTD ( [Profit], 'Date'[Date], "3/31" )
+
+Revenue PY = CALCULATE ( [Revenue], SAMEPERIODLASTYEAR ( 'Date'[Date] ) )
+
+Profit PY  = CALCULATE ( [Profit], SAMEPERIODLASTYEAR ( 'Date'[Date] ) )
+
+Revenue YoY % = DIVIDE ( [Revenue] - [Revenue PY], [Revenue PY] )
+
+Profit YoY %  = DIVIDE ( [Profit] - [Profit PY], [Profit PY] )
+
+Margin Change (pp) =
+[Profit Margin %]
+    - DIVIDE ( [Profit PY], [Revenue PY] )
+
+Revenue 3M Rolling =
+CALCULATE (
+    [Revenue],
+    DATESINPERIOD ( 'Date'[Date], MAX ( 'Date'[Date] ), -3, MONTH )
+)
+
+Revenue CAGR =
+VAR _FirstFY = CALCULATE ( MIN ( 'Date'[FY Start Year] ), ALL ( 'Date' ), Sales )
+VAR _LastFY  = CALCULATE ( MAX ( 'Date'[FY Start Year] ), ALL ( 'Date' ), Sales )
+VAR _RevFirst = CALCULATE ( [Revenue], ALL ( 'Date' ), 'Date'[FY Start Year] = _FirstFY )
+VAR _RevLast  = CALCULATE ( [Revenue], ALL ( 'Date' ), 'Date'[FY Start Year] = _LastFY )
+RETURN
+    IF ( _LastFY > _FirstFY, ( _RevLast / _RevFirst ) ^ ( 1 / ( _LastFY - _FirstFY ) ) - 1 )
+
+
+// ---------------------------------------------------------------------
+// 4. REGIONAL & PROFITABILITY
+// ---------------------------------------------------------------------
+Company Margin % =
+CALCULATE ( [Profit Margin %], REMOVEFILTERS ( Sales[Region], Sales[State], Sales[City] ) )
+
+Margin vs Company (pp) = [Profit Margin %] - [Company Margin %]
+
+Revenue Share % =
+DIVIDE ( [Revenue], CALCULATE ( [Revenue], REMOVEFILTERS ( Sales[Region], Sales[State], Sales[City] ) ) )
+
+Region Rank (Margin) =
+RANKX ( ALL ( Sales[Region] ), [Profit Margin %], , DESC, DENSE )
+
+Margin Colour =        // use in Conditional formatting → Field value
+SWITCH (
+    TRUE (),
+    [Profit Margin %] < 0,    "#D64550",
+    [Profit Margin %] < 0.05, "#E07B39",
+    "#2F6DB5"
+)
+
+Margin Flag =
+SWITCH (
+    TRUE (),
+    [Profit Margin %] < 0,    "Loss",
+    [Profit Margin %] < 0.05, "Thin (<5%)",
+    "Healthy"
+)
+
+// Profit that would be recovered if all discounts above 10% were capped at 10%
+// (approximation using the regression slope of ~-1.29 margin per unit discount)
+Profit Upside @10% Cap =
+SUMX (
+    FILTER ( Sales, Sales[Discount] > 0.10 ),
+    VAR _ListValue = Sales[Unit Price] * Sales[Quantity]
+    VAR _NewSales  = _ListValue * ( 1 - 0.10 )
+    VAR _NewMargin = Sales[Profit Margin] + 1.29 * ( Sales[Discount] - 0.10 )
+    RETURN _NewSales * _NewMargin - Sales[Profit]
+)
+
+
+// ---------------------------------------------------------------------
+// 5. CUSTOMER SEGMENTS
+// ---------------------------------------------------------------------
+Customer Share % =
+DIVIDE ( [Customers], CALCULATE ( [Customers], REMOVEFILTERS ( Customers ) ) )
+
+Segment Revenue Share % =
+DIVIDE ( [Revenue], CALCULATE ( [Revenue], REMOVEFILTERS ( Customers ) ) )
+
+Revenue per Customer = DIVIDE ( [Revenue], [Customers] )
+
+Avg Recency (days) = AVERAGE ( Customers[Recency] )
+
+Avg Orders per Customer = AVERAGE ( Customers[Frequency] )
+
+Top 20% Customer Revenue Share =
+VAR _N   = ROUND ( COUNTROWS ( ALL ( Customers ) ) * 0.2, 0 )
+VAR _Top = TOPN ( _N, ALL ( Customers ), CALCULATE ( [Revenue] ) )
+RETURN
+    DIVIDE ( CALCULATE ( [Revenue], _Top ), CALCULATE ( [Revenue], ALL ( Customers ) ) )
+
+
+// ---------------------------------------------------------------------
+// 6. FORECAST  (Forecast table, related to Date on Month → Date)
+// ---------------------------------------------------------------------
+Actual Revenue =
+CALCULATE ( SUM ( Forecast[Revenue] ), Forecast[Type] = "Actual" )
+
+Forecast Revenue =
+CALCULATE ( SUM ( Forecast[Revenue] ), Forecast[Type] = "Forecast" )
+
+Forecast Lower 95% = SUM ( Forecast[Lower 95%] )
+
+Forecast Upper 95% = SUM ( Forecast[Upper 95%] )
+
+Model Fitted = SUM ( Forecast[Fitted] )
+
+Next 12M Forecast (Cr) =
+DIVIDE ( CALCULATE ( SUM ( Forecast[Revenue] ), Forecast[Type] = "Forecast", REMOVEFILTERS ( 'Date' ) ), 1e7 )
+
+Last 12M Actual (Cr) =
+VAR _LastActual = CALCULATE ( MAX ( Forecast[Month] ), Forecast[Type] = "Actual", REMOVEFILTERS ( 'Date' ) )
+RETURN
+DIVIDE (
+    CALCULATE (
+        SUM ( Forecast[Revenue] ),
+        Forecast[Type] = "Actual",
+        REMOVEFILTERS ( 'Date' ),
+        Forecast[Month] > EDATE ( _LastActual, -12 )
+    ),
+    1e7
+)
+
+Forecast Growth % = DIVIDE ( [Next 12M Forecast (Cr)], [Last 12M Actual (Cr)] ) - 1
+
+Backtest MAPE = 0.093        // from scripts/02_analysis.py (6-month holdout)
+
+
+// ---------------------------------------------------------------------
+// 7. DYNAMIC TITLES  (Format visual → Title → fx → Field value)
+// ---------------------------------------------------------------------
+Title Overview =
+"Revenue " & FORMAT ( [Revenue (Cr)], "₹0.0" ) & " Cr  |  Margin "
+    & FORMAT ( [Profit Margin %], "0.0%" ) & "  |  YoY "
+    & FORMAT ( [Revenue YoY %], "+0.0%;-0.0%" )
+
+Title Region =
+VAR _Worst = TOPN ( 1, ALL ( Sales[Region] ), [Profit Margin %], ASC )
+VAR _Best  = TOPN ( 1, ALL ( Sales[Region] ), [Profit Margin %], DESC )
+RETURN
+    MAXX ( _Worst, Sales[Region] ) & " earns "
+    & FORMAT ( MAXX ( _Worst, [Profit Margin %] ), "0.0%" ) & " margin vs "
+    & FORMAT ( MAXX ( _Best, [Profit Margin %] ), "0.0%" ) & " in "
+    & MAXX ( _Best, Sales[Region] )
+
+Title Forecast =
+"Next 12 months: ₹" & FORMAT ( [Next 12M Forecast (Cr)], "0.0" ) & " Cr ("
+    & FORMAT ( [Forecast Growth %], "+0.0%" ) & ")  |  backtest MAPE "
+    & FORMAT ( [Backtest MAPE], "0.0%" )

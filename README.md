@@ -1,8 +1,9 @@
-# Retail Performance Analytics — India (Tableau)
+# Retail Performance Analytics — India (Tableau & Power BI)
 
-Interactive Tableau dashboards tracking **revenue, profitability and regional performance** for a multi-region Indian retailer (FY22-23 to FY25-26), backed by Python-based **customer segmentation, statistical testing and revenue forecasting**.
+Interactive **Tableau and Power BI** dashboards tracking **revenue, profitability and regional performance** for a multi-region Indian retailer (FY22-23 to FY25-26), backed by Python-based **customer segmentation, statistical testing and revenue forecasting**.
 
-🔗 **Live dashboard:** `<YOUR_TABLEAU_PUBLIC_LINK>`
+🔗 **Tableau (live):** `<YOUR_TABLEAU_PUBLIC_LINK>`  
+📊 **Power BI:** [`powerbi/Retail_Performance_Analytics.pbix`](powerbi/) · PDF export in the same folder
 
 ---
 
@@ -26,12 +27,14 @@ Interactive Tableau dashboards tracking **revenue, profitability and regional pe
 | Forecast | Holt-Winters model projects **₹24.2 Cr** for the next 12 months (+7.6%), with a festive-season (Oct–Nov) peak. Backtest MAPE **9.3%** vs 12.9% for a seasonal-naive baseline. |
 
 ### Recommendations
-- Cap standard discounts at **10%**; require approval above it, especially in East and for Furniture.
+- Cap standard discounts at **10%**; require approval above it, especially in East and for Furniture. Upper-bound profit upside ≈ **₹1.8 Cr** over the period if volumes hold.
 - Reprice or rationalise **Tables** (e.g. bundle with Chairs, reduce discount depth).
 - Run a retention campaign for **At Risk** customers and a loyalty tier for **Champions**.
 - Build inventory and staffing plans around the Oct–Nov festive peak and March fiscal year-end push.
 
 ## Dashboards
+
+The same three-page story is built in both tools on identical data, so results reconcile exactly.
 
 | Dashboard | Content |
 |-----------|---------|
@@ -39,10 +42,19 @@ Interactive Tableau dashboards tracking **revenue, profitability and regional pe
 | **Regional & Profitability Drivers** | India state map, region margin vs average, discount-vs-margin scatter with trend line, loss rate by discount band, sub-category profit |
 | **Customers & Forecast** | RFM segment share, customer scatter, 12-month revenue forecast with 95% interval |
 
-Interactivity: click-to-filter map actions, highlight actions, a *Select Metric* parameter, FY/Region/Segment filters and navigation buttons.
+**Tableau:** click-to-filter map actions, highlight actions, a *Select Metric* parameter, FY/Region/Segment filters, navigation buttons.  
+**Power BI:** star-schema model with a fiscal-year date table, ~45 DAX measures (FYTD, YoY, CAGR, share-of-total, discount-cap profit upside), field-parameter metric switcher, synced slicers, drill-through and tooltip pages, **Key Influencers** and **Decomposition Tree** AI visuals for driver analysis, dynamic DAX titles.
 
-<!-- Replace with your Tableau screenshots after publishing -->
-<!-- ![Overview](images/dashboard_overview.png) -->
+| | Tableau | Power BI |
+|---|---|---|
+| Data prep | Relationships in data source | Power Query (M) with parameterised folder path |
+| Calculations | Calculated fields, LOD, table calcs | DAX measures + time intelligence |
+| Driver analysis | Trend line (R², p-value) | Key Influencers, Decomposition Tree |
+| Forecast | Python Holt-Winters + Tableau forecast cross-check | Python Holt-Winters + Power BI ETS forecast cross-check |
+
+<!-- Replace with your screenshots after building -->
+<!-- ![Tableau overview](images/dashboard_overview.png) -->
+<!-- ![Power BI overview](images/powerbi_overview.png) -->
 
 ### Analysis previews (Python)
 
@@ -66,7 +78,7 @@ Interactivity: click-to-filter map actions, highlight actions, a *Select Metric*
    - Chi-square test: loss incidence vs discount band
    - OLS regression (robust HC3 errors): margin ~ discount + region + category + segment + channel + log(order size)
 4. **Forecasting** — Holt-Winters (additive trend, multiplicative 12-month seasonality), 6-month holdout backtest vs seasonal-naive, bootstrapped 95% prediction intervals.
-5. **Export** — Tableau-ready CSVs in `data/processed/`.
+5. **Export** — Tableau- and Power BI-ready CSVs in `data/processed/`.
 
 ## Repository structure
 
@@ -75,7 +87,7 @@ retail-performance-analytics/
 ├── data/
 │   ├── raw/retail_sales.csv            # generated order-line data
 │   └── processed/
-│       ├── sales_enriched.csv          # main Tableau source
+│       ├── sales_enriched.csv          # main fact table (both tools)
 │       ├── customer_segments.csv       # RFM + cluster per customer
 │       ├── revenue_forecast.csv        # actual + 12-month forecast with intervals
 │       └── region_fy_summary.csv
@@ -85,6 +97,12 @@ retail-performance-analytics/
 ├── tableau/
 │   ├── TABLEAU_BUILD_GUIDE.md          # step-by-step build instructions
 │   └── Retail_Performance_Analytics.twbx   # (add after building)
+├── powerbi/
+│   ├── POWERBI_BUILD_GUIDE.md          # step-by-step build instructions
+│   ├── power_query.m                   # data load & typing
+│   ├── measures.dax                    # date table + all DAX measures
+│   ├── theme.json                      # report theme
+│   └── Retail_Performance_Analytics.pbix   # (add after building)
 ├── docs/
 │   ├── analysis_summary.json           # all test statistics & KPIs
 │   └── regression_output.txt           # full OLS summary
@@ -100,10 +118,10 @@ pip install -r requirements.txt
 python scripts/01_generate_data.py
 python scripts/02_analysis.py
 ```
-Then open Tableau Public and follow [`tableau/TABLEAU_BUILD_GUIDE.md`](tableau/TABLEAU_BUILD_GUIDE.md).
+Then follow [`tableau/TABLEAU_BUILD_GUIDE.md`](tableau/TABLEAU_BUILD_GUIDE.md) and/or [`powerbi/POWERBI_BUILD_GUIDE.md`](powerbi/POWERBI_BUILD_GUIDE.md).
 
 ## Tools
-Tableau Public · Python (pandas, NumPy, scikit-learn, SciPy, statsmodels, matplotlib)
+Tableau Public · Power BI Desktop (Power Query, DAX) · Python (pandas, NumPy, scikit-learn, SciPy, statsmodels, matplotlib)
 
 ---
 *Academic project — MBA, IIM Sambalpur.*
